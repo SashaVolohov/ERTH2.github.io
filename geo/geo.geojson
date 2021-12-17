@@ -4,6 +4,130 @@
     {
       "type": "Feature",
       "properties": {
+        "stroke": "#05fffb",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#00fffb",
+        "fill-opacity": 0.5,
+        "name": "star-islands"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              187.88818359375,
+              -8.90678000752024
+            ],
+            [
+              186.6796875,
+              -13.62463343823614
+            ],
+            [
+              190.37109375,
+              -15.432500881886043
+            ],
+            [
+              190.65673828125,
+              -14.77488250651626
+            ],
+            [
+              190.72265625,
+              -14.179186142354169
+            ],
+            [
+              188.9208984375,
+              -12.876069959946493
+            ],
+            [
+              188.98681640625,
+              -8.993600464280018
+            ],
+            [
+              187.998046875,
+              -8.90678000752024
+            ],
+            [
+              187.88818359375,
+              -8.90678000752024
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#00fffb",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#00fbff",
+        "fill-opacity": 0.5,
+        "name": "star-islands"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.552734374999996,
+              -18.20848019603987
+            ],
+            [
+              32.54150390625,
+              -23.51362636346272
+            ],
+            [
+              35.22216796875,
+              -21.17672864097082
+            ],
+            [
+              36.002197265625,
+              -18.166730410221938
+            ],
+            [
+              31.552734374999996,
+              -18.20848019603987
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Кааплаген"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          187.2022247314453,
+          -13.514499534006687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Келенберг"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.299072265625,
+          -19.536495698592972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "stroke": "#001ccc",
         "stroke-width": 2,
         "stroke-opacity": 1,
