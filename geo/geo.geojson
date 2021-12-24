@@ -4,6 +4,48 @@
     {
       "type": "Feature",
       "properties": {
+        "stroke": "#5e30eb",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#7b219f",
+        "fill-opacity": 0.5,
+        "name": "bivolia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.13037109375,
+              17.99963161491187
+            ],
+            [
+              8.15185546875,
+              17.853290114098012
+            ],
+            [
+              7.690429687499999,
+              18.999802829053262
+            ],
+            [
+              6.56982421875,
+              19.124409528084882
+            ],
+            [
+              6.1083984375,
+              18.104087015773946
+            ],
+            [
+              6.13037109375,
+              17.99963161491187
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "stroke": "#001cf0",
         "stroke-width": 2,
         "stroke-opacity": 1,
