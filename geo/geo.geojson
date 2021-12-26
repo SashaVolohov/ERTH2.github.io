@@ -4,6 +4,23 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Hora",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.97967529296875,
+          37.75225820732335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "stroke": "#8f25ad",
         "stroke-width": 2,
         "stroke-opacity": 1,
