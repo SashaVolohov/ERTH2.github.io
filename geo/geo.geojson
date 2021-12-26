@@ -4,6 +4,166 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Тоома"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.224609375,
+          -3.2063329870791315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Миётоо"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.609619140625,
+          -2.602864025408337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Ксю-О"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.961669921875,
+          -2.064982495867104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "circle",
+        "name": "Мирленд"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.01611328125,
+          0.12084951976866681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Хисо"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.94946289062499,
+          -0.6701507351859187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Окаса"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.31249999999999,
+          -0.6481795331595092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "  Сакура"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.125,
+          1.2852925793638545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Ямадзакура"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.037353515625,
+          1.746555619313266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "museum",
+        "name": "Порт Тоома"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.7412109375,
+          -3.9519408561575817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "museum",
+        "name": "Порт Сакура"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.65234374999999,
+          1.1864386394452024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "stroke": "#d10c00",
         "stroke-width": 2,
         "stroke-opacity": 1,
