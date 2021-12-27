@@ -8,7 +8,8 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "fill": "#ff0000",
-        "fill-opacity": 0.5
+        "fill-opacity": 0.5,
+        "name": "sqr-united"
       },
       "geometry": {
         "type": "Polygon",
