@@ -24465,40 +24465,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "New Shpionsk",
-        "stroke-width": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          68.8238525390625,
-          57.51877294160811
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Otsocity",
-        "stroke-width": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          68.5931396484375,
-          56.58066641402502
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "stroke": "#00298a",
         "stroke-width": 2,
         "stroke-opacity": 1,
@@ -53065,6 +53031,53 @@
             [
               23.203125,
               35.45172093634465
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#09aa1c",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#09aa1c",
+        "fill-opacity": 0.5,
+        "type": "occupation",
+        "name": "slingonia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              68.75613078474998,
+              57.75316389657074
+            ],
+            [
+              68.77441339194775,
+              57.362089861548945
+            ],
+            [
+              68.18080969154835,
+              55.65212062766555
+            ],
+            [
+              68.818359375,
+              55.59076414274342
+            ],
+            [
+              70.44433526694775,
+              56.78884451063127
+            ],
+            [
+              70.51025424152613,
+              57.93818336815722
+            ],
+            [
+              68.75613078474998,
+              57.75316389657074
             ]
           ]
         ]
