@@ -4,6 +4,99 @@
     {
       "type": "Feature",
       "properties": {
+        "stroke": "#5e30eb",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#7b219f",
+        "fill-opacity": 0.5,
+        "name": "bivolia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.13037109375,
+              17.99963161491187
+            ],
+            [
+              10.12939453125,
+              17.518344187852207
+            ],
+            [
+              8.98681640625,
+              20.195190636474504
+            ],
+            [
+              6.41876220703125,
+              19.629653250428277
+            ],
+            [
+              6.1083984375,
+              18.104087015773946
+            ],
+            [
+              6.13037109375,
+              17.99963161491187
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#831100",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Sankt Maskva ",
+        "type": "City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.722900390625,
+          17.759149755400156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#450e59",
+        "marker-size": "medium",
+        "marker-symbol": "park",
+        "name": "Star park",
+        "type": "park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5965576171875,
+          17.80622614478282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#b92d5d",
+        "marker-size": "medium",
+        "marker-symbol": "airport",
+        "name": "gagalen aéroport",
+        "type": "airport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.234497070312499,
+          19.28003579627976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "stroke": "#ba3b3b",
         "stroke-width": 2,
         "stroke-opacity": 1,
@@ -5014,48 +5107,6 @@
         "coordinates": [
           -94.4384765625,
           35.380092992092145
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#5e30eb",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "fill": "#7b219f",
-        "fill-opacity": 0.5,
-        "name": "bivolia"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              6.13037109375,
-              17.99963161491187
-            ],
-            [
-              8.15185546875,
-              17.853290114098012
-            ],
-            [
-              8.62701416015625,
-              19.717585810896818
-            ],
-            [
-              6.41876220703125,
-              19.629653250428277
-            ],
-            [
-              6.1083984375,
-              18.104087015773946
-            ],
-            [
-              6.13037109375,
-              17.99963161491187
-            ]
-          ]
         ]
       }
     },
