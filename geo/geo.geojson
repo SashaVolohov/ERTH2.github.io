@@ -322,24 +322,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "type": "city",
-        "name": "Ƨøctbætinn | Шёстбайтинн",
-        "amount": 37692
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.85546875,
-          47.66538735632654
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "stroke": "#96a0ff",
         "stroke-width": 2,
         "stroke-opacity": 1,
@@ -3140,7 +3122,8 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "fill": "#ff4013",
-        "fill-opacity": 0.5
+        "fill-opacity": 0.5,
+        "name": "ifi"
       },
       "geometry": {
         "type": "Polygon",
