@@ -4,6 +4,210 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "city",
+        "type": "city",
+        "name": "Макаровск"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.07162475585938,
+          28.648415182054357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "city",
+        "type": "city",
+        "name": "Дедовск"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.31753540039062,
+          25.692275547735274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "city",
+        "type": "city",
+        "name": "Мехико"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1461181640625,
+          19.440694401302856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "city",
+        "type": "city",
+        "name": "Малый Мехико"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.20335388183594,
+          19.045892256494053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "city",
+        "type": "city",
+        "name": "Чапала"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.35113525390625,
+          20.649491004032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "city",
+        "type": "city",
+        "name": "Колима"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.72123718261719,
+          19.240818894110078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "city",
+        "type": "city",
+        "name": "Моренск"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.89336013793945,
+          16.858433931257654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "city",
+        "type": "city",
+        "name": "Техаск"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.66949462890624,
+          24.025142353597907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "city",
+        "type": "city",
+        "city": "Сан-Марино"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.40542602539061,
+          20.588438205626613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "city",
+        "type": "city",
+        "name": "Сан-Луис"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.975341796875,
+          22.15338547373877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "city",
+        "type": "city",
+        "name": "Южно-Индизийск"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.41376495361328,
+          26.90553852145924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "city",
+        "type": "city",
+        "name": "Ново-Испанск"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.66701889038086,
+          26.931176456401477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "stroke": "#96a0ff",
         "stroke-width": 2,
         "stroke-opacity": 1,
