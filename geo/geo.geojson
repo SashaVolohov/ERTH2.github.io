@@ -4,6 +4,985 @@
     {
       "type": "Feature",
       "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#0ba6da",
+        "fill-opacity": 0.5,
+        "name": "Bogdanland"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.8677978515625,
+              64.2839513273925
+            ],
+            [
+              23.510742187499996,
+              64.16331938811744
+            ],
+            [
+              21.014099121093746,
+              63.45664676805006
+            ],
+            [
+              20.94268798828125,
+              62.7698107117003
+            ],
+            [
+              21.11846923828125,
+              62.264088121163255
+            ],
+            [
+              21.302490234374996,
+              61.90533928813463
+            ],
+            [
+              21.05804443359375,
+              60.860963343405125
+            ],
+            [
+              21.121215820312496,
+              60.77123212652737
+            ],
+            [
+              21.242065429687496,
+              60.685283540374044
+            ],
+            [
+              21.14044189453125,
+              60.61528081030649
+            ],
+            [
+              21.0552978515625,
+              60.57212656573878
+            ],
+            [
+              20.06378173828125,
+              60.48970392643919
+            ],
+            [
+              19.9456787109375,
+              60.48564493868574
+            ],
+            [
+              19.82757568359375,
+              60.4531547447101
+            ],
+            [
+              19.7039794921875,
+              60.44638185995603
+            ],
+            [
+              19.588623046875,
+              60.420632016057716
+            ],
+            [
+              19.522705078125,
+              60.36771313471161
+            ],
+            [
+              19.4732666015625,
+              60.326947742998414
+            ],
+            [
+              19.40185546875,
+              60.28613138228136
+            ],
+            [
+              19.2974853515625,
+              60.23981116999893
+            ],
+            [
+              19.27825927734375,
+              60.174306261926034
+            ],
+            [
+              19.4842529296875,
+              60.142872118694264
+            ],
+            [
+              19.676513671875,
+              60.09634916468408
+            ],
+            [
+              19.8028564453125,
+              60.02369688198333
+            ],
+            [
+              20.02532958984375,
+              59.92611935243404
+            ],
+            [
+              20.3466796875,
+              59.93712838146011
+            ],
+            [
+              20.70648193359375,
+              60.02644138228128
+            ],
+            [
+              20.830078125,
+              59.92199002450385
+            ],
+            [
+              20.87127685546875,
+              59.86964070806754
+            ],
+            [
+              20.91796875,
+              59.839295488500326
+            ],
+            [
+              21.016845703125,
+              59.887558969026216
+            ],
+            [
+              21.0333251953125,
+              59.91923685371464
+            ],
+            [
+              21.11572265625,
+              59.93988006784822
+            ],
+            [
+              20.94268798828125,
+              60.007225093068755
+            ],
+            [
+              20.85479736328125,
+              60.06758154285835
+            ],
+            [
+              20.78887939453125,
+              60.10045677618282
+            ],
+            [
+              20.758666992187496,
+              60.136034630690986
+            ],
+            [
+              20.7916259765625,
+              60.166108948753305
+            ],
+            [
+              20.863037109375,
+              60.20843972339574
+            ],
+            [
+              20.88775634765625,
+              60.2588921377932
+            ],
+            [
+              21.0113525390625,
+              60.27932369715625
+            ],
+            [
+              21.1981201171875,
+              60.48293866462562
+            ],
+            [
+              21.7474365234375,
+              60.54647643825749
+            ],
+            [
+              23.45855712890625,
+              60.584269526244995
+            ],
+            [
+              24.33746337890625,
+              60.63952973830602
+            ],
+            [
+              25.276794433593746,
+              60.64760866293291
+            ],
+            [
+              26.290283203124996,
+              60.6920065588842
+            ],
+            [
+              27.13623046875,
+              60.62740755352882
+            ],
+            [
+              27.586669921875,
+              60.51945431824516
+            ],
+            [
+              27.63336181640625,
+              60.523509074271864
+            ],
+            [
+              27.64984130859375,
+              60.5153990545698
+            ],
+            [
+              27.276306152343746,
+              60.48564493868574
+            ],
+            [
+              27.33123779296875,
+              60.44502711353617
+            ],
+            [
+              28.1744384765625,
+              60.50593479822827
+            ],
+            [
+              28.3392333984375,
+              60.975772391022176
+            ],
+            [
+              27.535858154296875,
+              63.049358188465476
+            ],
+            [
+              26.651458740234375,
+              64.07069839995933
+            ],
+            [
+              26.775054931640625,
+              62.90116107130541
+            ],
+            [
+              26.772308349609375,
+              62.89897149120729
+            ],
+            [
+              25.9222412109375,
+              64.03584833681637
+            ],
+            [
+              25.517120361328125,
+              62.95615965587722
+            ],
+            [
+              25.513687133789062,
+              62.95491083492156
+            ],
+            [
+              25.17929077148437,
+              64.02833183991892
+            ],
+            [
+              24.435653686523438,
+              63.15218454696032
+            ],
+            [
+              24.432220458984375,
+              63.15094410279589
+            ],
+            [
+              24.430160522460938,
+              63.70228886800586
+            ],
+            [
+              24.846267700195312,
+              64.60680430547897
+            ],
+            [
+              23.768577575683594,
+              64.15508892486659
+            ],
+            [
+              23.8677978515625,
+              64.2839513273925
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "capital-city",
+        "name": "New Bogdan City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.625610351562496,
+          61.51221638411366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Nablyudansk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.927734374999996,
+          61.10078883158897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kaluzhsk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1639404296875,
+          61.26759222961979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Napravlyansk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.147705078125,
+          61.822446587451196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Manyakovsk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9993896484375,
+          61.20679804263029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "MalenkoOzersk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.9552001953125,
+          61.57764947385296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Fortsk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.268310546875,
+          62.03956227815208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Centriysk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.664794921874996,
+          62.45648663758143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Okruzhensk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.47802734375,
+          60.973107109199404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "DalekoOzersk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.401123046875,
+          62.17063119812449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Sransk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.477783203124996,
+          62.303687843339816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "OkoloKordonsk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.03857421875,
+          62.81501879409271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Narushansk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.665039062499996,
+          62.32920841458002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Zashchishchaysk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.269042968749996,
+          62.94523066452288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Embrionsk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.68701171875,
+          61.106097752385196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Dokordonsk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.610107421875,
+          60.726943611101966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Prikordonsk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.04931640625,
+          60.63548951646859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Aristokratsk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.994140624999996,
+          60.84491057364912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Odinokoe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.411132812499996,
+          63.010120164757325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#08aff7",
+        "fill-opacity": 0.5,
+        "name": "Bogdanland"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.365234375,
+              42.24478535602799
+            ],
+            [
+              33.2666015625,
+              42.13082130188811
+            ],
+            [
+              32.58544921875,
+              41.902277040963696
+            ],
+            [
+              30.080566406250004,
+              41.21172151054787
+            ],
+            [
+              30.05859375,
+              40.97989806962013
+            ],
+            [
+              27.5537109375,
+              40.39676430557203
+            ],
+            [
+              27.685546874999996,
+              39.70718665682654
+            ],
+            [
+              26.806640624999996,
+              39.50404070558415
+            ],
+            [
+              25.77392578125,
+              39.2832938689385
+            ],
+            [
+              25.7080078125,
+              38.28993659801203
+            ],
+            [
+              27.0867919921875,
+              37.80978395301097
+            ],
+            [
+              27.384796142578125,
+              36.52398412328937
+            ],
+            [
+              28.06732177734375,
+              36.57914380937464
+            ],
+            [
+              29.003906249999996,
+              36.2265501474709
+            ],
+            [
+              32.51953125,
+              35.92464453144099
+            ],
+            [
+              35.6396484375,
+              36.527294814546245
+            ],
+            [
+              36.38671875,
+              37.77071473849609
+            ],
+            [
+              36.80419921875,
+              37.85750715625203
+            ],
+            [
+              37.5732421875,
+              37.68382032669382
+            ],
+            [
+              37.99072265625,
+              38.08268954483802
+            ],
+            [
+              38.056640625,
+              38.75408327579141
+            ],
+            [
+              38.82568359375,
+              39.18117526158749
+            ],
+            [
+              40.05615234375,
+              39.2832938689385
+            ],
+            [
+              41.220703125,
+              39.14710270770074
+            ],
+            [
+              41.8359375,
+              39.45316112807394
+            ],
+            [
+              41.66015625,
+              39.99395569397331
+            ],
+            [
+              40.25390625,
+              40.195659093364654
+            ],
+            [
+              37.68310546875,
+              40.53050177574321
+            ],
+            [
+              37.55126953125,
+              41.19518982948959
+            ],
+            [
+              35.26611328125,
+              42.147114459220994
+            ],
+            [
+              34.365234375,
+              42.24478535602799
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Impersk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.64111328125,
+          36.84446074079564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Otdihansk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.36669921875,
+          36.94989178681327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Drevensk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.3876953125,
+          36.33282808737917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Churkagrad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.87060546875,
+          41.376808565702355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Samosvalsk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.003906249999996,
+          37.61423141542417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Musorsk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.905517578125,
+          38.095659755295614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Musulmansk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.520751953125,
+          37.54022177661216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Ulibansk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.38720703125,
+          36.914764288955936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Zapovnyansk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.376953125,
+          39.11301365149975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Krym"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.973144531249996,
+          60.223447204398866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#17b6de",
+        "fill-opacity": 0.5,
+        "name": "Bogdanland"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              36.650390625,
+              35.02999636902566
+            ],
+            [
+              36.123046875,
+              33.50475906922609
+            ],
+            [
+              37.6171875,
+              30.90222470517144
+            ],
+            [
+              40.341796875,
+              29.84064389983441
+            ],
+            [
+              43.59375,
+              32.32427558887655
+            ],
+            [
+              40.517578125,
+              35.17380831799959
+            ],
+            [
+              36.650390625,
+              35.02999636902566
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Ottamansk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.759765625,
+          32.676372772089834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Masturbinsk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.2978515625,
+          32.36140331527543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "stroke": "#02920c",
         "stroke-width": 2,
         "stroke-opacity": 1,
