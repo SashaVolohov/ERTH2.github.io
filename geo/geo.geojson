@@ -4,6 +4,133 @@
     {
       "type": "Feature",
       "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#98eca1",
+        "fill-opacity": 0.5,
+        "name": "Chanlia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -48.8671875,
+              -5.0909441750333855
+            ],
+            [
+              -50.3173828125,
+              -7.580327791330129
+            ],
+            [
+              -50.537109375,
+              -14.00869637063467
+            ],
+            [
+              -50.537109375,
+              -20.3034175184893
+            ],
+            [
+              -48.2958984375,
+              -27.371767300523032
+            ],
+            [
+              -46.142578125,
+              -24.607069137709694
+            ],
+            [
+              -41.0009765625,
+              -23.32208001137843
+            ],
+            [
+              -34.189453125,
+              -7.972197714386866
+            ],
+            [
+              -35.33203125,
+              -4.8282597468669755
+            ],
+            [
+              -40.4736328125,
+              -2.5040852618529215
+            ],
+            [
+              -48.8671875,
+              -5.0909441750333855
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "capital-city",
+        "name": "Кинбург"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.9033203125,
+          -8.363692651835823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Жинфилд"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3740234375,
+          -22.63429269379352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Фудград"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.703125,
+          -7.493196470122275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Елбург"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.4833984375,
+          -16.63619187839765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "stroke": "#4411a2",
         "stroke-width": 2,
         "stroke-opacity": 1,
