@@ -315,7 +315,8 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "minefield",
-        "name": "Место, где капитан сбежал с корабля"
+        "name": "Место, где капитан сбежал с корабля",
+        "type": "landmark"
       },
       "geometry": {
         "type": "Point",
