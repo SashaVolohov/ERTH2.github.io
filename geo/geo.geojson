@@ -9149,12 +9149,12 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#535053",
+        "stroke": "#fa0000",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "fill": "#b10b02",
+        "fill": "#ffbb00",
         "fill-opacity": 0.5,
-        "name": "SNR"
+        "name": "TNR"
       },
       "geometry": {
         "type": "Polygon",
@@ -10152,12 +10152,12 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#384652",
+        "stroke": "#fa0000",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "fill": "#691717",
+        "fill": "#ffbb00",
         "fill-opacity": 0.5,
-        "name": "New-SNR"
+        "name": "TNR"
       },
       "geometry": {
         "type": "Polygon",
