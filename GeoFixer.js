@@ -28,6 +28,7 @@ dissolved.features = dissolved.features.map((v) => {
     name: v.properties.name,
     fill: props[v.properties.name].fill,
     stroke: props[v.properties.name].stroke,
+    type: props[v.properties.name].stroke,
   };
   return v;
 });
