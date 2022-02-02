@@ -22,7 +22,11 @@ jobs:
       - name: Fix geo file
         run: npm run geofix
       - name: Commit file
-        run: git commit -m "Publish fixed geo" -a
+        run: |
+          git config --global user.email "artegoser@gmail.com"
+          git config --global user.name "artegoser"
+          git commit -m "Publish fixed geo" -a
+
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
