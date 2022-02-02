@@ -1,0 +1,24 @@
+{
+  "name": "movc-static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "GeoFixer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "geofix": "node GeoFixer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OOVC/MOVC-static.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OOVC/MOVC-static/issues"
+  },
+  "homepage": "https://github.com/OOVC/MOVC-static#readme",
+  "dependencies": {
+    "@turf/turf": "^6.5.0"
+  }
+}
