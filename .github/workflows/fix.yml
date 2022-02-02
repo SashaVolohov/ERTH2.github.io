@@ -10,25 +10,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [16.x]
-
     steps:
-      - uses: actions/checkout@v2
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node-version }}
-          cache: "npm"
-      - run: npm i
+          node-version: 16.x
+      - name: Install dependencies
+        run: npm i
       - name: Fix geo file
         run: npm run geofix
-      - name: GitHub Push
-        # You may pin to the exact commit or the version.
-        # uses: ad-m/github-push-action@40bf560936a8022e68a3c00e7d2abefaf01305a6
-        uses: ad-m/github-push-action@v0.6.0
+      - name: push
+        uses: github-actions-x/commit@v2.8
         with:
-          # Token for the repo. Can be passed in using $\{{ secrets.GITHUB_TOKEN }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          directory: /geo
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Publish fixed geo"
+          files: /geo
+          name: GeoMovc fixer
