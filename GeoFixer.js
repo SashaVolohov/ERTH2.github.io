@@ -32,6 +32,21 @@ for (let g = 0; g < geo.features.length; g++) {
 console.timeEnd("Difference");
 console.log();
 
+console.log("MultiPolygon reshape");
+console.time("Multi Reshape");
+for (let i = 0; i < geo.features.length; i++) {
+  if (geo.features[i].geometry.type === "MultiPolygon") {
+    let totalArr = [[]];
+    for (let arr of geo.features[i].geometry.coordinates[0]) {
+      totalArr[0] = totalArr[0].concat(arr);
+    }
+    geo.features[i].geometry.type = "Polygon";
+    geo.features[i].geometry.coordinates = totalArr;
+  }
+}
+console.timeEnd("Multi Reshape");
+console.log();
+
 console.log("Dissolve");
 console.time("Dissolve");
 let nonPoly = geo.features.filter((v) => !v.geometry.type.endsWith("Polygon"));
@@ -59,21 +74,6 @@ dissolved.features = dissolved.features.map((v) => {
 });
 geo.features = nonPoly.concat(dissolved.features);
 console.timeEnd("Dissolve");
-console.log();
-
-console.log("MultiPolygon reshape");
-console.time("Multi Reshape");
-for (let i = 0; i < geo.features.length; i++) {
-  if (geo.features[i].geometry.type === "MultiPolygon") {
-    let totalArr = [[]];
-    for (let arr of geo.features[i].geometry.coordinates[0]) {
-      totalArr[0] = totalArr[0].concat(arr);
-    }
-    geo.features[i].geometry.type = "Polygon";
-    geo.features[i].geometry.coordinates = totalArr;
-  }
-}
-console.timeEnd("Multi Reshape");
 console.log();
 
 fs.writeFileSync("./geo/geo.geojson", JSON.stringify(geo, null, "  "));
