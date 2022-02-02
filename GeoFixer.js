@@ -6,21 +6,6 @@ geo.features = geo.features.filter((v) => v.properties.name);
 
 console.time("Total");
 
-console.log("MultiPolygon reshape");
-console.time("Multi Reshape");
-for (let i = 0; i < geo.features.length; i++) {
-  if (geo.features[i].geometry.type === "MultiPolygon") {
-    let totalArr = [[]];
-    for (let arr of geo.features[i].geometry.coordinates[0]) {
-      totalArr[0] = totalArr[0].concat(arr);
-    }
-    geo.features[i].geometry.type = "Polygon";
-    geo.features[i].geometry.coordinates = totalArr;
-  }
-}
-console.timeEnd("Multi Reshape");
-console.log();
-
 console.log("Dissolve");
 console.time("Dissolve");
 let nonPoly = geo.features.filter((v) => !v.geometry.type.endsWith("Polygon"));
