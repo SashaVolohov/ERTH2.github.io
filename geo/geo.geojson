@@ -4,6 +4,492 @@
     {
       "type": "Feature",
       "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#17b6de",
+        "fill-opacity": 0.5,
+        "name": "Bogdanland"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.19921875,
+              35.67514743608467
+            ],
+            [
+              36.650390625,
+              35.02999636902566
+            ],
+            [
+              36.123046875,
+              33.50475906922609
+            ],
+            [
+              35.595703125,
+              31.39115752282472
+            ],
+            [
+              37.1337890625,
+              28.613459424004414
+            ],
+            [
+              38.5400390625,
+              26.31311263768267
+            ],
+            [
+              36.8701171875,
+              24.886436490787712
+            ],
+            [
+              38.6279296875,
+              22.187404991398775
+            ],
+            [
+              39.15527343749999,
+              21.08450008351735
+            ],
+            [
+              42.9345703125,
+              15.749962572748768
+            ],
+            [
+              43.48388671875,
+              17.539296556236707
+            ],
+            [
+              45.98876953124999,
+              20.34462694382967
+            ],
+            [
+              48.44970703125,
+              22.553147478403194
+            ],
+            [
+              53.78906249999999,
+              24.666986385216273
+            ],
+            [
+              57.30468749999999,
+              25.60190226111573
+            ],
+            [
+              60.2490234375,
+              24.966140159912975
+            ],
+            [
+              63.1494140625,
+              25.045792240303445
+            ],
+            [
+              60.29296874999999,
+              36.38591277287651
+            ],
+            [
+              58.6669921875,
+              37.23032838760387
+            ],
+            [
+              50.80078125,
+              37.16031654673677
+            ],
+            [
+              44.5166015625,
+              37.16031654673677
+            ],
+            [
+              42.36328124999999,
+              37.125286284966805
+            ],
+            [
+              40.341796875,
+              36.491973470593685
+            ],
+            [
+              39.55078125,
+              36.1733569352216
+            ],
+            [
+              39.19921875,
+              35.67514743608467
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Albahah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.484375,
+          20.46818922264095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Tenistoruchye"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.85791015625,
+          19.993998469485504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Darvinsk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.15478515624999,
+          19.456233596018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Katarsk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.814453125,
+          20.591652120829167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Abha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.4951171875,
+          18.187606552494625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Zhopochistsk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          41.39648437499999,
+          18.70869162255995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Rastrelyansk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.61669921875,
+          21.69826549685252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "BogdanBogomDansk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.3193359375,
+          21.268899719967695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Geyskiy kray"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.9345703125,
+          19.062117883514652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Slingonia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.19775390625,
+          26.23430203240673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Flagsk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.85693359375,
+          27.078691552927534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Pervodumsk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.63720703125,
+          25.780107118422244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Terroristsk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.62646484375,
+          27.254629577800063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Tegeran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.39781951904297,
+          35.6960617168288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Allahakbarsk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.052978515625,
+          36.677230602346214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Nozhish"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5693359375,
+          36.641977814705946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "TALIBAN "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.2158203125,
+          31.615965936476076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "Name": "Uebansk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.8642578125,
+          25.918526162075153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Zhyopeysk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.35839843749999,
+          25.60190226111573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Zasransk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.6943359375,
+          30.524413269923986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Bagdad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.384765625,
+          33.27543541298162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Vaginalnie tabletki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8701171875,
+          31.87755764334002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Monsk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.14453125,
+          28.22697003891834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "city",
@@ -38103,50 +38589,6 @@
             [
               25.7080078125,
               38.28993659801203
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Bogdanland",
-        "fill": "#0ba6da",
-        "stroke": "#555555",
-        "type": "#555555"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              36.123046875,
-              33.50475906922609
-            ],
-            [
-              37.6171875,
-              30.90222470517144
-            ],
-            [
-              40.341796875,
-              29.84064389983441
-            ],
-            [
-              43.59375,
-              32.32427558887655
-            ],
-            [
-              40.517578125,
-              35.17380831799959
-            ],
-            [
-              36.650390625,
-              35.02999636902566
-            ],
-            [
-              36.123046875,
-              33.50475906922609
             ]
           ]
         ]
