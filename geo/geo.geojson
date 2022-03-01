@@ -4,6 +4,64 @@
     {
       "type": "Feature",
       "properties": {
+        "stroke": "#5e30eb",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#7b219f",
+        "fill-opacity": 0.5,
+        "name": "bivolia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.13037109375,
+              17.99963161491187
+            ],
+            [
+              10.12939453125,
+              17.518344187852207
+            ],
+            [
+              9.3768310546875,
+              20.251890313952938
+            ],
+            [
+              5.7073974609375,
+              20.586509823997716
+            ],
+            [
+              6.1083984375,
+              18.104087015773946
+            ],
+            [
+              6.13037109375,
+              17.99963161491187
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Bavanež"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.29443359375,
+          18.166730410221938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "circle-stroked",
