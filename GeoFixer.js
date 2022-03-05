@@ -17,6 +17,7 @@ for (let feature of polygons) {
   props[feature.properties.name] = {
     stroke: feature.properties.stroke,
     fill: feature.properties.fill,
+    type: feature.properties.type,
   };
 }
 
@@ -29,7 +30,7 @@ dissolved.features = dissolved.features.map((v) => {
     name: v.properties.name,
     fill: props[v.properties.name].fill,
     stroke: props[v.properties.name].stroke,
-    type: props[v.properties.name].stroke,
+    type: props[v.properties.name].type,
   };
   return v;
 });
