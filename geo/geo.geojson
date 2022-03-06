@@ -6,6 +6,1446 @@
       "properties": {
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Париж"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.63671875,
+          48.922499263758255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Берн"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1298828125,
+          46.70973594407157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Женева"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.591796875,
+          46.649436163350245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Цюррих"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.558349609375,
+          47.3834738721015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Лихтенштейн"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4482421875,
+          47.12247581664114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Базель"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.569580078124999,
+          47.54687159892238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Юниде"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2275390625,
+          46.07323062540835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Марсель"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3173828125,
+          43.36512572875844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Монако"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.404785156249999,
+          43.77902662160831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Империя"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0419921875,
+          43.937461690316646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Тулло"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.42822265625,
+          43.57243174740972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Ла-Роше"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.16455078125,
+          46.15700496290803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Квимпер"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.10888671875,
+          48.004625021133904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Брест"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.471435546874999,
+          48.42191010942875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Сан-Бьеро"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7685546874999996,
+          48.52388120259336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Реннес"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4169921874999996,
+          47.03269459852135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Нитор"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.32958984375,
+          46.558860303117164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Ле-Просс"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.955078125,
+          50.450509053586615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Линне"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.087158203125,
+          50.61113171332364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Maro-Di-Bolonga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6259765625,
+          50.72254683363231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Касен"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.406494140625,
+          49.21759710517596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Клармент"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.09814453125,
+          45.767522962149876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Бендаресс"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.63720703125,
+          44.84029065139799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Лион"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.7900390625,
+          45.66012730272194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Бользано"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.40380859375,
+          46.49839225859763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Беллюно"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.205810546875,
+          46.126556302418514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Де-Киямо"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0966796875,
+          45.79050946752472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Бергамо"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.678955078125,
+          45.66780526567164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Бухарест"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2353515625,
+          44.37098696297173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Бацао"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.894531249999996,
+          46.483264729155586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Борадео"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9287109375,
+          46.98025235521883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Краджова"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.88427734375,
+          44.32384807250689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Софио"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.37890625,
+          42.56926437219384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Бархти"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9052734375,
+          47.76886840424207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Тембрория"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.20361328125,
+          45.79816953017265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Рестия"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.884765625,
+          45.321254361171476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Нерсон"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.62060546875,
+          46.78501604269254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Виннестия"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.45458984375,
+          49.224772722794825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Черневесте"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.652832031249996,
+          47.68018294648414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Чьерневести"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.94970703125,
+          48.25394114463431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Тиестель"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.77685546875,
+          45.66012730272194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Чита де Грандо"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.66650390625,
+          46.45299704748289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Властемирре"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.42431640625,
+          46.78501604269254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Братиславия"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.18212890625,
+          46.49839225859763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Резив"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.480468749999998,
+          43.929549935614595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Палево"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.8167724609375,
+          49.713824623405046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "г. Сахалин"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.701416015625,
+          50.306884231551166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Сольво"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.9488525390625,
+          51.57365561973001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Александровск"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.174072265625,
+          50.89263913111063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Красеврро"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.635498046875,
+          53.67068019347264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Дизинерта ди Погранициале"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.7838134765625,
+          53.81038242731128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Вал"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.0804443359375,
+          52.32526831457077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Рыбинск"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.44873046875,
+          52.9883372533954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Нью-Йорк"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992919921875,
+          40.72228267283148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Елизабефт"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2071533203125,
+          40.66813955408042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Йонкерс"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.89404296875,
+          40.93841495689795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Трентон"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.7564697265625,
+          40.20824570152502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "г. Нью-Джерси"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.4049072265625,
+          40.14948820651523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Стэндфорд"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2730712890625,
+          39.740986355883564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Атлантик"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.4268798828125,
+          39.364032338047984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Мильве"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.0311279296875,
+          39.39375459224348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Вильшон"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.8663330078125,
+          39.6606850221923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Пфеладельфия"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.157470703125,
+          39.9476478239225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Больше-Дусяринск"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.805908203125,
+          40.763901280945866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Дусяринск"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.63012695312499,
+          41.03793062246529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Нижне-Дусяринск"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.5587158203125,
+          41.23238023874139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Дольвер"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.52001953125,
+          39.155622393423215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Вильненгтор"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5419921875,
+          39.73676229957947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Левес"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1300048828125,
+          38.77549900381297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Океан-Сити"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.07507324218749,
+          38.32011084501538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Салежбург"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6024169921875,
+          38.36750215395045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Джоржтаун"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.377197265625,
+          38.676933444637925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Кэмбридж"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.0198974609375,
+          38.53097889440024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Покмон-Сити"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.56396484375,
+          38.08268954483802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Экспер"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.816650390625,
+          37.54022177661216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Боссере"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.19677734374999,
+          11.178401873711785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Берре"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.97802734375,
+          10.422988388338242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Гарджево"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.515625,
+          8.428904092875392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Харджеве"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.05517578124999,
+          9.60074993224686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Барва"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.01123046875,
+          1.0765967983064109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Берверди"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.28564453125,
+          4.915832801313164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Кенсао"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.4951171875,
+          -0.39550467153200675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Занзибар"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.22119140624999,
+          -6.227933930268672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Наироби"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.826171875,
+          -1.318243056862001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Моннасо"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6826171875,
+          -4.017699464336852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Дадааб"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.2978515625,
+          0.13183582116662096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Нтабро"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.18798828124999,
+          -10.250059987303004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Аррио"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.73828124999999,
+          -3.337953961416472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Моггдадишше"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.2197265625,
+          2.1088986592431382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Порто Афррикко"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.80078125,
+          11.609193407938953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
         "marker-symbol": "circle-stroked",
         "name": "Мантен"
       },
