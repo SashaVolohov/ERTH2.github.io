@@ -48,12 +48,12 @@ for (let g = 0; g < geo.features.length; g++) {
         geo.features[g] === geo.features[i] ||
         geo.features[g]?.geometry.type !== "Polygon" ||
         geo.features[i]?.geometry.type !== "Polygon" ||
-        geo.features[i]?.properties.type !== "sand" ||
-        geo.features[i]?.properties.type !== "water" ||
-        geo.features[i]?.properties.type !== "grass" ||
-        geo.features[g]?.properties.type !== "sand" ||
-        geo.features[g]?.properties.type !== "water" ||
-        geo.features[g]?.properties.type !== "grass"
+        geo.features[i]?.properties.type === "sand" ||
+        geo.features[i]?.properties.type === "water" ||
+        geo.features[i]?.properties.type === "grass" ||
+        geo.features[g]?.properties.type === "sand" ||
+        geo.features[g]?.properties.type === "water" ||
+        geo.features[g]?.properties.type === "grass"
       ) {
         continue;
       }
