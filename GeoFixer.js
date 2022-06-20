@@ -103,20 +103,20 @@ for (let g = 0; g < geo.features.length; g++) {
 console.timeEnd("Difference");
 console.log();
 
-console.log("MultiPolygon reshape");
-console.time("Multi Reshape");
-for (let i = 0; i < geo.features.length; i++) {
-  if (geo.features[i].geometry.type === "MultiPolygon") {
-    let totalArr = [[]];
-    for (let arr of geo.features[i].geometry.coordinates[0]) {
-      totalArr[0] = totalArr[0].concat(arr);
-    }
-    geo.features[i].geometry.type = "Polygon";
-    geo.features[i].geometry.coordinates = totalArr;
-  }
-}
-console.timeEnd("Multi Reshape");
-console.log();
+// console.log("MultiPolygon reshape");
+// console.time("Multi Reshape");
+// for (let i = 0; i < geo.features.length; i++) {
+//   if (geo.features[i].geometry.type === "MultiPolygon") {
+//     let totalArr = [[]];
+//     for (let arr of geo.features[i].geometry.coordinates[0]) {
+//       totalArr[0] = totalArr[0].concat(arr);
+//     }
+//     geo.features[i].geometry.type = "Polygon";
+//     geo.features[i].geometry.coordinates = totalArr;
+//   }
+// }
+// console.timeEnd("Multi Reshape");
+// console.log();
 
 fs.writeFileSync("./geo/newmap.geojson", JSON.stringify(geo, null, "  "));
 
