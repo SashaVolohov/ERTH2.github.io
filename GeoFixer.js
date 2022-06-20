@@ -1,7 +1,35 @@
 const turf = require("@turf/turf");
 const fs = require("fs");
-const { getSystemErrorMap } = require("util");
-let geo = JSON.parse(fs.readFileSync("./geo/geo.geojson", "utf-8"));
+
+let layers = JSON.parse(fs.readFileSync("./geo/newmap/layers.json", "utf-8"));
+let colors = JSON.parse(fs.readFileSync("./geo/newmap/colors.json", "utf-8"));
+
+let features = [];
+
+for (country of layers) {
+  let co_features = JSON.parse(
+    fs.readFileSync(`./geo/newmap/countries/${country}.geojson`, "utf-8")
+  ).features;
+  let color = colors[country];
+
+  features = [
+    ...features,
+    ...co_features.map((val) => {
+      val.properties.name = country;
+      val.properties.fill = color;
+      val.properties.stroke = color;
+
+      return val;
+    }),
+  ];
+}
+
+let geo = {
+  type: "FeatureCollection",
+  features: features.reverse(),
+};
+
+//JSON.parse(fs.readFileSync("./geo/geo.geojson", "utf-8"));
 
 geo.features = geo.features.filter((v) => v.properties.name);
 
@@ -90,6 +118,6 @@ for (let i = 0; i < geo.features.length; i++) {
 console.timeEnd("Multi Reshape");
 console.log();
 
-fs.writeFileSync("./geo/geo.geojson", JSON.stringify(geo, null, "  "));
+fs.writeFileSync("./geo/newmap.geojson", JSON.stringify(geo, null, "  "));
 
 console.timeEnd("Total");
