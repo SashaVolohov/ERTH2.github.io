@@ -15,9 +15,11 @@ for (country of layers) {
   features = [
     ...features,
     ...co_features.map((val) => {
-      val.properties.name = country;
-      val.properties.fill = color;
-      val.properties.stroke = color;
+      if (val.geometry.type == "Polygon") {
+        val.properties.name = country;
+        val.properties.fill = color;
+        val.properties.stroke = color;
+      }
 
       return val;
     }),
