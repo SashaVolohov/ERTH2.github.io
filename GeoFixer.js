@@ -76,8 +76,6 @@ for (let g = 0; g < geo.features.length; g++) {
     try {
       if (
         geo.features[g] === geo.features[i] ||
-        geo.features[g]?.geometry.type !== "Polygon" ||
-        geo.features[i]?.geometry.type !== "Polygon" ||
         geo.features[i]?.properties.type === "sand" ||
         geo.features[i]?.properties.type === "water" ||
         geo.features[i]?.properties.type === "grass" ||
@@ -87,18 +85,39 @@ for (let g = 0; g < geo.features.length; g++) {
       ) {
         continue;
       }
-      let p1 = turf.polygon(
-        geo.features[g].geometry.coordinates,
-        geo.features[g].properties
-      );
-      let p2 = turf.polygon(
-        geo.features[i].geometry.coordinates,
-        geo.features[i].properties
-      );
-      let diff = turf.difference(p1, p2);
-      geo.features[g] = diff ? diff : geo.features[g];
-    } catch {
-      console.log("Error, skip");
+
+      if (
+        (geo.features[g]?.geometry.type === "Polygon" ||
+          geo.features[g]?.geometry.type === "MultiPolygon") &&
+        (geo.features[i]?.geometry.type === "Polygon" ||
+          geo.features[i]?.geometry.type === "MultiPolygon")
+      ) {
+        let p1 =
+          geo.features[g]?.geometry.type === "MultiPolygon"
+            ? turf.multiPolygon(
+                geo.features[g].geometry.coordinates,
+                geo.features[g].properties
+              )
+            : turf.polygon(
+                geo.features[g].geometry.coordinates,
+                geo.features[g].properties
+              );
+        let p2 =
+          geo.features[i]?.geometry.type === "MultiPolygon"
+            ? turf.multiPolygon(
+                geo.features[i].geometry.coordinates,
+                geo.features[i].properties
+              )
+            : turf.polygon(
+                geo.features[i].geometry.coordinates,
+                geo.features[i].properties
+              );
+
+        let diff = turf.difference(p1, p2);
+        geo.features[g] = diff ? diff : geo.features[g];
+      } else continue;
+    } catch (e) {
+      console.log("Error, skip \n", e, "\n");
     }
   }
 }
