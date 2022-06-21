@@ -139,6 +139,6 @@ console.log();
 // console.timeEnd("Multi Reshape");
 // console.log();
 
-fs.writeFileSync("./geo/newmap.geojson", JSON.stringify(geo, null, "  "));
+fs.writeFileSync("./geo/geo.geojson", JSON.stringify(geo, null, "  "));
 
 console.timeEnd("Total");
