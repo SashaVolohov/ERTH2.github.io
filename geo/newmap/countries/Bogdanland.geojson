@@ -332,7 +332,9 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "type": "capital-city",
-        "name": "Gotstadt"
+        "name": "Gotstadt",
+        "img": "https://i.imgur.com/60FeA8G.png",
+        "description": "Cтолица Богданленда. Находится на месте Зальцбурга в Австрийской части страны, Готландской Федеративной земли. Основным архитектурным стилем, который присутствует здесь является Готика(отчего и произошло название)."
       },
       "geometry": {
         "type": "Point",
