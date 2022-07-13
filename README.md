@@ -1,2 +1,2 @@
-# MOVC-static
-static files for movc
+# ERTH2-static
+static files for ERTH2 (movc)
