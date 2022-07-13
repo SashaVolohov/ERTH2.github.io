@@ -1,29 +1,40 @@
 [
   {
-    "name": "Neutroser",
-    "type": "KO",
-    "bank-account": "Neutroser",
-    "owner": "Artemy Egorov",
-    "activities": [3]
+    "name":"Neutroser",
+    "type":"KO",
+    "bank-account":"Neutroser",
+    "bank-account-type":"vicops",
+    "owner":"Artemy Egorov",
+    "activities":[
+      3
+    ]
   },
   {
-    "name": "SALNR",
-    "type": "NOO",
-    "owner": "Artemy Egorov",
-    "activities": [3, 10, 4, 13, 12]
+    "name":"SALNR",
+    "type":"NOO",
+    "owner":"Artemy Egorov",
+    "activities":[
+      3, 10, 4, 13, 12
+    ]
   },
   {
-    "name": "VICOPS",
-    "type": "NOO",
-    "bank-account": "VICOPS",
-    "owner": "Artemy Egorov",
-    "activities": [9]
+    "name":"VICOPS",
+    "type":"NOO",
+    "bank-account":"VICOPS",
+    "bank-account-type":"vicops",
+    "owner":"Artemy Egorov",
+    "activities":[
+      9
+    ]
   },
   {
-    "name": "MOVC",
-    "type": "KAO",
-    "bank-account": "MOVC",
-    "owner": "Artemy Egorov",
-    "activities": [3, 8, 15]
+    "name":"MOVC",
+    "type":"KAO",
+    "bank-account":"MOVC",
+    "bank-account-type":"vicops",
+    "owner":"Artemy Egorov",
+    "activities":[
+      3, 8, 15
+    ]
   }
 ]
