@@ -1,14 +1,21 @@
 const turf = require("@turf/turf");
 const fs = require("fs");
 
-let layers = JSON.parse(fs.readFileSync("./geo/newmap/layers.json", "utf-8"));
-let colors = JSON.parse(fs.readFileSync("./geo/newmap/colors.json", "utf-8"));
+let layers = JSON.parse(
+  fs.readFileSync("./movc/geo/countries/layers.json", "utf-8")
+);
+let colors = JSON.parse(
+  fs.readFileSync("./movc/geo/countries/colors.json", "utf-8")
+);
 
 let features = [];
 
 for (country of layers) {
   let co_features = JSON.parse(
-    fs.readFileSync(`./geo/newmap/countries/${country}.geojson`, "utf-8")
+    fs.readFileSync(
+      `./movc/geo/countries/countries/${country}.geojson`,
+      "utf-8"
+    )
   ).features;
   let color = colors[country];
 
@@ -30,8 +37,6 @@ let geo = {
   type: "FeatureCollection",
   features: features.reverse(),
 };
-
-//JSON.parse(fs.readFileSync("./geo/geo.geojson", "utf-8"));
 
 geo.features = geo.features.filter((v) => v.properties.name);
 
@@ -72,7 +77,6 @@ console.log("Difference");
 console.time("Difference");
 for (let g = 0; g < geo.features.length; g++) {
   for (let i = 0; i < geo.features.length; i++) {
-    // console.log(g, i);
     try {
       if (
         geo.features[g] === geo.features[i] ||
@@ -124,21 +128,6 @@ for (let g = 0; g < geo.features.length; g++) {
 console.timeEnd("Difference");
 console.log();
 
-// console.log("MultiPolygon reshape");
-// console.time("Multi Reshape");
-// for (let i = 0; i < geo.features.length; i++) {
-//   if (geo.features[i].geometry.type === "MultiPolygon") {
-//     let totalArr = [[]];
-//     for (let arr of geo.features[i].geometry.coordinates[0]) {
-//       totalArr[0] = totalArr[0].concat(arr);
-//     }
-//     geo.features[i].geometry.type = "Polygon";
-//     geo.features[i].geometry.coordinates = totalArr;
-//   }
-// }
-// console.timeEnd("Multi Reshape");
-// console.log();
-
-fs.writeFileSync("./geo/geo.geojson", JSON.stringify(geo, null, "  "));
+fs.writeFileSync("./movc/geo/geo.geojson", JSON.stringify(geo, null, "  "));
 
 console.timeEnd("Total");
