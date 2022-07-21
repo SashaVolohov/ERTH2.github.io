@@ -3,6 +3,212 @@
   "features": [
     {
       "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Бераклидолион"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.92315673828125,
+          54.7277924107821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Метеоридиум"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.41357421874999,
+          55.175730853115766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Скалодилум"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.6060791015625,
+          56.835451877125536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Градлион"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.24725341796875,
+          58.01173545198743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Валлориум",
+        "amount": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.102020263671875,
+          55.795491450863395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "capital-city",
+        "name": "Воидолиум",
+        "amount": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.2467041015625,
+          56.147079550100564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Олидолиум"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.87841796875,
+          56.63206372054474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Высокогордилум",
+        "type": "capital-city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.6146068572998,
+          27.33326887244989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Низодилим",
+        "type": "capital-city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96116638183594,
+          -37.82497195707115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Пляжодилиум"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.59355926513672,
+          -34.92731938951563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "landmark",
+        "name": "Адронный Коллайдер (САЛЯИ)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.188568115234375,
+          34.91549624729326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Дипломатический аэропорт Слингонии",
+        "type": "landmark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.11604118347168,
+          34.91352555799256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {},
       "geometry": {
         "type": "Polygon",
@@ -2857,24 +3063,40 @@
               31.103509440594742
             ],
             [
-              32.5140380859375,
-              31.122909155801175
+              32.581329345703125,
+              31.103509440594742
             ],
             [
-              32.55043029785156,
-              31.065286288898164
+              32.56519317626953,
+              31.086457933787152
             ],
             [
-              32.52296447753906,
-              31.016455925940644
+              32.554893493652344,
+              31.064698120353743
             ],
             [
-              32.408294677734375,
-              30.97172182943199
+              32.552146911621094,
+              31.018515543365005
             ],
             [
-              32.309417724609375,
-              30.96053502769875
+              32.527427673339844,
+              31.00203735761734
+            ],
+            [
+              32.52227783203125,
+              30.98761660859346
+            ],
+            [
+              32.49275207519531,
+              30.99556300532106
+            ],
+            [
+              32.39524841308594,
+              30.957296498390683
+            ],
+            [
+              32.34169006347656,
+              30.95670766308254
             ],
             [
               32.34649658203125,
@@ -4757,8 +4979,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.14874267578125,
-          34.9008557114588
+          32.159385681152344,
+          34.879171662167664
         ]
       }
     },
@@ -4775,8 +4997,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.00148391723633,
-          35.31848687531321
+          34.00311470031738,
+          35.31428474747176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Центродилиум",
+        "description": "Центральный город Кипрского Региона Слингонии. Ходят слухи что в честь этого города назвали вирус \"Центровирус\", так как он появился здесь",
+        "type": "capital-city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.363075256347656,
+          35.17324704631253
         ]
       }
     }
