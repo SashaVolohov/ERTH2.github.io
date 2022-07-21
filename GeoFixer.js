@@ -128,6 +128,47 @@ for (let g = 0; g < geo.features.length; g++) {
 console.timeEnd("Difference");
 console.log();
 
+console.log("Add Nature");
+console.time("Add Nature");
+
+let sand = JSON.parse(
+  fs.readFileSync("./movc/geo/nature/sand.geojson", "utf-8")
+).features;
+
+let water = JSON.parse(
+  fs.readFileSync("./movc/geo/nature/water.geojson", "utf-8")
+).features;
+
+let grass = JSON.parse(
+  fs.readFileSync("./movc/geo/nature/grass.geojson", "utf-8")
+).features;
+
+let color = colors[country];
+
+geo.features = [
+  ...water.map((val) => {
+    val.properties.type = "water";
+    val.properties.fill = "#75cff0";
+    val.properties.stroke = "#75cff0";
+    return val;
+  }),
+  ...sand.map((val) => {
+    val.properties.type = "sand";
+    val.properties.fill = "#efe9e1";
+    val.properties.stroke = "#efe9e1";
+    return val;
+  }),
+  ...grass.map((val) => {
+    val.properties.type = "grass";
+    val.properties.fill = "#d1e6be";
+    val.properties.stroke = "#d1e6be";
+    return val;
+  }),
+  ...geo.features,
+];
+console.timeEnd("Add Nature");
+console.log();
+
 fs.writeFileSync("./movc/geo/geo.geojson", JSON.stringify(geo, null, "  "));
 
 console.timeEnd("Total");
