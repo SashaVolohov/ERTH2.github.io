@@ -3,8 +3,7 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {
-      },
+      "properties": {},
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -335,8 +334,7 @@
     },
     {
       "type": "Feature",
-      "properties": {
-      },
+      "properties": {},
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -643,8 +641,7 @@
     },
     {
       "type": "Feature",
-      "properties": {
-      },
+      "properties": {},
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1199,8 +1196,7 @@
     },
     {
       "type": "Feature",
-      "properties": {
-      },
+      "properties": {},
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1340,6 +1336,636 @@
             [
               27.016754150390625,
               37.790251927933284
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Hora"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.97946071624756,
+          37.753377944280544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Krindu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.80712890625,
+          -1.7273383791406443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Nalo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.27612304687499,
+          -15.119855941572489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Teît"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.991455078125,
+          -15.786967677939264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Lingua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.7939453125,
+          -13.98204586611312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Likas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.67431640625,
+          -13.960723239632728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Hera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.025390625,
+          -17.832374329567507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Neîmera"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.838623046875,
+          -20.045610827439717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Brapelles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.591529846191403,
+          -23.56367243356796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Vonov"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.0029296875,
+          -24.52963354131435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Skadis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.47828674316406,
+          -22.252877311244927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Tolrano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.391387939453125,
+          -25.440794392795965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Feîto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.66516113281249,
+          -23.352342597581096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Deîut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.7505464553833,
+          -23.072348723134564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Berket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.33258056640625,
+          -21.435173492340894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Naset"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.494140625,
+          -21.053744493156334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Saîkete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.76419067382812,
+          -20.011742128050056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Ûlata"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.4914665222168,
+          -19.827594997653396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Salvete"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.52479553222656,
+          -18.910184055628534
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Belœk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.45892333984375,
+          -17.543224855823098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Vitsk",
+        "type": "Capital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.468345642089844,
+          -17.58053945311978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Radis",
+        "type": "capital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.710533142089844,
+          -15.872020734333898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Haraise",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.735107421875,
+          -15.42720570844082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kalis",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.40277099609375,
+          -13.069780023718385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Ridmo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.43975830078125,
+          -20.8870414415731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kon",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.976593017578125,
+          -21.303449014561657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kelenberg",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.28808593749999,
+          -19.476950206488414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.269042968749996,
+              -2.0100855878673873
+            ],
+            [
+              23.22509765625,
+              -2.4492049339511506
+            ],
+            [
+              23.236083984374996,
+              -2.85526278436657
+            ],
+            [
+              23.510742187499996,
+              -3.0637245031869744
+            ],
+            [
+              23.466796875,
+              -3.6230713262356864
+            ],
+            [
+              23.499755859375,
+              -3.9519408561575817
+            ],
+            [
+              23.84033203125,
+              -3.8752158957336214
+            ],
+            [
+              24.049072265625,
+              -3.8204080831949407
+            ],
+            [
+              24.202880859375,
+              -4.017699464336852
+            ],
+            [
+              24.1259765625,
+              -4.247812286342593
+            ],
+            [
+              24.312744140625,
+              -4.455950571647079
+            ],
+            [
+              24.510498046875,
+              -4.68592950660633
+            ],
+            [
+              24.752197265624996,
+              -4.872047700241915
+            ],
+            [
+              25.07080078125,
+              -5.014338718527196
+            ],
+            [
+              25.543212890625,
+              -5.123772299948803
+            ],
+            [
+              25.938720703125,
+              -5.101887070062321
+            ],
+            [
+              25.99365234375,
+              -4.850154078505659
+            ],
+            [
+              26.564941406249996,
+              -4.784468966579362
+            ],
+            [
+              26.817626953125,
+              -4.455950571647079
+            ],
+            [
+              27.35595703125,
+              -3.765596769419838
+            ],
+            [
+              27.301025390625,
+              -3.370856476926319
+            ],
+            [
+              27.059326171875,
+              -2.67968661580376
+            ],
+            [
+              27.048339843749996,
+              -2.273573022378629
+            ],
+            [
+              27.3779296875,
+              -2.1308562777325184
+            ],
+            [
+              27.608642578125,
+              -1.7465556193132534
+            ],
+            [
+              27.432861328125,
+              -1.2962761196418089
+            ],
+            [
+              27.24609375,
+              -1.0326589311777759
+            ],
+            [
+              26.619873046875,
+              -1.1754546449158993
+            ],
+            [
+              26.004638671875,
+              -1.043643455908483
+            ],
+            [
+              25.686035156249996,
+              -0.9337965488500171
+            ],
+            [
+              25.356445312499996,
+              -0.7909904981540058
+            ],
+            [
+              24.927978515625,
+              -0.9667509997666298
+            ],
+            [
+              24.576416015625,
+              -0.9228116626856938
+            ],
+            [
+              24.444580078125,
+              -0.6371938961998727
+            ],
+            [
+              23.994140624999996,
+              -0.8898568022677551
+            ],
+            [
+              23.741455078125,
+              -1.0546279422758742
+            ],
+            [
+              23.88427734375,
+              -1.307259612275665
+            ],
+            [
+              23.763427734375,
+              -1.439057660807751
+            ],
+            [
+              23.37890625,
+              -1.6147764249054963
+            ],
+            [
+              23.269042968749996,
+              -2.0100855878673873
             ]
           ]
         ]
