@@ -1688,7 +1688,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "name": "Vitsk",
-        "type": "Capital"
+        "type": "capital-city"
       },
       "geometry": {
         "type": "Point",
@@ -1705,7 +1705,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "name": "Radis",
-        "type": "capital"
+        "type": "capital-city"
       },
       "geometry": {
         "type": "Point",
