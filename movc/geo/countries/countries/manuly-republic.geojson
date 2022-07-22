@@ -1,0 +1,157 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.36468505859375,
+              31.617135397511692
+            ],
+            [
+              25.02960205078125,
+              31.698961137007178
+            ],
+            [
+              23.994140624999996,
+              30.41078179084589
+            ],
+            [
+              24.19189453125,
+              27.994401411046148
+            ],
+            [
+              24.85107421875,
+              27.63487379134253
+            ],
+            [
+              25.7135009765625,
+              27.649472352561876
+            ],
+            [
+              27.75146484375,
+              28.14950321154457
+            ],
+            [
+              29.20166015625,
+              29.84064389983441
+            ],
+            [
+              29.245004653930664,
+              30.863847143657573
+            ],
+            [
+              28.3392333984375,
+              31.1634593819847
+            ],
+            [
+              26.93023681640625,
+              31.51416661041471
+            ],
+            [
+              26.22161865234375,
+              31.677927115318653
+            ],
+            [
+              25.794525146484375,
+              31.688444722033868
+            ],
+            [
+              25.36468505859375,
+              31.617135397511692
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#fbff00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Брасбург"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.90576171875,
+          31.44741029142872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff0000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "capital-city",
+        "name": "Альба"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.290039062499996,
+          30.44867367928756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#fbff00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Тралинск"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.906005859375,
+          30.173624550358536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#eeff00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Юкейн"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.927734374999996,
+          28.17855984939698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#e1ff00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "city",
+        "name": "Ильин-городок"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.66357421875,
+          29.334298230315675
+        ]
+      }
+    }
+  ]
+}
