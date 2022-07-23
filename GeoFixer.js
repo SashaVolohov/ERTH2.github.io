@@ -143,7 +143,21 @@ let grass = JSON.parse(
   fs.readFileSync("./movc/geo/nature/grass.geojson", "utf-8")
 ).features;
 
-let color = colors[country];
+let white_road = JSON.parse(
+  fs.readFileSync("./movc/geo/roads/white.geojson", "utf-8")
+).features;
+
+let orange_road = JSON.parse(
+  fs.readFileSync("./movc/geo/roads/orange.geojson", "utf-8")
+).features;
+
+let yellow_road = JSON.parse(
+  fs.readFileSync("./movc/geo/roads/yellow.geojson", "utf-8")
+).features;
+
+let road_sizes = JSON.parse(
+  fs.readFileSync("./movc/geo/roads/sizes.json", "utf-8")
+);
 
 geo.features = [
   ...water.map((val) => {
@@ -163,6 +177,21 @@ geo.features = [
     val.properties.fill = "#d1e6be";
     val.properties.stroke = "#d1e6be";
     return val;
+  }),
+  ...white_road.map((val) => {
+    let total = turf.buffer(val, road_sizes[val.properties.type]);
+    total.properties.type = "white_road";
+    return total;
+  }),
+  ...yellow_road.map((val) => {
+    let total = turf.buffer(val, road_sizes[val.properties.type]);
+    total.properties.type = "yellow_road";
+    return total;
+  }),
+  ...orange_road.map((val) => {
+    let total = turf.buffer(val, road_sizes[val.properties.type]);
+    total.properties.type = "orange_road";
+    return total;
   }),
   ...geo.features,
 ];
