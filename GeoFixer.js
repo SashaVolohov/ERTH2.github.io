@@ -128,8 +128,8 @@ for (let g = 0; g < geo.features.length; g++) {
 console.timeEnd("Difference");
 console.log();
 
-console.log("Add Nature");
-console.time("Add Nature");
+console.log("Add Map Components");
+console.time("Add Map Components");
 
 let sand = JSON.parse(
   fs.readFileSync("./movc/geo/nature/sand.geojson", "utf-8")
@@ -159,29 +159,7 @@ let road_sizes = JSON.parse(
   fs.readFileSync("./movc/geo/roads/sizes.json", "utf-8")
 );
 
-let roads = [
-  ...white_road.map((val) => {
-    let total = turf.buffer(val, road_sizes[val.properties.type]);
-    total.properties.type = "white_road";
-    return total;
-  }),
-  ...yellow_road.map((val) => {
-    let total = turf.buffer(val, road_sizes[val.properties.type]);
-    total.properties.type = "yellow_road";
-    return total;
-  }),
-  ...orange_road.map((val) => {
-    let total = turf.buffer(val, road_sizes[val.properties.type]);
-    total.properties.type = "orange_road";
-    return total;
-  }),
-];
-
-roads = turf.dissolve(turf.featureCollection(roads), {
-  propertyName: "type",
-});
-
-geo.features = [
+let map_comps = [
   ...water.map((val) => {
     val.properties.type = "water";
     val.properties.fill = "#75cff0";
@@ -200,10 +178,38 @@ geo.features = [
     val.properties.stroke = "#d1e6be";
     return val;
   }),
-  ...roads.features,
-  ...geo.features,
+  ...white_road.map((val) => {
+    let total = turf.buffer(
+      val,
+      road_sizes[val.properties.type] || road_sizes["middle"]
+    );
+    total.properties.type = "white_road";
+    return total;
+  }),
+  ...yellow_road.map((val) => {
+    let total = turf.buffer(
+      val,
+      road_sizes[val.properties.type] || road_sizes["middle"]
+    );
+    total.properties.type = "yellow_road";
+    return total;
+  }),
+  ...orange_road.map((val) => {
+    let total = turf.buffer(
+      val,
+      road_sizes[val.properties.type] || road_sizes["big"]
+    );
+    total.properties.type = "orange_road";
+    return total;
+  }),
 ];
-console.timeEnd("Add Nature");
+
+map_comps = turf.dissolve(turf.featureCollection(map_comps), {
+  propertyName: "type",
+});
+
+geo.features = [...map_comps.features, ...geo.features];
+console.timeEnd("Add Map Components");
 console.log();
 
 fs.writeFileSync("./movc/geo/geo.geojson", JSON.stringify(geo, null, "  "));
