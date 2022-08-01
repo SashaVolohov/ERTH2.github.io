@@ -1,10 +1,11 @@
 const startDate = new Date("2022-08-01 12:00");
+let timeElem = document.getElementById("time");
 
 setInterval(() => {
   let currentDate = new Date();
   let erth2Date = getErth2Date(startDate, currentDate);
 
-  document.getElementById("time").innerText = getStringDate(erth2Date);
+  timeElem.innerText = getStringDate(erth2Date);
 }, 1);
 
 function getStringDate(date) {
