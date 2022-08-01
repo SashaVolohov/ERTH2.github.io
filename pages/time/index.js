@@ -15,7 +15,7 @@ function getStringDate(date) {
   let hours = ("0" + date.getHours()).slice(-2);
   let minutes = ("0" + date.getMinutes()).slice(-2);
   let seconds = ("0" + date.getSeconds()).slice(-2);
-  let millis = ("00" + date.getMilliseconds()).slice(-4);
+  let millis = ("00" + date.getMilliseconds()).slice(-3);
 
   return `${day}.${month}.${year} ${hours}:${minutes}:${seconds}.${millis}`;
 }
