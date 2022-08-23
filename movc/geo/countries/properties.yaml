@@ -1,0 +1,147 @@
+---
+slingonia:
+  fill: "#09aa1c"
+  stroke: "#09aa1c"
+  tags:
+    - ТУС
+    - ООВГ
+strana-realnosti:
+  fill: "#6f99fb"
+  stroke: "#00298a"
+  tags:
+    - ТУС
+    - ОВН
+zerzija:
+  fill: "#002080"
+  stroke: "#002080"
+  tags:
+    - ТУС
+    - ООВГ
+Imperium-Dusiburgo:
+  fill: "#00c4c7"
+  stroke: "#555555"
+  tags:
+    - ТУС
+    - ООВГ
+drk:
+  fill: "#637a0f"
+  stroke: "#000000"
+  tags:
+    - ООВГ
+Anigara:
+  fill: "#ff0000"
+  stroke: "#000000"
+  tags:
+    - ООВГ
+Zeitland:
+  fill: "#3921ea"
+  stroke: "#4411a2"
+  tags:
+    - ТУС
+    - ООВГ
+Bogdanland:
+  fill: "#17b6de"
+  stroke: "#555555"
+  tags:
+    - ООВГ
+caucasian-democracy-rebublic:
+  fill: "#402896"
+  stroke: "#4559bf"
+  tags:
+    - ООВГ
+ifi:
+  fill: "#ff0000"
+  stroke: "#ff0000"
+  tags:
+    - ООВГ
+severniy-vevr:
+  fill: "#96a0ff"
+  stroke: "#96a0ff"
+  tags:
+    - ООВГ
+TNR:
+  fill: "#ffbb00"
+  stroke: "#ff0000"
+  tags:
+    - ООВГ
+Repubilc-Butagi:
+  fill: "#14ff30"
+  stroke: "#14ff30"
+  tags:
+    - ООВГ
+New-SNR:
+  fill: "#174304"
+  stroke: "#174304"
+  tags:
+    - ООВГ
+republic-of-olegostan:
+  fill: "#1932ae"
+  stroke: "#8f25ad"
+  tags:
+    - ООВГ
+Cheijou:
+  fill: "#ffa200"
+  stroke: "#ffb8b8"
+  tags:
+    - ООВГ
+manuly-republic:
+  fill: "#1512f8"
+  stroke: "#0be035"
+  tags:
+    - ООВГ
+republic-agarua:
+  fill: "#001cf0"
+  stroke: "#001cf0"
+  tags:
+    - ООВГ
+Myrlandia:
+  fill: "#d400ff"
+  stroke: "#fe58c1"
+  tags:
+    - ООВГ
+RES-VCT:
+  fill: "#85a2e5"
+  stroke: "#fbff00"
+  tags:
+    - ТУС
+    - ООВГ
+sqr-united:
+  fill: "#ff0000"
+  stroke: "#ff0000"
+  tags:
+    - ОВН
+shreksland:
+  fill: "#04ff00"
+  stroke: "#11ff00"
+  tags:
+    - ООВГ
+TKID:
+  fill: "#960101"
+  stroke: "#960101"
+  tags:
+    - ООВГ
+rusfi:
+  fill: "#ff0000"
+  stroke: "#000000"
+  tags:
+    - ООВГ
+HL:
+  fill: "#8ee48e"
+  stroke: "#65e67f"
+  tags:
+    - ООВГ
+republic-of-great-slavia:
+  fill: "#e24b4b"
+  stroke: "#e24b4b"
+  tags:
+    - ООВГ
+s-s-r:
+  fill: "#e10e0e"
+  stroke: "#0f97eb"
+  tags:
+    - ООВГ
+sedmorog-aliance:
+  fill: "#130070"
+  stroke: "#000000"
+  tags:
+    - ООВГ

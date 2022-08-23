@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/OOVC/MOVC-static#readme",
   "dependencies": {
-    "@turf/turf": "^6.5.0"
+    "@turf/turf": "^6.5.0",
+    "lodash": "^4.17.21",
+    "yaml": "^2.1.1"
   }
 }

@@ -1,31 +1,36 @@
 const turf = require("@turf/turf");
 const fs = require("fs");
+const YAML = require("yaml");
+const _ = require("lodash");
 
 let layers = JSON.parse(
   fs.readFileSync("./movc/geo/countries/layers.json", "utf-8")
 );
-let colors = JSON.parse(
-  fs.readFileSync("./movc/geo/countries/colors.json", "utf-8")
+let countries_properties = YAML.parse(
+  fs.readFileSync("./movc/geo/countries/properties.yaml", "utf-8")
+);
+let config = YAML.parse(
+  fs.readFileSync("./movc/geo/countries/config.yaml", "utf-8")
 );
 
 let features = [];
 
 for (country of layers) {
+  let properties = countries_properties[country];
+
   let co_features = JSON.parse(
     fs.readFileSync(
       `./movc/geo/countries/countries/${country}.geojson`,
       "utf-8"
     )
   ).features;
-  let color = colors[country];
 
   features = [
     ...features,
     ...co_features.map((val) => {
       if (val.geometry.type == "Polygon") {
+        val.properties = properties;
         val.properties.name = country;
-        val.properties.fill = color;
-        val.properties.stroke = color;
       }
 
       return val;
@@ -47,12 +52,14 @@ console.time("Dissolve");
 let nonPoly = geo.features.filter((v) => !v.geometry.type.endsWith("Polygon"));
 let polygons = geo.features.filter((v) => v.geometry.type.endsWith("Polygon"));
 let props = {};
+
 for (let feature of polygons) {
   if (props[feature.properties.name]) continue;
   props[feature.properties.name] = {
     stroke: feature.properties.stroke,
     fill: feature.properties.fill,
     type: feature.properties.type,
+    tags: feature.properties.tags,
   };
 }
 
@@ -66,6 +73,7 @@ dissolved.features = dissolved.features.map((v) => {
     fill: props[v.properties.name].fill,
     stroke: props[v.properties.name].stroke,
     type: props[v.properties.name].type,
+    tags: props[v.properties.name].tags,
   };
   return v;
 });
@@ -211,6 +219,35 @@ map_comps = turf.dissolve(turf.featureCollection(map_comps), {
 geo.features = [...map_comps.features, ...geo.features];
 console.timeEnd("Add Map Components");
 console.log();
+
+if (config?.tags) {
+  console.log("Filter countries by tags");
+  console.time("Filter countries by tag");
+
+  geo.features = geo.features.filter((val) => {
+    if (_.intersection(config.tags, val.properties.tags).length === 0)
+      return false;
+    // else if (config?.cities == false && val.geometry.type === "Point")
+    //   return false;
+    else return true;
+  });
+
+  console.timeEnd("Filter countries by tag");
+  console.log();
+}
+
+if (config?.reProperty) {
+  console.log("replace Properties");
+  console.time("replace Properties");
+
+  geo.features = geo.features.map((val) => {
+    val.properties = config.reProperty;
+    return val;
+  });
+
+  console.timeEnd("replace Properties");
+  console.log();
+}
 
 fs.writeFileSync("./movc/geo/geo.geojson", JSON.stringify(geo, null, "  "));
 
