@@ -151,3 +151,6 @@ colorado:
 Kingdom-of-Megros:
   fill: "#000000"
   stroke: "#000000"
+Talonsk:
+  fill: "#f55353"
+  stroke: "#f55555"
