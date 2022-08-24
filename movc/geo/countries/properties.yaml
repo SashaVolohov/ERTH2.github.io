@@ -188,3 +188,8 @@ Azerian-republic:
   stroke: "#7f00a0"
   tags:
     - ООВГ
+Benerstan:
+  fill: "#000000"
+  stroke: "#000000"
+  tags:
+    - ООВГ
