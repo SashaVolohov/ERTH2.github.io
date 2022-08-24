@@ -183,3 +183,8 @@ fastifia:
   stroke: "#000000"
   tags:
     - ООВГ
+Azerian-republic:
+  fill: "#7f00a0"
+  stroke: "#7f00a0"
+  tags:
+    - ООВГ
