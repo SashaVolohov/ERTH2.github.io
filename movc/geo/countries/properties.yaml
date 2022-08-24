@@ -168,3 +168,8 @@ karelia:
   stroke: "#ce2c2c"
   tags:
     - ООВГ
+incheon:
+  fill: "#ffdd00"
+  stroke: "#ffdd00"
+  tags:
+    - ООВГ
