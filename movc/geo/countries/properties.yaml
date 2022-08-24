@@ -145,3 +145,6 @@ sedmorog-aliance:
   stroke: "#000000"
   tags:
     - ООВГ
+colorado:
+  fill: "#1e00ff"
+  stroke: "#0400ff"

@@ -3,8 +3,8 @@ const fs = require("fs");
 const YAML = require("yaml");
 const _ = require("lodash");
 
-let layers = JSON.parse(
-  fs.readFileSync("./movc/geo/countries/layers.json", "utf-8")
+let layers = YAML.parse(
+  fs.readFileSync("./movc/geo/countries/layers.yaml", "utf-8")
 );
 let countries_properties = YAML.parse(
   fs.readFileSync("./movc/geo/countries/properties.yaml", "utf-8")
