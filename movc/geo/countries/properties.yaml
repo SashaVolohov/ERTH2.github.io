@@ -178,3 +178,8 @@ gromuni:
   stroke: "#fff700"
   tags:
     - ООВГ
+fastifia:
+  fill: "#9400d3"
+  stroke: "#000000"
+  tags:
+    - ООВГ
