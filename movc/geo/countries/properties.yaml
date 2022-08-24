@@ -193,3 +193,8 @@ Benerstan:
   stroke: "#000000"
   tags:
     - ООВГ
+faplass:
+  fill: "#006ec0"
+  stroke: "#006ec0"
+  tags:
+    - ООВГ
