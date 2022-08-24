@@ -151,9 +151,20 @@ colorado:
 Kingdom-of-Megros:
   fill: "#000000"
   stroke: "#000000"
+  tags:
+    - ООВГ
 Talonsk:
   fill: "#f55353"
   stroke: "#f55555"
+  tags:
+    - ООВГ
 lugovsk-republic:
   fill: "#80ff00"
   stroke: "#555555"
+  tags:
+    - ООВГ
+karelia:
+  fill: "#db1414"
+  stroke: "#ce2c2c"
+  tags:
+    - ООВГ
