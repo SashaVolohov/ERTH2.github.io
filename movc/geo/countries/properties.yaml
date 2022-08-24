@@ -154,3 +154,6 @@ Kingdom-of-Megros:
 Talonsk:
   fill: "#f55353"
   stroke: "#f55555"
+lugovsk-republic:
+  fill: "#80ff00"
+  stroke: "#555555"
