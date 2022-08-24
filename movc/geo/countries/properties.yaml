@@ -148,3 +148,6 @@ sedmorog-aliance:
 colorado:
   fill: "#1e00ff"
   stroke: "#0400ff"
+Kingdom-of-Megros:
+  fill: "#000000"
+  stroke: "#000000"
