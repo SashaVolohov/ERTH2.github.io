@@ -173,3 +173,8 @@ incheon:
   stroke: "#ffdd00"
   tags:
     - ООВГ
+gromuni:
+  fill: "#ff0000"
+  stroke: "#fff700"
+  tags:
+    - ООВГ
