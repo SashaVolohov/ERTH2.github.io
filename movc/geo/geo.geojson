@@ -11205,6 +11205,23 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
+        "name": "Белград",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.85694122314453,
+          22.231586270022696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "name": "Листопад",
         "type": "city"
       },
@@ -11603,7 +11620,7 @@
         "name": "Зюрз",
         "type": "capital-city",
         "img": "https://i.imgur.com/I1TpmGn.jpg",
-        "description": "Зюрз, Столица и красивейший город Техаса, до 8 сентября 2021 года именовался Эстанск. Зюзр стал вторым освобождённым городом во время освободительной революции.  "
+        "description": "Зюрз, Столица и красивейший город Техаса, до 8 сентября 2021 года именовался Эстанск. Зюрз стал вторым освобождённым городом во время освободительной революции.  "
       },
       "geometry": {
         "type": "Point",
@@ -12364,7 +12381,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "name": "Малый Комиград",
+        "name": "Бородин",
         "type": "city"
       },
       "geometry": {
