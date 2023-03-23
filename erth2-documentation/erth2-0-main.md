@@ -1,8 +1,8 @@
 # Что такое ERTH2?
 
 ERTH2 - альтернативная вселенная.
-Существует [ERTH2Wiki](https://erth2.fandom.com/ru/wiki/ERTH2_%D0%92%D0%B8%D0%BA%D0%B8)
-Так же есть [карта вселенной ERTH2](https://erth2.fandom.com/ru/wiki/Map:ERTH2)
+Существует [ERTH2Wiki](https://erth2.fandom.com/ru/wiki/ERTH2_%D0%92%D0%B8%D0%BA%D0%B8)  
+Так же есть [карта вселенной ERTH2](https://erth2.fandom.com/ru/wiki/Map:ERTH2)   
 Любые запросы к администрации ERTH2 происходят в [сообщениях группы вк ERTH2](https://vk.com/erth2)
 
 ## Зачем нужен сборник стандартов
