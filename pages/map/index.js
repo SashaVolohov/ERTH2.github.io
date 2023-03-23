@@ -136,46 +136,41 @@ window.onload = async () => {
     }
     function cpoint(feature, latlng) {
       if (feature.properties.type === "city" || !feature.properties.type) {
-        let myIcon = L.icon({
+        let myIcon = mapboxgl.icon({
           iconSize: [12, 12],
           iconUrl: "https://static.movc.xyz/movc/icons/city.png",
         });
-        return L.marker(latlng, { icon: myIcon }).bindTooltip(
-          feature.properties.name,
-          {
+        return mapboxgl
+          .marker(latlng, { icon: myIcon })
+          .bindTooltip(feature.properties.name, {
             permanent: false,
             direction: "top",
-          }
-        );
+          });
       } else if (feature.properties.type === "capital-city") {
-        let myIcon = L.icon({
+        let myIcon = mapboxgl.icon({
           iconSize: [16, 16],
           iconUrl: "https://static.movc.xyz/movc/icons/capital.png",
         });
-        return L.marker(latlng, { icon: myIcon }).bindTooltip(
-          feature.properties.name,
-          {
+        return mapboxgl
+          .marker(latlng, { icon: myIcon })
+          .bindTooltip(feature.properties.name, {
             permanent: false,
             direction: "top",
-          }
-        );
+          });
       } else if (feature.properties.type === "landmark") {
-        let myIcon = L.icon({
+        let myIcon = mapboxgl.icon({
           iconSize: [16, 16],
           iconUrl: "https://static.movc.xyz/movc/icons/landmark.png",
         });
-        return L.marker(latlng, { icon: myIcon }).bindTooltip(
-          feature.properties.name,
-          {
+        return mapboxgl
+          .marker(latlng, { icon: myIcon })
+          .bindTooltip(feature.properties.name, {
             permanent: false,
             direction: "top",
-          }
-        );
+          });
       }
-      return L.marker(latlng);
+      return mapboxgl.marker(latlng);
     }
-    document.getElementById("preloadermsg").innerHTML =
-      "Получаю: " + (geo[i].properties.name || geo[i].properties.Name);
     if (
       geo[i].properties.type === "city" ||
       geo[i].properties.type === "capital-city" ||
@@ -223,59 +218,28 @@ window.onload = async () => {
         }
       }
     }
-    if (geo[i].properties.type === "sand") {
-      L.geoJSON(geo[i], {
-        style: {
-          fillColor: "#efe9e1",
-          color: "#efe9e1",
-          weight: 0,
-          fillOpacity: 1,
-        },
-      }).addTo(movc);
-    } else if (geo[i].properties.type === "grass") {
-      L.geoJSON(geo[i], {
-        style: {
-          fillColor: "#d1e6be",
-          color: "#d1e6be",
-          weight: 0,
-          fillOpacity: 1,
-        },
-      }).addTo(movc);
-    } else if (geo[i].properties.type === "water") {
-      L.geoJSON(geo[i], {
-        style: {
-          fillColor: "#75cff0",
-          color: "#75cff0",
-          weight: 0,
-          fillOpacity: 1,
-        },
-      }).addTo(movc);
-    } else if (geo[i].properties.type === "occupation") {
-      L.geoJSON(geo[i], {
-        onEachFeature: onEachFeature,
-        style: {
-          fillColor: geo[i].properties.fill,
-          color: geo[i].properties.stroke,
-          weight: 0.8,
-          fillOpacity: 0.4,
-        },
-      }).addTo(movc);
-    } else {
-      L.geoJSON(geo[i], {
-        onEachFeature: onEachFeature,
-        pointToLayer: cpoint,
-        style: {
-          fillColor: geo[i].properties.fill,
-          color: geo[i].properties.stroke,
-          weight: 5,
-          opacity: 0.65,
-        },
-      }).addTo(movc);
-    }
-  }
 
-  setTimeout(() => {
-    gsap.to("#map", { duration: 2, opacity: 1 });
-    gsap.to("#preloader", { duration: 2, opacity: 0, scale: 0.2 });
-  }, 1000);
+    let style = {};
+
+    if (geo[i].properties.type === "sand") {
+      style = { "fill-color": "#efe9e1", "fill-opacity": 1 };
+    } else if (geo[i].properties.type === "grass") {
+      style = { "fill-color": "#d1e6be", "fill-opacity": 1 };
+    } else if (geo[i].properties.type === "water") {
+      style = { "fill-color": "#75cff0", "fill-opacity": 1 };
+    } else {
+      style = { "fill-color": geo[i].properties.fill, "fill-opacity": 0.4 };
+    }
+
+    movc.addSource(`${i}`, {
+      type: "geojson",
+      data: geo[i],
+    });
+    movc.addLayer({
+      id: `${i}`,
+      type: "fill",
+      source: `${i}`,
+      paint: style,
+    });
+  }
 };
