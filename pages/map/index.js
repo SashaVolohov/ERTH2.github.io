@@ -56,72 +56,36 @@ window.onload = async () => {
     countries[coarray[i].idc] = coarray[i];
   geo = (await geo.json()).features;
   for (let i = 0; i < geo.length; i++) {
-    function onEachFeature(feature, layer) {
+    function onEachFeature(feature, coordinates) {
+      console.log(coordinates);
       if (feature.geometry.type === "Polygon")
-        if (feature.properties.type === "occupation") {
-          layer.bindPopup(`
-                <div class="row" style="padding: 5px;">
-                        <div class="col-md-12 col-sm-12 text-center bordert" style="color:white;background-color:red;padding: 0px;">
-                                Зона оккупации
-                        </div>
-                </div>
+        new mapboxgl.Popup()
+          .setLngLat(coordinates)
+          .setHTML(
+            `
                 <div class="row" style="padding: 5px;">
                         <div class="col-md-12 col-sm-12" style="padding: 0px;">
-                                <img class="w-100" src="${
-                                  country.img
-                                }" style="border-radius: 20px 20px 0px 0px;">
+                                <img class="w-100" src="${country.img}" style="border-radius: 20px 20px 0px 0px;">
                         </div>
                         <div class="col-md-12 col-sm-12 text-center" style="border-radius: 0px 0px 20px 20px; background-color: rgb(231, 231, 231)">
                                 <h5 class="card-title">
                                         ${country.name}
-                                        <a href="/erth2#marks">
-                                ${
-                                  country.verified === true
-                                    ? `<svg id="completely" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                        <title>Соответствует стандартам ERTH2</title>
-                                </svg>`
-                                    : ""
-                                }
                                 </a>
                                 </h5>
-                                <a href="countries/${
-                                  country.idc
-                                }" class="btn btn-primary bordert mb-2" style="color:white;">Подробнее</a>
+                                <a href="${country.about}" class="btn btn-primary mb-2" style="color:white;border-radius: 20px;">Подробнее</a>
                         </div>
-                </div>`);
-        } else {
-          layer.bindPopup(`
-                <div class="row" style="padding: 5px;">
-                        <div class="col-md-12 col-sm-12" style="padding: 0px;">
-                                <img class="w-100" src="${
-                                  country.img
-                                }" style="border-radius: 20px 20px 0px 0px;">
-                        </div>
-                        <div class="col-md-12 col-sm-12 text-center" style="border-radius: 0px 0px 20px 20px; background-color: rgb(231, 231, 231)">
-                                <h5 class="card-title">
-                                        ${country.name}
-                                        <a href="/erth2#marks">
-                                ${
-                                  country.verified === true
-                                    ? `<svg id="completely" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                        <title>Соответствует стандартам ERTH2</title>
-                                </svg>`
-                                    : ""
-                                }
-                                </a>
-                                </h5>
-                                <a href="countries/${
-                                  country.idc
-                                }" class="btn btn-primary bordert mb-2" style="color:white;">Подробнее</a>
-                        </div>
-                </div>`);
-        }
+                </div>`
+          )
+          .addTo(movc);
       else if (feature.geometry.type === "Point") {
         if (
           feature.properties.type === "city" ||
           feature.properties.type === "capital-city"
         ) {
-          layer.bindPopup(`
+          new mapboxgl.Popup()
+            .setLngLat(coordinates)
+            .setHTML(
+              `
                 <h5 class="text-center">
                         ${feature.properties.name}
                 </h5>
@@ -130,7 +94,9 @@ window.onload = async () => {
                     ? feature.properties.amount
                     : "Не указано"
                 }
-        `);
+        `
+            )
+            .addTo(movc);
         }
       }
     }
@@ -240,6 +206,16 @@ window.onload = async () => {
       type: "fill",
       source: `${i}`,
       paint: style,
+    });
+
+    movc.on("click", `${i}`, (e) => {
+      const coordinates = e.lngLat;
+
+      while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+      }
+
+      onEachFeature(e.features[0], coordinates);
     });
   }
 };
