@@ -49,9 +49,7 @@ window.onload = async () => {
   loginfo("Получаю карту");
   let geo = await fetch("https://erth2.github.io/movc/geo/geo.geojson"); //await fetch("/geo.geojson");
   loginfo("Получаю страны MOVC");
-  let coarray = await fetch(
-    "https://erth2.github.io/movc/geo/countries.geojson"
-  );
+  let coarray = await fetch("https://erth2.github.io/movc/geo/countries.json");
   coarray = await coarray.json();
   let countries = {};
   for (let i = 0; i < coarray.length; i++)
