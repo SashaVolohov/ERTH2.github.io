@@ -83,15 +83,61 @@ window.onload = async () => {
     let countries = {};
     for (let i = 0; i < coarray.length; i++)
       countries[coarray[i].idc] = coarray[i];
-    geo = (await geo.json()).features;
-    for (let i = 0; i < geo.length; i++) {
-      function onEachFeature(feature, coordinates) {
-        if (feature.geometry.type === "Point") {
-          lasticocords = coordinates;
-          return new mapboxgl.Popup()
-            .setLngLat(coordinates)
-            .setHTML(
-              `
+
+    let geojson = await geo.json();
+    // geo = (await geo.json()).features;
+    movc.addSource("map-data", {
+      type: "geojson",
+      data: geojson,
+    });
+
+    movc.addLayer({
+      id: "map-data-fill",
+      type: "fill",
+      source: "map-data",
+      paint: {
+        "fill-color": ["coalesce", ["get", "fill"]],
+        "fill-opacity": ["coalesce", ["get", "fill-opacity"], 0.3],
+      },
+    });
+
+    movc.addLayer({
+      id: "map-data-symbol",
+      type: "symbol",
+      source: "map-data",
+      layout: {
+        "icon-image": ["coalesce", ["get", "type"], "city"],
+        "icon-size": 0.15,
+      },
+      minzoom: 3,
+      maxzoom: 9,
+    });
+
+    movc.on("click", "map-data-fill", (e) => {
+      const coordinates = e.lngLat;
+      while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+      }
+
+      onEachFeature(e.features[0], coordinates);
+    });
+
+    movc.on("click", "map-data-symbol", (e) => {
+      const coordinates = e.lngLat;
+      while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+      }
+
+      onEachFeature(e.features[0], coordinates);
+    });
+
+    function onEachFeature(feature, coordinates) {
+      if (feature.geometry.type === "Point") {
+        lasticocords = coordinates;
+        return new mapboxgl.Popup()
+          .setLngLat(coordinates)
+          .setHTML(
+            `
                 ${
                   feature?.properties?.amount
                     ? `<div class="row" style="padding: 5px; color: "white"; background-color: rgb(162, 162, 162);">Население - ${feature.properties.amount} чел.</div>`
@@ -115,16 +161,19 @@ window.onload = async () => {
                   </div>
                 </div>
                 `
-            )
-            .addTo(movc);
-        } else if (feature.geometry.type === "Polygon") {
-          setTimeout(() => {
-            if (country.name !== "gl js mapbox is awesome")
-              if (lasticocords !== coordinates)
-                return new mapboxgl.Popup()
-                  .setLngLat(coordinates)
-                  .setHTML(
-                    `
+          )
+          .addTo(movc);
+      } else if (feature.geometry.type === "Polygon") {
+        let country = countries[feature.properties.name] || {
+          name: "gl js mapbox is awesome",
+        };
+        setTimeout(() => {
+          if (country.name !== "gl js mapbox is awesome")
+            if (lasticocords !== coordinates)
+              return new mapboxgl.Popup()
+                .setLngLat(coordinates)
+                .setHTML(
+                  `
                     <div class="row" style="padding: 5px;">
                             <div class="col-md-12 col-sm-12" style="padding: 0px;">
                                     <img class="w-100" src="${country.img}" style="border-radius: 20px 20px 0px 0px;">
@@ -137,126 +186,10 @@ window.onload = async () => {
                                     <a href="${country.about}" class="btn btn-primary mb-2" style="color:white;border-radius: 20px;">Подробнее</a>
                             </div>
                     </div>`
-                  )
-                  .addTo(movc);
-          }, 1);
-        }
+                )
+                .addTo(movc);
+        }, 1);
       }
-      if (geo[i].geometry.type == "Point") {
-        logmarker(
-          "Получаю маркер:",
-          geo[i].properties.name || geo[i].properties.Name
-        );
-      } else if (
-        geo[i].properties.type === "sand" ||
-        geo[i].properties.type === "grass" ||
-        geo[i].properties.type === "water"
-      ) {
-        logland(
-          "Получаю кусок земли:",
-          geo[i].properties.name || geo[i].properties.Name
-        );
-      } else if (geo[i].properties.type === "occupation") {
-        logoccupation(
-          "Получаю зону оккупации:",
-          geo[i].properties.name || geo[i].properties.Name
-        );
-      } else {
-        loginfo(
-          "Получаю страну:",
-          geo[i].properties.name || geo[i].properties.Name
-        );
-      }
-      let country = countries[geo[i].properties.name] || {
-        name: "gl js mapbox is awesome",
-      };
-      if (geo[i].geometry.type === "Polygon") {
-        if (!country || !geo[i].properties.name) {
-          if (
-            ["sand", "grass", "water", "occupation"].indexOf(
-              geo[i].properties.type
-            ) === -1
-          ) {
-            console.error(
-              "Ошибка в получении: " +
-                (geo[i].properties.name || geo[i].properties.Name)
-            );
-            continue;
-          }
-        }
-      }
-
-      let paint = {};
-      let type = "";
-      let layout = {};
-
-      movc.addSource(`${i}`, {
-        type: "geojson",
-        data: geo[i],
-      });
-
-      if (
-        geo[i].geometry.type === "Polygon" ||
-        geo[i].geometry.type === "MultiPolygon"
-      ) {
-        type = "fill";
-        if (geo[i].properties.type === "sand") {
-          paint = { "fill-color": "#efe9e1", "fill-opacity": 1 };
-        } else if (geo[i].properties.type === "grass") {
-          paint = { "fill-color": "#d1e6be", "fill-opacity": 1 };
-        } else if (geo[i].properties.type === "water") {
-          paint = { "fill-color": "#75cff0", "fill-opacity": 1 };
-        } else {
-          paint = { "fill-color": geo[i].properties.fill, "fill-opacity": 0.4 };
-        }
-
-        movc.addLayer({
-          id: `${i}`,
-          type,
-          source: `${i}`,
-          paint,
-        });
-      } else if (geo[i].geometry.type === "Point") {
-        type = "symbol";
-        let psize = 0.15;
-
-        if (geo[i].properties.type === "landmark") {
-          geo[i].properties.type = "landmark-0";
-          psize = 0.015;
-        }
-
-        layout = {
-          "icon-image": `${geo[i].properties.type || "city"}`,
-          "icon-size": psize,
-        };
-
-        movc.addLayer({
-          id: `${i}`,
-          type,
-          source: `${i}`,
-          layout,
-          minzoom: 4,
-          maxzoom: 9,
-        });
-      }
-
-      movc.on("mouseenter", `${i}`, () => {
-        movc.getCanvas().style.cursor = "pointer";
-      });
-
-      movc.on("mouseleave", `${i}`, () => {
-        movc.getCanvas().style.cursor = "";
-      });
-
-      movc.on("click", `${i}`, (e) => {
-        const coordinates = e.lngLat;
-
-        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-          coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-        }
-
-        onEachFeature(e.features[0], coordinates);
-      });
     }
   });
 };

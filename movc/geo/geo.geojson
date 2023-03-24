@@ -4,6 +4,8 @@
     {
       "type": "Feature",
       "properties": {
+        "fill": "#75cff0",
+        "stroke": "#75cff0",
         "type": "water"
       },
       "geometry": {
@@ -217,7 +219,9 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "sand"
+        "fill": "#75cff0",
+        "stroke": "#75cff0",
+        "type": "water"
       },
       "geometry": {
         "type": "Polygon",
@@ -1030,7 +1034,9 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "sand"
+        "fill": "#75cff0",
+        "stroke": "#75cff0",
+        "type": "water"
       },
       "geometry": {
         "type": "Polygon",
@@ -1139,7 +1145,9 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "sand"
+        "fill": "#75cff0",
+        "stroke": "#75cff0",
+        "type": "water"
       },
       "geometry": {
         "type": "Polygon",
@@ -1306,7 +1314,9 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "sand"
+        "fill": "#75cff0",
+        "stroke": "#75cff0",
+        "type": "water"
       },
       "geometry": {
         "type": "Polygon",
@@ -1427,7 +1437,9 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "sand"
+        "fill": "#75cff0",
+        "stroke": "#75cff0",
+        "type": "water"
       },
       "geometry": {
         "type": "Polygon",
@@ -1532,7 +1544,9 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "sand"
+        "fill": "#75cff0",
+        "stroke": "#75cff0",
+        "type": "water"
       },
       "geometry": {
         "type": "Polygon",
@@ -1653,7 +1667,9 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "grass"
+        "fill": "#75cff0",
+        "stroke": "#75cff0",
+        "type": "water"
       },
       "geometry": {
         "type": "Polygon",
@@ -2274,7 +2290,9 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "white_road"
+        "fill": "#75cff0",
+        "stroke": "#75cff0",
+        "type": "water"
       },
       "geometry": {
         "type": "Polygon",
@@ -4807,7 +4825,9 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "white_road"
+        "fill": "#75cff0",
+        "stroke": "#75cff0",
+        "type": "water"
       },
       "geometry": {
         "type": "Polygon",
@@ -6096,7 +6116,9 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "white_road"
+        "fill": "#75cff0",
+        "stroke": "#75cff0",
+        "type": "water"
       },
       "geometry": {
         "type": "Polygon",
@@ -7191,7 +7213,9 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "white_road"
+        "fill": "#75cff0",
+        "stroke": "#75cff0",
+        "type": "water"
       },
       "geometry": {
         "type": "Polygon",
@@ -7728,7 +7752,9 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "white_road"
+        "fill": "#75cff0",
+        "stroke": "#75cff0",
+        "type": "water"
       },
       "geometry": {
         "type": "Polygon",
@@ -8795,7 +8821,9 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "white_road"
+        "fill": "#75cff0",
+        "stroke": "#75cff0",
+        "type": "water"
       },
       "geometry": {
         "type": "Polygon",
@@ -9000,7 +9028,9 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "white_road"
+        "fill": "#75cff0",
+        "stroke": "#75cff0",
+        "type": "water"
       },
       "geometry": {
         "type": "Polygon",
@@ -9737,7 +9767,9 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "yellow_road"
+        "fill": "#75cff0",
+        "stroke": "#75cff0",
+        "type": "water"
       },
       "geometry": {
         "type": "Polygon",
@@ -74147,7 +74179,7 @@
       "properties": {
         "marker-symbol": "park",
         "name": "Национальный Парк - Алтай-Таван-Богд",
-        "type": "landmark",
+        "type": "landmark-0",
         "description": "Хребты служат надёжным убежищем для горного барана — аргали. Кроме того, на охраняемой территории встречаются такие виды животных, как снежный барс, благородный олень, лоси, горные козлы, евроазиатская выдра, каменная куница, улары, беркуты.",
         "img": "https://i.imgur.com/5T6Gmhm.jpg"
       },
@@ -74236,7 +74268,7 @@
       "properties": {
         "marker-symbol": "park",
         "name": "Национальный Парк - Горхи-Тэрэлж ",
-        "type": "landmark"
+        "type": "landmark-0"
       },
       "geometry": {
         "type": "Point",
@@ -74683,7 +74715,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "name": "Памятник Джорджу I",
-        "type": "landmark"
+        "type": "landmark-0"
       },
       "geometry": {
         "type": "Point",
@@ -75076,7 +75108,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "name": "Национальный Парк ",
-        "type": "landmark"
+        "type": "landmark-0"
       },
       "geometry": {
         "type": "Point",
@@ -75110,7 +75142,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "name": "Главный офис газеты \"Мир Сегодня\"",
-        "type": "landmark"
+        "type": "landmark-0"
       },
       "geometry": {
         "type": "Point",
@@ -75163,7 +75195,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "name": "Памятник Президенту ДРК в честь независимости Южного Снегограда",
-        "type": "landmark"
+        "type": "landmark-0"
       },
       "geometry": {
         "type": "Point",
@@ -75337,7 +75369,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "name": "Памятник в честь независимости Техаса",
-        "type": "landmark"
+        "type": "landmark-0"
       },
       "geometry": {
         "type": "Point",
@@ -75893,7 +75925,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "name": "Памятник Джорджу I",
-        "type": "landmark"
+        "type": "landmark-0"
       },
       "geometry": {
         "type": "Point",
@@ -76252,7 +76284,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "name": "Главный офис газеты \"Мир Сегодня\"",
-        "type": "landmark"
+        "type": "landmark-0"
       },
       "geometry": {
         "type": "Point",
@@ -76305,7 +76337,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "name": "Памятник Президенту ДРК в честь независимости Южного Снегограда",
-        "type": "landmark"
+        "type": "landmark-0"
       },
       "geometry": {
         "type": "Point",
@@ -76445,7 +76477,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "name": "Памятник в честь независимости Техаса",
-        "type": "landmark"
+        "type": "landmark-0"
       },
       "geometry": {
         "type": "Point",
@@ -76795,7 +76827,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "type": "landmark",
+        "type": "landmark-0",
         "name": "Остров-град Бутылидиум",
         "description": "Одновременно и остров и город, именно так этот искусственный остров хотели создать. Название бутылидум исходит из формы острова, которая похожа на бутылку"
       },
@@ -76813,7 +76845,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "type": "landmark",
+        "type": "landmark-0",
         "name": "Дипломатический остров",
         "description": "Остров построенный для дипломатии, здесь находятся посольства стран, проводятся дипломатические встречи. Так-же по периметру острова построен адронный коллайдер.."
       },
@@ -76832,7 +76864,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "name": "Дипломатический аэропорт Слингонии",
-        "type": "landmark"
+        "type": "landmark-0"
       },
       "geometry": {
         "type": "Point",
@@ -76848,7 +76880,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "type": "landmark",
+        "type": "landmark-0",
         "name": "Адронный Коллайдер (САЛЯИ)"
       },
       "geometry": {

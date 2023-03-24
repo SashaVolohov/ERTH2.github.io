@@ -50,6 +50,15 @@ console.time("Total");
 console.log("Dissolve");
 console.time("Dissolve");
 let nonPoly = geo.features.filter((v) => !v.geometry.type.endsWith("Polygon"));
+
+nonPoly = nonPoly.map((v) => {
+  if (v.properties.type === "landmark") {
+    v.properties.type = "landmark-0";
+  }
+
+  return v;
+});
+
 let polygons = geo.features.filter((v) => v.geometry.type.endsWith("Polygon"));
 let props = {};
 
@@ -212,8 +221,31 @@ let map_comps = [
   }),
 ];
 
+props = {};
+
+for (let feature of map_comps) {
+  if (props[feature.properties.name]) continue;
+  props[feature.properties.name] = {
+    stroke: feature.properties.stroke,
+    fill: feature.properties.fill,
+    type: feature.properties.type,
+    tags: feature.properties.tags,
+  };
+}
+
 map_comps = turf.dissolve(turf.featureCollection(map_comps), {
   propertyName: "type",
+});
+
+map_comps.features = map_comps.features.map((v) => {
+  v.properties = {
+    name: v.properties.name,
+    fill: props[v.properties.name].fill,
+    stroke: props[v.properties.name].stroke,
+    type: props[v.properties.name].type,
+    tags: props[v.properties.name].tags,
+  };
+  return v;
 });
 
 geo.features = [...map_comps.features, ...geo.features];
