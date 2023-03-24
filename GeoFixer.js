@@ -267,7 +267,7 @@ map_comps.features = map_comps.features.map((v) => {
   return v;
 });
 
-geo.features = [...map_comps.features, ...geo.features];
+geo.features = [...geo.features, ...map_comps.features];
 console.timeEnd("Add Map Components");
 console.log();
 
