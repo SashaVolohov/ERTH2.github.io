@@ -14,16 +14,14 @@
 
 .about {
   text-decoration: none;
-  padding: 5px;
+  padding: 5px; 
   transition: .25s;
+  margin-top: 5px;
 }
 
-.about:hover {
-  transition: .25s;
-  background: rgba(48, 48, 48, 0.3) !important;
-}
 
-.glass, .about {
+
+.glass, .about, .menu {
   background: rgba(120, 120, 120, 0.411) !important;
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important;
   backdrop-filter: blur( 20px ) !important;
@@ -33,7 +31,23 @@
   color: white !important;
 }
 
+.about:hover {
+  transition: .25s;
+  background: rgba(48, 48, 48, 0.3) !important;
+}
+
 .about-img{
   border-radius: 20px; 
   margin-bottom: 5px;
+}
+
+.menu {
+  position: absolute;
+  z-index: 1000;
+  top: 25px;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 10px;
 }

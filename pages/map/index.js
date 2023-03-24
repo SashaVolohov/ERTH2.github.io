@@ -151,12 +151,17 @@ window.onload = async () => {
                         : ""
                     }
                   </div>
+
+                  <div class="col-md-12 col-sm-12 text-center glass mb-2">
+                    <h5 className="card-title">${feature.properties.name}
+                      ${
+                        feature.properties.name_ru
+                          ? ` - ${feature.properties.name_ru}`
+                          : ""
+                      }
+                    </h5>
+                  </div>
                   <div class="col-md-12 col-sm-12 text-center glass">
-                    <h5 className="card-title">${feature.properties.name}${
-              feature.properties.name_ru
-                ? ` - ${feature.properties.name_ru}`
-                : ""
-            }</h5>
                     ${
                       feature.properties.description
                         ? `<div>${feature.properties.description}</div>`
@@ -179,20 +184,22 @@ window.onload = async () => {
                 .setHTML(
                   `
                     <div class="row" style="padding: 5px;">
-                            <div class="col-md-12 col-sm-12" style="padding: 0px;">
+                            <div class="col-12 col-sm-12" style="padding: 0px;">
                                     <img class="w-100 about-img" src="${
                                       country.img
                                     }">
                             </div>
-                            <div class="col-md-12 col-sm-12 text-center glass" style="border-radius: 0px 0px 20px 20px; background-color: rgb(231, 231, 231); padding: 10px">
+                            <div class="col-12 text-center glass" style="border-radius: 0px 0px 20px 20px; padding: 10px">
                                     <h5>
                                             ${country.name}
                                     </h5>
-                                    ${
-                                      country.about
-                                        ? `<a href="${country.about}" class="about mb-2">Подробнее</a>`
-                                        : ""
-                                    }
+                            </div>
+                            <div class="col-12 text-center mt-2">
+                              ${
+                                country.about
+                                  ? `<a href="${country.about}" class="about">Подробнее</a>`
+                                  : ""
+                              }
                             </div>
                     </div>`
                 )
