@@ -74,7 +74,7 @@ window.onload = async () => {
     let lasticocords;
 
     loginfo("Получаю карту");
-    let geo = await fetch("https://erth2.github.io/movc/geo/geo.geojson"); //await fetch("/geo.geojson");
+    let geo = await fetch("https://erth2.github.io/movc/geo/geo.geojson");
     loginfo("Получаю страны MOVC");
     let coarray = await fetch(
       "https://erth2.github.io/movc/geo/countries.json"
@@ -85,7 +85,7 @@ window.onload = async () => {
       countries[coarray[i].idc] = coarray[i];
 
     let geojson = await geo.json();
-    // geo = (await geo.json()).features;
+
     movc.addSource("map-data", {
       type: "geojson",
       data: geojson,
@@ -97,7 +97,7 @@ window.onload = async () => {
       source: "map-data",
       paint: {
         "fill-color": ["get", "fill"],
-        "fill-opacity": ["get", "fill-opacity"],
+        "fill-opacity": ["coalesce", ["get", "fill-opacity"], 0.3],
       },
     });
 
