@@ -104,26 +104,35 @@ window.onload = async () => {
             )
             .addTo(movc);
         else if (feature.geometry.type === "Point") {
-          if (
-            feature.properties.type === "city" ||
-            feature.properties.type === "capital-city"
-          ) {
-            new mapboxgl.Popup()
-              .setLngLat(coordinates)
-              .setHTML(
-                `
-                <h5 class="text-center">
-                        ${feature.properties.name}
-                </h5>
-                Население:${
+          new mapboxgl.Popup()
+            .setLngLat(coordinates)
+            .setHTML(
+              `
+                ${
                   feature?.properties?.amount
-                    ? feature.properties.amount
-                    : "Не указано"
+                    ? `<div class="row" style="padding: 5px; color: "white"; background-color: rgb(162, 162, 162);">Население - ${feature.properties.amount} чел.</div>`
+                    : ""
                 }
-        `
-              )
-              .addTo(movc);
-          }
+                <div class="row" style="padding: 5px;">
+                  <div class="col-md-12 col-sm-12" style="padding: 0px;">
+                    ${
+                      feature?.properties?.img
+                        ? `<img class="w-100" src="${feature.properties.img}" style="border-radius: 20px; margin-bottom: 5px" alt="${feature.properties.name} img">`
+                        : ""
+                    }
+                  </div>
+                  <div class="col-md-12 col-sm-12 text-center" style="border-radius: 20px; background-color: rgb(231, 231, 231)">
+                    <h5 className="card-title">${feature.properties.name}</h5>
+                    ${
+                      feature.properties.description
+                        ? `<div>${feature.properties.description}</div>`
+                        : ""
+                    }
+                  </div>
+                </div>
+                `
+            )
+            .addTo(movc);
         }
       }
       if (geo[i].geometry.type == "Point") {
