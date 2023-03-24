@@ -51,7 +51,7 @@ window.onload = async () => {
       "https://erth2.github.io/movc/icons/city.png",
       (error, image) => {
         if (error) throw error;
-        movc.addImage(`city`, image);
+        movc.addImage("city", image);
       }
     );
 
@@ -59,7 +59,8 @@ window.onload = async () => {
       "https://erth2.github.io/movc/icons/capital.png",
       (error, image) => {
         if (error) throw error;
-        movc.addImage(`capital-city`, image);
+        movc.addImage("capital-city", image);
+        movc.addImage("capital", image);
       }
     );
 
@@ -67,7 +68,7 @@ window.onload = async () => {
       "https://erth2.github.io/movc/icons/landmark.png",
       (error, image) => {
         if (error) throw error;
-        movc.addImage(`landmark-0`, image);
+        movc.addImage("landmark-0", image);
       }
     );
 
@@ -146,11 +147,11 @@ window.onload = async () => {
                   <div class="col-md-12 col-sm-12" style="padding: 0px;">
                     ${
                       feature?.properties?.img
-                        ? `<img class="w-100" src="${feature.properties.img}" style="border-radius: 20px; margin-bottom: 5px" alt="${feature.properties.name} img">`
+                        ? `<img class="w-100 about-img" src="${feature.properties.img}" alt="${feature.properties.name} img">`
                         : ""
                     }
                   </div>
-                  <div class="col-md-12 col-sm-12 text-center" style="border-radius: 20px; background-color: rgb(231, 231, 231)">
+                  <div class="col-md-12 col-sm-12 text-center glass">
                     <h5 className="card-title">${feature.properties.name}${
               feature.properties.name_ru
                 ? ` - ${feature.properties.name_ru}`
@@ -179,13 +180,19 @@ window.onload = async () => {
                   `
                     <div class="row" style="padding: 5px;">
                             <div class="col-md-12 col-sm-12" style="padding: 0px;">
-                                    <img class="w-100" src="${country.img}" style="border-radius: 20px 20px 0px 0px;">
+                                    <img class="w-100 about-img" src="${
+                                      country.img
+                                    }">
                             </div>
-                            <div class="col-md-12 col-sm-12 text-center" style="border-radius: 0px 0px 20px 20px; background-color: rgb(231, 231, 231)">
+                            <div class="col-md-12 col-sm-12 text-center glass" style="border-radius: 0px 0px 20px 20px; background-color: rgb(231, 231, 231); padding: 10px">
                                     <h5>
                                             ${country.name}
                                     </h5>
-                                    <a href="${country.about}" class="btn btn-primary mb-2" style="color:white;border-radius: 20px;">Подробнее</a>
+                                    ${
+                                      country.about
+                                        ? `<a href="${country.about}" class="about mb-2">Подробнее</a>`
+                                        : ""
+                                    }
                             </div>
                     </div>`
                 )
