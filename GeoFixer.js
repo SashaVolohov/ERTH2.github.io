@@ -248,6 +248,7 @@ for (let feature of map_comps) {
     fill: feature.properties.fill,
     type: feature.properties.type,
     tags: feature.properties.tags,
+    "fill-opacity": feature.properties["fill-opacity"],
   };
 }
 
