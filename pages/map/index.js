@@ -67,7 +67,7 @@ window.onload = async () => {
       "https://erth2.github.io/movc/icons/landmark.png",
       (error, image) => {
         if (error) throw error;
-        movc.addImage(`landmark-0`, image);
+        movc.addImage(`landmark`, image);
       }
     );
     loginfo("Получаю карту");
