@@ -67,9 +67,12 @@ window.onload = async () => {
       "https://erth2.github.io/movc/icons/landmark.png",
       (error, image) => {
         if (error) throw error;
-        movc.addImage(`landmark`, image);
+        movc.addImage(`landmark-0`, image);
       }
     );
+
+    let lasticocords;
+
     loginfo("Получаю карту");
     let geo = await fetch("https://erth2.github.io/movc/geo/geo.geojson"); //await fetch("/geo.geojson");
     loginfo("Получаю страны MOVC");
@@ -83,28 +86,9 @@ window.onload = async () => {
     geo = (await geo.json()).features;
     for (let i = 0; i < geo.length; i++) {
       function onEachFeature(feature, coordinates) {
-        console.log(coordinates);
-        if (feature.geometry.type === "Polygon")
-          new mapboxgl.Popup()
-            .setLngLat(coordinates)
-            .setHTML(
-              `
-                <div class="row" style="padding: 5px;">
-                        <div class="col-md-12 col-sm-12" style="padding: 0px;">
-                                <img class="w-100" src="${country.img}" style="border-radius: 20px 20px 0px 0px;">
-                        </div>
-                        <div class="col-md-12 col-sm-12 text-center" style="border-radius: 0px 0px 20px 20px; background-color: rgb(231, 231, 231)">
-                                <h5 class="card-title">
-                                        ${country.name}
-                                </a>
-                                </h5>
-                                <a href="${country.about}" class="btn btn-primary mb-2" style="color:white;border-radius: 20px;">Подробнее</a>
-                        </div>
-                </div>`
-            )
-            .addTo(movc);
-        else if (feature.geometry.type === "Point") {
-          new mapboxgl.Popup()
+        if (feature.geometry.type === "Point") {
+          lasticocords = coordinates;
+          return new mapboxgl.Popup()
             .setLngLat(coordinates)
             .setHTML(
               `
@@ -133,6 +117,29 @@ window.onload = async () => {
                 `
             )
             .addTo(movc);
+        } else if (feature.geometry.type === "Polygon") {
+          setTimeout(() => {
+            if (country.name !== "glsl mapbox is awesome")
+              if (lasticocords !== coordinates)
+                return new mapboxgl.Popup()
+                  .setLngLat(coordinates)
+                  .setHTML(
+                    `
+                    <div class="row" style="padding: 5px;">
+                            <div class="col-md-12 col-sm-12" style="padding: 0px;">
+                                    <img class="w-100" src="${country.img}" style="border-radius: 20px 20px 0px 0px;">
+                            </div>
+                            <div class="col-md-12 col-sm-12 text-center" style="border-radius: 0px 0px 20px 20px; background-color: rgb(231, 231, 231)">
+                                    <h5 class="card-title">
+                                            ${country.name}
+                                    </a>
+                                    </h5>
+                                    <a href="${country.about}" class="btn btn-primary mb-2" style="color:white;border-radius: 20px;">Подробнее</a>
+                            </div>
+                    </div>`
+                  )
+                  .addTo(movc);
+          }, 1);
         }
       }
       if (geo[i].geometry.type == "Point") {
@@ -160,9 +167,10 @@ window.onload = async () => {
           geo[i].properties.name || geo[i].properties.Name
         );
       }
-      let country;
+      let country = countries[geo[i].properties.name] || {
+        name: "glsl mapbox is awesome",
+      };
       if (geo[i].geometry.type === "Polygon") {
-        country = countries[geo[i].properties.name];
         if (!country || !geo[i].properties.name) {
           if (
             ["sand", "grass", "water", "occupation"].indexOf(
@@ -198,10 +206,16 @@ window.onload = async () => {
         }
       } else if (geo[i].geometry.type === "Point") {
         type = "symbol";
+        let psize = 0.15;
+
+        if (geo[i].properties.type === "landmark") {
+          geo[i].properties.type = "landmark-0";
+          psize = 0.015;
+        }
 
         layout = {
           "icon-image": `${geo[i].properties.type || "city"}`,
-          "icon-size": 0.15,
+          "icon-size": psize,
         };
       }
 
