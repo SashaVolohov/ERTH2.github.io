@@ -73457,7 +73457,8 @@
         "marker-color": "#000000",
         "marker-size": "medium",
         "marker-symbol": "city",
-        "name": "Самсун"
+        "name": "Самсун",
+        "type": "city"
       },
       "geometry": {
         "type": "Point",
@@ -73473,7 +73474,8 @@
         "marker-color": "#000000",
         "marker-size": "medium",
         "marker-symbol": "city",
-        "name": "Мерсин"
+        "name": "Мерсин",
+        "type": "city"
       },
       "geometry": {
         "type": "Point",
@@ -73489,7 +73491,8 @@
         "marker-color": "#000000",
         "marker-size": "medium",
         "marker-symbol": "city",
-        "name": "Газиантеп"
+        "name": "Газиантеп",
+        "type": "city"
       },
       "geometry": {
         "type": "Point",
@@ -73505,7 +73508,8 @@
         "marker-color": "#000000",
         "marker-size": "medium",
         "marker-symbol": "city",
-        "name": "Конья"
+        "name": "Конья",
+        "type": "city"
       },
       "geometry": {
         "type": "Point",
@@ -73521,7 +73525,8 @@
         "marker-color": "#000000",
         "marker-size": "medium",
         "marker-symbol": "city",
-        "name": "Бурса"
+        "name": "Бурса",
+        "type": "city"
       },
       "geometry": {
         "type": "Point",
@@ -73537,7 +73542,8 @@
         "marker-color": "#000000",
         "marker-size": "medium",
         "marker-symbol": "city",
-        "name": "Бодрум"
+        "name": "Бодрум",
+        "type": "city"
       },
       "geometry": {
         "type": "Point",
@@ -73553,7 +73559,8 @@
         "marker-color": "#000000",
         "marker-size": "medium",
         "marker-symbol": "city",
-        "name": "Мармарис"
+        "name": "Мармарис",
+        "type": "city"
       },
       "geometry": {
         "type": "Point",
@@ -73569,7 +73576,8 @@
         "marker-color": "#000000",
         "marker-size": "medium",
         "marker-symbol": "city",
-        "name": "Измир"
+        "name": "Измир",
+        "type": "city"
       },
       "geometry": {
         "type": "Point",
@@ -73585,7 +73593,8 @@
         "marker-color": "#000000",
         "marker-size": "medium",
         "marker-symbol": "city",
-        "name": "Анталья"
+        "name": "Анталья",
+        "type": "city"
       },
       "geometry": {
         "type": "Point",

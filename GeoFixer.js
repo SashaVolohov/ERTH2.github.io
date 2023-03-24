@@ -56,6 +56,10 @@ nonPoly = nonPoly.map((v) => {
     v.properties.type = "landmark-0";
   }
 
+  if (!v.properties.type) {
+    v.properties.type = "city";
+  }
+
   return v;
 });
 

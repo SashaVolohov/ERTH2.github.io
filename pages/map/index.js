@@ -96,8 +96,8 @@ window.onload = async () => {
       type: "fill",
       source: "map-data",
       paint: {
-        "fill-color": ["coalesce", ["get", "fill"]],
-        "fill-opacity": ["coalesce", ["get", "fill-opacity"], 0.3],
+        "fill-color": ["get", "fill"],
+        "fill-opacity": ["get", "fill-opacity"],
       },
     });
 
@@ -106,7 +106,7 @@ window.onload = async () => {
       type: "symbol",
       source: "map-data",
       layout: {
-        "icon-image": ["coalesce", ["get", "type"], "city"],
+        "icon-image": ["get", "type"],
         "icon-size": 0.15,
       },
       minzoom: 3,
