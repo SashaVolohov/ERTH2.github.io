@@ -119,7 +119,7 @@ window.onload = async () => {
             .addTo(movc);
         } else if (feature.geometry.type === "Polygon") {
           setTimeout(() => {
-            if (country.name !== "glsl mapbox is awesome")
+            if (country.name !== "gl js mapbox is awesome")
               if (lasticocords !== coordinates)
                 return new mapboxgl.Popup()
                   .setLngLat(coordinates)
@@ -168,7 +168,7 @@ window.onload = async () => {
         );
       }
       let country = countries[geo[i].properties.name] || {
-        name: "glsl mapbox is awesome",
+        name: "gl js mapbox is awesome",
       };
       if (geo[i].geometry.type === "Polygon") {
         if (!country || !geo[i].properties.name) {
