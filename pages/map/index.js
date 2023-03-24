@@ -40,7 +40,7 @@ window.onload = async () => {
     "pk.eyJ1IjoiYXJ0ZWdvc2VyIiwiYSI6ImNrcDVhaHF2ejA2OTcyd3MxOG84bWRhOXgifQ.N3knNrPFIceTHVcIoPPcEQ";
   let movc = new mapboxgl.Map({
     container: "map",
-    style: "mapbox://styles/artegoser/clfm612fg002601nlcika2018",
+    style: "mapbox://styles/artegoser/clfm612fg002601nlcika2018?optimize=true",
     center: [53.19, 41.28],
     zoom: 6,
     projection: "globe",
@@ -190,6 +190,11 @@ window.onload = async () => {
       let type = "";
       let layout = {};
 
+      movc.addSource(`${i}`, {
+        type: "geojson",
+        data: geo[i],
+      });
+
       if (
         geo[i].geometry.type === "Polygon" ||
         geo[i].geometry.type === "MultiPolygon"
@@ -204,6 +209,13 @@ window.onload = async () => {
         } else {
           paint = { "fill-color": geo[i].properties.fill, "fill-opacity": 0.4 };
         }
+
+        movc.addLayer({
+          id: `${i}`,
+          type,
+          source: `${i}`,
+          paint,
+        });
       } else if (geo[i].geometry.type === "Point") {
         type = "symbol";
         let psize = 0.15;
@@ -217,19 +229,16 @@ window.onload = async () => {
           "icon-image": `${geo[i].properties.type || "city"}`,
           "icon-size": psize,
         };
-      }
 
-      movc.addSource(`${i}`, {
-        type: "geojson",
-        data: geo[i],
-      });
-      movc.addLayer({
-        id: `${i}`,
-        type,
-        source: `${i}`,
-        paint,
-        layout,
-      });
+        movc.addLayer({
+          id: `${i}`,
+          type,
+          source: `${i}`,
+          layout,
+          minzoom: 4,
+          maxzoom: 9,
+        });
+      }
 
       movc.on("mouseenter", `${i}`, () => {
         movc.getCanvas().style.cursor = "pointer";
