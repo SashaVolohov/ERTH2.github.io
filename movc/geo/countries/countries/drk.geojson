@@ -1056,7 +1056,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "丹东", "name_ru": "Даньдун", "type": "capital" },
+      "properties": {
+        "name": "丹东",
+        "name_ru": "Даньдун",
+        "type": "capital-city"
+      },
       "geometry": { "coordinates": [124.394722, 40.129167], "type": "Point" }
     },
     {
