@@ -181,18 +181,21 @@ let map_comps = [
     val.properties.type = "water";
     val.properties.fill = "#75cff0";
     val.properties.stroke = "#75cff0";
+    val.properties["fill-opacity"] = 1;
     return val;
   }),
   ...sand.map((val) => {
     val.properties.type = "sand";
     val.properties.fill = "#efe9e1";
     val.properties.stroke = "#efe9e1";
+    val.properties["fill-opacity"] = 1;
     return val;
   }),
   ...grass.map((val) => {
     val.properties.type = "grass";
     val.properties.fill = "#d1e6be";
     val.properties.stroke = "#d1e6be";
+    val.properties["fill-opacity"] = 1;
     return val;
   }),
   ...white_road.map((val) => {
@@ -201,6 +204,11 @@ let map_comps = [
       road_sizes[val.properties.type] || road_sizes["middle"]
     );
     total.properties.type = "white_road";
+
+    val.properties.fill = "#fff";
+    val.properties.stroke = "#fff";
+    val.properties["fill-opacity"] = 1;
+
     return total;
   }),
   ...yellow_road.map((val) => {
@@ -209,6 +217,9 @@ let map_comps = [
       road_sizes[val.properties.type] || road_sizes["middle"]
     );
     total.properties.type = "yellow_road";
+    val.properties.fill = "#ffc107";
+    val.properties.stroke = "#ffc107";
+    val.properties["fill-opacity"] = 1;
     return total;
   }),
   ...orange_road.map((val) => {
@@ -217,6 +228,9 @@ let map_comps = [
       road_sizes[val.properties.type] || road_sizes["big"]
     );
     total.properties.type = "orange_road";
+    val.properties.fill = "#fd7e14";
+    val.properties.stroke = "#fd7e14";
+    val.properties["fill-opacity"] = 1;
     return total;
   }),
 ];
@@ -224,8 +238,8 @@ let map_comps = [
 props = {};
 
 for (let feature of map_comps) {
-  if (props[feature.properties.name]) continue;
-  props[feature.properties.name] = {
+  if (props[feature.properties.type]) continue;
+  props[feature.properties.type] = {
     stroke: feature.properties.stroke,
     fill: feature.properties.fill,
     type: feature.properties.type,
@@ -239,11 +253,11 @@ map_comps = turf.dissolve(turf.featureCollection(map_comps), {
 
 map_comps.features = map_comps.features.map((v) => {
   v.properties = {
-    name: v.properties.name,
-    fill: props[v.properties.name].fill,
-    stroke: props[v.properties.name].stroke,
-    type: props[v.properties.name].type,
-    tags: props[v.properties.name].tags,
+    fill: props[v.properties.type].fill,
+    stroke: props[v.properties.type].stroke,
+    type: props[v.properties.type].type,
+    tags: props[v.properties.type].tags,
+    "fill-opacity": props[v.properties.type]["fill-opacity"],
   };
   return v;
 });

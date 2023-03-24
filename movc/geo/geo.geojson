@@ -219,9 +219,9 @@
     {
       "type": "Feature",
       "properties": {
-        "fill": "#75cff0",
-        "stroke": "#75cff0",
-        "type": "water"
+        "fill": "#efe9e1",
+        "stroke": "#efe9e1",
+        "type": "sand"
       },
       "geometry": {
         "type": "Polygon",
@@ -1034,9 +1034,9 @@
     {
       "type": "Feature",
       "properties": {
-        "fill": "#75cff0",
-        "stroke": "#75cff0",
-        "type": "water"
+        "fill": "#efe9e1",
+        "stroke": "#efe9e1",
+        "type": "sand"
       },
       "geometry": {
         "type": "Polygon",
@@ -1145,9 +1145,9 @@
     {
       "type": "Feature",
       "properties": {
-        "fill": "#75cff0",
-        "stroke": "#75cff0",
-        "type": "water"
+        "fill": "#efe9e1",
+        "stroke": "#efe9e1",
+        "type": "sand"
       },
       "geometry": {
         "type": "Polygon",
@@ -1314,9 +1314,9 @@
     {
       "type": "Feature",
       "properties": {
-        "fill": "#75cff0",
-        "stroke": "#75cff0",
-        "type": "water"
+        "fill": "#efe9e1",
+        "stroke": "#efe9e1",
+        "type": "sand"
       },
       "geometry": {
         "type": "Polygon",
@@ -1437,9 +1437,9 @@
     {
       "type": "Feature",
       "properties": {
-        "fill": "#75cff0",
-        "stroke": "#75cff0",
-        "type": "water"
+        "fill": "#efe9e1",
+        "stroke": "#efe9e1",
+        "type": "sand"
       },
       "geometry": {
         "type": "Polygon",
@@ -1544,9 +1544,9 @@
     {
       "type": "Feature",
       "properties": {
-        "fill": "#75cff0",
-        "stroke": "#75cff0",
-        "type": "water"
+        "fill": "#efe9e1",
+        "stroke": "#efe9e1",
+        "type": "sand"
       },
       "geometry": {
         "type": "Polygon",
@@ -1667,9 +1667,9 @@
     {
       "type": "Feature",
       "properties": {
-        "fill": "#75cff0",
-        "stroke": "#75cff0",
-        "type": "water"
+        "fill": "#d1e6be",
+        "stroke": "#d1e6be",
+        "type": "grass"
       },
       "geometry": {
         "type": "Polygon",
@@ -2290,9 +2290,9 @@
     {
       "type": "Feature",
       "properties": {
-        "fill": "#75cff0",
-        "stroke": "#75cff0",
-        "type": "water"
+        "fill": "#fff",
+        "stroke": "#fff",
+        "type": "white_road"
       },
       "geometry": {
         "type": "Polygon",
@@ -4825,9 +4825,9 @@
     {
       "type": "Feature",
       "properties": {
-        "fill": "#75cff0",
-        "stroke": "#75cff0",
-        "type": "water"
+        "fill": "#fff",
+        "stroke": "#fff",
+        "type": "white_road"
       },
       "geometry": {
         "type": "Polygon",
@@ -6116,9 +6116,9 @@
     {
       "type": "Feature",
       "properties": {
-        "fill": "#75cff0",
-        "stroke": "#75cff0",
-        "type": "water"
+        "fill": "#fff",
+        "stroke": "#fff",
+        "type": "white_road"
       },
       "geometry": {
         "type": "Polygon",
@@ -7213,9 +7213,9 @@
     {
       "type": "Feature",
       "properties": {
-        "fill": "#75cff0",
-        "stroke": "#75cff0",
-        "type": "water"
+        "fill": "#fff",
+        "stroke": "#fff",
+        "type": "white_road"
       },
       "geometry": {
         "type": "Polygon",
@@ -7752,9 +7752,9 @@
     {
       "type": "Feature",
       "properties": {
-        "fill": "#75cff0",
-        "stroke": "#75cff0",
-        "type": "water"
+        "fill": "#fff",
+        "stroke": "#fff",
+        "type": "white_road"
       },
       "geometry": {
         "type": "Polygon",
@@ -8821,9 +8821,9 @@
     {
       "type": "Feature",
       "properties": {
-        "fill": "#75cff0",
-        "stroke": "#75cff0",
-        "type": "water"
+        "fill": "#fff",
+        "stroke": "#fff",
+        "type": "white_road"
       },
       "geometry": {
         "type": "Polygon",
@@ -9028,9 +9028,9 @@
     {
       "type": "Feature",
       "properties": {
-        "fill": "#75cff0",
-        "stroke": "#75cff0",
-        "type": "water"
+        "fill": "#fff",
+        "stroke": "#fff",
+        "type": "white_road"
       },
       "geometry": {
         "type": "Polygon",
@@ -9767,9 +9767,9 @@
     {
       "type": "Feature",
       "properties": {
-        "fill": "#75cff0",
-        "stroke": "#75cff0",
-        "type": "water"
+        "fill": "#ffc107",
+        "stroke": "#ffc107",
+        "type": "yellow_road"
       },
       "geometry": {
         "type": "Polygon",

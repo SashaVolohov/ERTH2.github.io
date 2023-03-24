@@ -110,7 +110,6 @@ window.onload = async () => {
         "icon-size": 0.15,
       },
       minzoom: 3,
-      maxzoom: 9,
     });
 
     movc.on("click", "map-data-fill", (e) => {
