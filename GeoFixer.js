@@ -77,7 +77,7 @@ dissolved.features = dissolved.features.map((v) => {
   };
   return v;
 });
-geo.features = nonPoly.concat(dissolved.features);
+geo.features = dissolved.features.concat(nonPoly);
 console.timeEnd("Dissolve");
 console.log();
 
@@ -222,7 +222,7 @@ console.log();
 
 if (config?.tags) {
   console.log("Filter countries by tags");
-  console.time("Filter countries by tag");
+  console.time("Filter countries by tags");
 
   geo.features = geo.features.filter((val) => {
     if (_.intersection(config.tags, val.properties.tags).length === 0)
