@@ -151,7 +151,11 @@ window.onload = async () => {
                     }
                   </div>
                   <div class="col-md-12 col-sm-12 text-center" style="border-radius: 20px; background-color: rgb(231, 231, 231)">
-                    <h5 className="card-title">${feature.properties.name}</h5>
+                    <h5 className="card-title">${feature.properties.name}${
+              feature.properties.name_ru
+                ? ` - ${feature.properties.name_ru}`
+                : ""
+            }</h5>
                     ${
                       feature.properties.description
                         ? `<div>${feature.properties.description}</div>`
@@ -178,9 +182,8 @@ window.onload = async () => {
                                     <img class="w-100" src="${country.img}" style="border-radius: 20px 20px 0px 0px;">
                             </div>
                             <div class="col-md-12 col-sm-12 text-center" style="border-radius: 0px 0px 20px 20px; background-color: rgb(231, 231, 231)">
-                                    <h5 class="card-title">
+                                    <h5>
                                             ${country.name}
-                                    </a>
                                     </h5>
                                     <a href="${country.about}" class="btn btn-primary mb-2" style="color:white;border-radius: 20px;">Подробнее</a>
                             </div>
