@@ -42,7 +42,7 @@ window.onload = async () => {
     container: "map",
     style: "mapbox://styles/artegoser/clfm612fg002601nlcika2018?optimize=true",
     center: [53.19, 41.28],
-    zoom: 6,
+    zoom: 3,
     projection: "globe",
   });
 
