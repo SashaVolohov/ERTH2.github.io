@@ -10286,7 +10286,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "flucland",
+        "name": "flutzland",
         "fill": "#084480",
         "stroke": "#084480",
         "tags": [
@@ -14169,8 +14169,8 @@
       "type": "Feature",
       "properties": {
         "name": "victorio",
-        "fill": "#85a2e5",
-        "stroke": "#fbff00",
+        "fill": "#00c8ff",
+        "stroke": "#ffffff",
         "tags": [
           "ТУС",
           "ЛВГ",
@@ -15597,8 +15597,8 @@
       "type": "Feature",
       "properties": {
         "name": "victorio",
-        "fill": "#85a2e5",
-        "stroke": "#fbff00",
+        "fill": "#00c8ff",
+        "stroke": "#ffffff",
         "tags": [
           "ТУС",
           "ЛВГ",
@@ -15665,8 +15665,8 @@
       "type": "Feature",
       "properties": {
         "name": "victorio",
-        "fill": "#85a2e5",
-        "stroke": "#fbff00",
+        "fill": "#00c8ff",
+        "stroke": "#ffffff",
         "tags": [
           "ТУС",
           "ЛВГ",
@@ -15713,8 +15713,8 @@
       "type": "Feature",
       "properties": {
         "name": "victorio",
-        "fill": "#85a2e5",
-        "stroke": "#fbff00",
+        "fill": "#00c8ff",
+        "stroke": "#ffffff",
         "tags": [
           "ТУС",
           "ЛВГ",
@@ -15833,8 +15833,8 @@
       "type": "Feature",
       "properties": {
         "name": "victorio",
-        "fill": "#85a2e5",
-        "stroke": "#fbff00",
+        "fill": "#00c8ff",
+        "stroke": "#ffffff",
         "tags": [
           "ТУС",
           "ЛВГ",
@@ -15877,8 +15877,8 @@
       "type": "Feature",
       "properties": {
         "name": "victorio",
-        "fill": "#85a2e5",
-        "stroke": "#fbff00",
+        "fill": "#00c8ff",
+        "stroke": "#ffffff",
         "tags": [
           "ТУС",
           "ЛВГ",
@@ -19363,7 +19363,8 @@
         "stroke": "#00298a",
         "tags": [
           "ТУС",
-          "ОВН"
+          "ОВН",
+          "ЛВГ"
         ]
       },
       "geometry": {
@@ -24482,7 +24483,8 @@
         "stroke": "#00298a",
         "tags": [
           "ТУС",
-          "ОВН"
+          "ОВН",
+          "ЛВГ"
         ]
       },
       "geometry": {
@@ -25113,7 +25115,8 @@
         "stroke": "#09aa1c",
         "tags": [
           "ТУС",
-          "ЛВГ"
+          "ЛВГ",
+          "ОВН"
         ]
       },
       "geometry": {
@@ -27932,7 +27935,8 @@
         "stroke": "#09aa1c",
         "tags": [
           "ТУС",
-          "ЛВГ"
+          "ЛВГ",
+          "ОВН"
         ]
       },
       "geometry": {
@@ -28059,7 +28063,8 @@
         "stroke": "#09aa1c",
         "tags": [
           "ТУС",
-          "ЛВГ"
+          "ЛВГ",
+          "ОВН"
         ]
       },
       "geometry": {
@@ -28178,7 +28183,8 @@
         "stroke": "#09aa1c",
         "tags": [
           "ТУС",
-          "ЛВГ"
+          "ЛВГ",
+          "ОВН"
         ]
       },
       "geometry": {
@@ -28241,7 +28247,8 @@
         "stroke": "#09aa1c",
         "tags": [
           "ТУС",
-          "ЛВГ"
+          "ЛВГ",
+          "ОВН"
         ]
       },
       "geometry": {
@@ -28332,7 +28339,8 @@
         "stroke": "#09aa1c",
         "tags": [
           "ТУС",
-          "ЛВГ"
+          "ЛВГ",
+          "ОВН"
         ]
       },
       "geometry": {
@@ -28651,7 +28659,8 @@
         "stroke": "#09aa1c",
         "tags": [
           "ТУС",
-          "ЛВГ"
+          "ЛВГ",
+          "ОВН"
         ]
       },
       "geometry": {
@@ -28742,7 +28751,8 @@
         "stroke": "#09aa1c",
         "tags": [
           "ТУС",
-          "ЛВГ"
+          "ЛВГ",
+          "ОВН"
         ]
       },
       "geometry": {
@@ -28989,7 +28999,8 @@
         "stroke": "#09aa1c",
         "tags": [
           "ТУС",
-          "ЛВГ"
+          "ЛВГ",
+          "ОВН"
         ]
       },
       "geometry": {
@@ -29084,7 +29095,8 @@
         "stroke": "#09aa1c",
         "tags": [
           "ТУС",
-          "ЛВГ"
+          "ЛВГ",
+          "ОВН"
         ]
       },
       "geometry": {
@@ -29175,7 +29187,8 @@
         "stroke": "#09aa1c",
         "tags": [
           "ТУС",
-          "ЛВГ"
+          "ЛВГ",
+          "ОВН"
         ]
       },
       "geometry": {
@@ -29234,7 +29247,8 @@
         "stroke": "#09aa1c",
         "tags": [
           "ТУС",
-          "ЛВГ"
+          "ЛВГ",
+          "ОВН"
         ]
       },
       "geometry": {
@@ -29325,7 +29339,8 @@
         "stroke": "#09aa1c",
         "tags": [
           "ТУС",
-          "ЛВГ"
+          "ЛВГ",
+          "ОВН"
         ]
       },
       "geometry": {
@@ -30140,7 +30155,8 @@
         "stroke": "#09aa1c",
         "tags": [
           "ТУС",
-          "ЛВГ"
+          "ЛВГ",
+          "ОВН"
         ]
       },
       "geometry": {
@@ -30215,7 +30231,8 @@
         "stroke": "#09aa1c",
         "tags": [
           "ТУС",
-          "ЛВГ"
+          "ЛВГ",
+          "ОВН"
         ]
       },
       "geometry": {
@@ -30386,7 +30403,8 @@
         "stroke": "#09aa1c",
         "tags": [
           "ТУС",
-          "ЛВГ"
+          "ЛВГ",
+          "ОВН"
         ]
       },
       "geometry": {
@@ -30429,7 +30447,8 @@
         "stroke": "#09aa1c",
         "tags": [
           "ТУС",
-          "ЛВГ"
+          "ЛВГ",
+          "ОВН"
         ]
       },
       "geometry": {
@@ -30476,7 +30495,8 @@
         "stroke": "#09aa1c",
         "tags": [
           "ТУС",
-          "ЛВГ"
+          "ЛВГ",
+          "ОВН"
         ]
       },
       "geometry": {
@@ -30547,7 +30567,8 @@
         "stroke": "#09aa1c",
         "tags": [
           "ТУС",
-          "ЛВГ"
+          "ЛВГ",
+          "ОВН"
         ]
       },
       "geometry": {

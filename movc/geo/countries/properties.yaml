@@ -5,12 +5,14 @@ slingonia:
   tags:
     - ТУС
     - ЛВГ
+    - ОВН
 strana-realnosti:
   fill: "#6f99fb"
   stroke: "#00298a"
   tags:
     - ТУС
     - ОВН
+    - ЛВГ
 dusiburg:
   fill: "#00c4c7"
   stroke: "#555555"
@@ -54,8 +56,8 @@ Myrlandia:
   tags:
     - ОВН
 victorio:
-  fill: "#85a2e5"
-  stroke: "#fbff00"
+  fill: "#00c8ff"
+  stroke: "#ffffff"
   tags:
     - ТУС
     - ЛВГ
@@ -71,7 +73,7 @@ TF:
   tags:
     - ОВН
     - ЛВГ
-flucland:
+flutzland:
   fill: "#084480"
   stroke: "#084480"
   tags:

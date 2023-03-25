@@ -40,11 +40,13 @@ window.onload = async () => {
     "pk.eyJ1IjoiYXJ0ZWdvc2VyIiwiYSI6ImNrcDVhaHF2ejA2OTcyd3MxOG84bWRhOXgifQ.N3knNrPFIceTHVcIoPPcEQ";
   let movc = new mapboxgl.Map({
     container: "map",
-    style: "mapbox://styles/artegoser/clfm612fg002601nlcika2018?optimize=true",
+    style: "mapbox://styles/artegoser/clfm612fg002601nlcika2018",
     center: [53.19, 41.28],
     zoom: 3,
     projection: "globe",
   });
+
+  let converter = new showdown.Converter();
 
   movc.on("load", async () => {
     movc.loadImage(
@@ -151,18 +153,15 @@ window.onload = async () => {
             `
                 ${
                   feature?.properties?.amount
-                    ? `<div class="row" style="padding: 5px; color: "white"; background-color: rgb(162, 162, 162);">Население - ${feature.properties.amount} чел.</div>`
+                    ? `<div class="row glass" style="color: "white";"><div class="col">Население - ${feature.properties.amount} чел.</div></div>`
                     : ""
                 }
                 <div class="row" style="padding: 5px;">
-                  <div class="col-md-12 col-sm-12" style="padding: 0px;">
-                    ${
-                      feature?.properties?.img
-                        ? `<img class="w-100 about-img" src="${feature.properties.img}" alt="${feature.properties.name} img">`
-                        : ""
-                    }
-                  </div>
-
+                  ${
+                    feature?.properties?.img
+                      ? `<div class="col-md-12 col-sm-12" style="padding: 0px;"><img class="w-100 about-img" src="${feature.properties.img}" alt="${feature.properties.name} img"></div>`
+                      : ""
+                  }
                   <div class="col-md-12 col-sm-12 text-center glass mb-2">
                     <h5 className="card-title">${feature.properties.name}
                       ${
@@ -172,13 +171,13 @@ window.onload = async () => {
                       }
                     </h5>
                   </div>
-                  <div class="col-md-12 col-sm-12 text-center glass">
-                    ${
-                      feature.properties.description
-                        ? `<div>${feature.properties.description}</div>`
-                        : ""
-                    }
-                  </div>
+                  ${
+                    feature.properties.description
+                      ? `<div class="col-md-12 col-sm-12 text-center glass"><div>${converter.makeHtml(
+                          feature.properties.description
+                        )}</div></div>`
+                      : ""
+                  }
                 </div>
                 `
           )
@@ -200,10 +199,27 @@ window.onload = async () => {
                                       country.img
                                     }">
                             </div>
-                            <div class="col-12 text-center glass" style="border-radius: 0px 0px 20px 20px; padding: 10px">
+                            <div class="col-12 text-center glass">
                                     <h5>
                                             ${country.name}
                                     </h5>
+                            </div>
+                            <div class="col-12 text-center glass"> 
+                                  ${JSON.parse(feature.properties.tags).join(
+                                    ", "
+                                  )}
+                            </div>
+                            <div class="col-12 text-center glass"> 
+                                  Основание: ${country.date}
+                            </div>
+                            <div class="col-md-12 col-sm-12 text-center glass">
+                              ${
+                                country.description
+                                  ? `<div>${converter.makeHtml(
+                                      country.description
+                                    )}</div>`
+                                  : ""
+                              }
                             </div>
                             <div class="col-12 text-center mt-2">
                               ${
