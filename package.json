@@ -5,7 +5,8 @@
   "main": "GeoFixer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "geofix": "node GeoFixer"
+    "geofix": "node GeoFixer",
+    "nodemon-geofix": "nodemon --watch GeoFixer.js -e js,json,yaml,geojson --watch movc/geo/countries"
   },
   "repository": {
     "type": "git",
@@ -13,7 +14,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/OOVC/MOVC-static/issues"
   },
