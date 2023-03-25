@@ -4,197 +4,64 @@ slingonia:
   stroke: "#09aa1c"
   tags:
     - ТУС
-    - ООВГ
+    - ЛВГ
 strana-realnosti:
   fill: "#6f99fb"
   stroke: "#00298a"
   tags:
     - ТУС
     - ОВН
-zerzija:
-  fill: "#002080"
-  stroke: "#002080"
-  tags:
-    - ТУС
-    - ООВГ
 dusiburg:
   fill: "#00c4c7"
   stroke: "#555555"
   tags:
     - ТУС
-    - ООВГ
+    - ЛВГ
+    - ОВН
 drk:
   fill: "#637a0f"
   stroke: "#000000"
   tags:
-    - ООВГ
+    - ЛВГ
+    - ОВН
 Anigara:
   fill: "#ff0000"
   stroke: "#000000"
   tags:
-    - ООВГ
+    - ЛВГ
 Zeitland:
   fill: "#3921ea"
   stroke: "#4411a2"
   tags:
     - ТУС
-    - ООВГ
-Bogdanland:
-  fill: "#17b6de"
-  stroke: "#555555"
-  tags:
-    - ООВГ
-caucasian-democracy-rebublic:
-  fill: "#402896"
-  stroke: "#4559bf"
-  tags:
-    - ООВГ
+    - ЛВГ
+    - ОВН
 ifi:
   fill: "#ff0000"
   stroke: "#ff0000"
   tags:
-    - ООВГ
-severniy-vevr:
-  fill: "#96a0ff"
-  stroke: "#96a0ff"
-  tags:
-    - ООВГ
-TNR:
-  fill: "#ffbb00"
-  stroke: "#ff0000"
-  tags:
-    - ООВГ
-Repubilc-Butagi:
-  fill: "#14ff30"
-  stroke: "#14ff30"
-  tags:
-    - ООВГ
-New-SNR:
-  fill: "#174304"
-  stroke: "#174304"
-  tags:
-    - ООВГ
+    - ЛВГ
+    - ОВН
 olegostan:
   fill: "#1932ae"
   stroke: "#8f25ad"
   tags:
-    - ООВГ
-Cheijou:
-  fill: "#ffa200"
-  stroke: "#ffb8b8"
-  tags:
-    - ООВГ
-manuly-republic:
-  fill: "#1512f8"
-  stroke: "#0be035"
-  tags:
-    - ООВГ
-republic-agarua:
-  fill: "#001cf0"
-  stroke: "#001cf0"
-  tags:
-    - ООВГ
+    - ЛВГ
+    - ОВН
 Myrlandia:
   fill: "#d400ff"
   stroke: "#fe58c1"
   tags:
-    - ООВГ
+    - ОВН
 victorio:
   fill: "#85a2e5"
   stroke: "#fbff00"
   tags:
     - ТУС
-    - ООВГ
+    - ЛВГ
+    - ОВН
 sqr-united:
   fill: "#ff0000"
   stroke: "#ff0000"
   tags:
     - ОВН
-shreksland:
-  fill: "#04ff00"
-  stroke: "#11ff00"
-  tags:
-    - ООВГ
-TKID:
-  fill: "#960101"
-  stroke: "#960101"
-  tags:
-    - ООВГ
-rusfi:
-  fill: "#ff0000"
-  stroke: "#000000"
-  tags:
-    - ООВГ
-HL:
-  fill: "#8ee48e"
-  stroke: "#65e67f"
-  tags:
-    - ООВГ
-republic-of-great-slavia:
-  fill: "#e24b4b"
-  stroke: "#e24b4b"
-  tags:
-    - ООВГ
-s-s-r:
-  fill: "#e10e0e"
-  stroke: "#0f97eb"
-  tags:
-    - ООВГ
-sedmorog-aliance:
-  fill: "#130070"
-  stroke: "#000000"
-  tags:
-    - ООВГ
-colorado:
-  fill: "#1e00ff"
-  stroke: "#0400ff"
-Kingdom-of-Megros:
-  fill: "#000000"
-  stroke: "#000000"
-  tags:
-    - ООВГ
-Talonsk:
-  fill: "#f55353"
-  stroke: "#f55555"
-  tags:
-    - ООВГ
-lugovsk-republic:
-  fill: "#80ff00"
-  stroke: "#555555"
-  tags:
-    - ООВГ
-karelia:
-  fill: "#db1414"
-  stroke: "#ce2c2c"
-  tags:
-    - ООВГ
-incheon:
-  fill: "#ffdd00"
-  stroke: "#ffdd00"
-  tags:
-    - ООВГ
-gromuni:
-  fill: "#ff0000"
-  stroke: "#fff700"
-  tags:
-    - ООВГ
-fastifia:
-  fill: "#9400d3"
-  stroke: "#000000"
-  tags:
-    - ООВГ
-Azerian-republic:
-  fill: "#69ff2e"
-  stroke: "#000000"
-  tags:
-    - ООВГ
-Benerstan:
-  fill: "#000000"
-  stroke: "#000000"
-  tags:
-    - ООВГ
-faplass:
-  fill: "#006ec0"
-  stroke: "#006ec0"
-  tags:
-    - ООВГ
