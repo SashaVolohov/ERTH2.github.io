@@ -15846,74 +15846,6 @@
         "coordinates": [
           [
             [
-              -58.62304687499999,
-              -34.12544756511612
-            ],
-            [
-              -57.45849609375,
-              -34.74161249883172
-            ],
-            [
-              -55.986328125,
-              -35.02999636902566
-            ],
-            [
-              -54.4921875,
-              -35.13787911963418
-            ],
-            [
-              -53.50341796875,
-              -34.52466147177172
-            ],
-            [
-              -52.9541015625,
-              -33.65120829920497
-            ],
-            [
-              -52.71240234375,
-              -32.54681317351514
-            ],
-            [
-              -53.96484375,
-              -30.939924331023455
-            ],
-            [
-              -56.03027343749999,
-              -29.554345125748267
-            ],
-            [
-              -57.54638671874999,
-              -29.535229562948444
-            ],
-            [
-              -58.38134765624999,
-              -31.22219703210317
-            ],
-            [
-              -58.62304687499999,
-              -34.12544756511612
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "victorio",
-        "fill": "#85a2e5",
-        "stroke": "#fbff00",
-        "tags": [
-          "ТУС",
-          "ЛВГ",
-          "ОВН"
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
               73.1304931640625,
               -53.15335906512406
             ],
@@ -25189,65 +25121,6 @@
         "coordinates": [
           [
             [
-              18.69873046875,
-              74.46481295961858
-            ],
-            [
-              18.838806152343746,
-              74.36815501615331
-            ],
-            [
-              19.09149169921875,
-              74.33036644447733
-            ],
-            [
-              19.2425537109375,
-              74.35630935326674
-            ],
-            [
-              19.31121826171875,
-              74.43978232122394
-            ],
-            [
-              19.31121826171875,
-              74.51622302140113
-            ],
-            [
-              19.00909423828125,
-              74.54845293076897
-            ],
-            [
-              18.89373779296875,
-              74.52868325365252
-            ],
-            [
-              18.7646484375,
-              74.51475646826195
-            ],
-            [
-              18.69873046875,
-              74.46481295961858
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "slingonia",
-        "fill": "#09aa1c",
-        "stroke": "#09aa1c",
-        "tags": [
-          "ТУС",
-          "ЛВГ"
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
               19.48693947102066,
               39.812526924363965
             ],
@@ -28376,141 +28249,6 @@
         "coordinates": [
           [
             [
-              26.24359130859375,
-              78.7720709134135
-            ],
-            [
-              26.334228515625,
-              78.68779763703898
-            ],
-            [
-              26.54022216796875,
-              78.62404783563082
-            ],
-            [
-              26.90277099609375,
-              78.62729788949298
-            ],
-            [
-              27.520751953125,
-              78.70018232328005
-            ],
-            [
-              28.18817138671875,
-              78.77367518181727
-            ],
-            [
-              28.512268066406246,
-              78.74369149397327
-            ],
-            [
-              28.905029296875,
-              78.72974363863064
-            ],
-            [
-              29.014892578124996,
-              78.80464659773622
-            ],
-            [
-              29.39117431640625,
-              78.82968223791016
-            ],
-            [
-              29.646606445312496,
-              78.87640893243433
-            ],
-            [
-              30.13275146484375,
-              78.93454596848375
-            ],
-            [
-              30.60516357421875,
-              78.98976045771468
-            ],
-            [
-              30.6353759765625,
-              79.03948190316046
-            ],
-            [
-              30.212402343749996,
-              79.0639988620955
-            ],
-            [
-              29.786682128906246,
-              78.97138592818217
-            ],
-            [
-              29.319763183593746,
-              78.93770843550641
-            ],
-            [
-              28.992919921875004,
-              78.96665615616313
-            ],
-            [
-              28.509521484375,
-              78.99238292112126
-            ],
-            [
-              28.00689697265625,
-              78.96560482369262
-            ],
-            [
-              27.7020263671875,
-              78.90340078360434
-            ],
-            [
-              27.6031494140625,
-              78.81690499504442
-            ],
-            [
-              27.28729248046875,
-              78.74315535320092
-            ],
-            [
-              26.93572998046875,
-              78.76672171742558
-            ],
-            [
-              26.806640624999996,
-              78.82542475921761
-            ],
-            [
-              26.65008544921875,
-              78.86845782201918
-            ],
-            [
-              26.3946533203125,
-              78.85943977943286
-            ],
-            [
-              26.30401611328125,
-              78.84935225407325
-            ],
-            [
-              26.24359130859375,
-              78.7720709134135
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "slingonia",
-        "fill": "#09aa1c",
-        "stroke": "#09aa1c",
-        "tags": [
-          "ТУС",
-          "ЛВГ"
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
               26.76544189453125,
               35.39800594715108
             ],
@@ -29424,138 +29162,6 @@
             [
               73.38317871093749,
               4.15570670160908
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "slingonia",
-        "fill": "#09aa1c",
-        "stroke": "#09aa1c",
-        "tags": [
-          "ТУС",
-          "ЛВГ"
-        ]
-      },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [
-                75.926513671875,
-                79.67636115411678
-              ],
-              [
-                75.96433459865955,
-                79.65531044724368
-              ],
-              [
-                76.08089692064637,
-                79.69570869897836
-              ],
-              [
-                75.926513671875,
-                79.67636115411678
-              ]
-            ]
-          ],
-          [
-            [
-              [
-                76.21354247523541,
-                79.70058011277831
-              ],
-              [
-                77.19739796425617,
-                79.60989574920244
-              ],
-              [
-                76.629638671875,
-                79.71272119502555
-              ],
-              [
-                76.21354247523541,
-                79.70058011277831
-              ]
-            ]
-          ],
-          [
-            [
-              [
-                77.6669359632587,
-                79.52565790458709
-              ],
-              [
-                77.68941871408326,
-                79.50487608841573
-              ],
-              [
-                77.7227783203125,
-                79.515660746421
-              ],
-              [
-                77.6669359632587,
-                79.52565790458709
-              ]
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "slingonia",
-        "fill": "#09aa1c",
-        "stroke": "#09aa1c",
-        "tags": [
-          "ТУС",
-          "ЛВГ"
-        ]
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              78.71429443359375,
-              80.83396989337878
-            ],
-            [
-              78.7225341796875,
-              80.73853908491282
-            ],
-            [
-              79.34326171875,
-              80.71596808613563
-            ],
-            [
-              80.16998291015625,
-              80.74428377164043
-            ],
-            [
-              80.408935546875,
-              80.84708615788186
-            ],
-            [
-              80.0848388671875,
-              80.91715949862973
-            ],
-            [
-              79.28558349609375,
-              80.95307618888584
-            ],
-            [
-              78.78021240234375,
-              80.88806340009803
-            ],
-            [
-              78.71429443359375,
-              80.83396989337878
             ]
           ]
         ]
@@ -42971,36 +42577,12 @@
               79.42504777141704
             ],
             [
-              77.68941871408326,
-              79.50487608841573
-            ],
-            [
-              77.6669359632587,
-              79.52565790458709
-            ],
-            [
               77.6177161413853,
               79.57115399615265
             ],
             [
-              77.19739796425617,
-              79.60989574920244
-            ],
-            [
-              76.21354247523541,
-              79.70058011277831
-            ],
-            [
               76.11986570903548,
               79.70921452913262
-            ],
-            [
-              76.08089692064637,
-              79.69570869897836
-            ],
-            [
-              75.96433459865955,
-              79.65531044724368
             ],
             [
               75.83606741052535,
@@ -43048,44 +42630,6 @@
             [
               78.44653597843461,
               80.91570721788969
-            ]
-          ],
-          [
-            [
-              78.71429443359375,
-              80.83396989337878
-            ],
-            [
-              78.78021240234375,
-              80.88806340009803
-            ],
-            [
-              79.28558349609375,
-              80.95307618888584
-            ],
-            [
-              80.0848388671875,
-              80.91715949862973
-            ],
-            [
-              80.408935546875,
-              80.84708615788186
-            ],
-            [
-              80.16998291015625,
-              80.74428377164043
-            ],
-            [
-              79.34326171875,
-              80.71596808613563
-            ],
-            [
-              78.7225341796875,
-              80.73853908491282
-            ],
-            [
-              78.71429443359375,
-              80.83396989337878
             ]
           ]
         ]
@@ -54811,6 +54355,643 @@
         "coordinates": [
           -97.33680725097656,
           37.6892542140253
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Оттава",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.68701761842948,
+          45.420652347377654
+        ],
+        "type": "Point"
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Кент",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -60.19059631956998,
+          46.134786565027554
+        ],
+        "type": "Point"
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Честер",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -61.50557008595378,
+          45.37988375220428
+        ],
+        "type": "Point"
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Йорк",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -62.6460654989706,
+          45.58482416675892
+        ],
+        "type": "Point"
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Трали",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -66.10375287004503,
+          43.84153128292678
+        ],
+        "type": "Point"
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Корк",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -64.39454887267941,
+          44.44993080023582
+        ],
+        "type": "Point"
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Спрингфилд",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -64.21826937654025,
+          45.834341641505375
+        ],
+        "type": "Point"
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Белфаст",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -63.57565572176911,
+          44.648085225846955
+        ],
+        "type": "Point"
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Шарльтон",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -64.48081508054482,
+          48.82182590563232
+        ],
+        "type": "Point"
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Метсалинн",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -66.92091499950834,
+          52.93079883160459
+        ],
+        "type": "Point"
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Лион",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.06539041276557,
+          48.40489343002761
+        ],
+        "type": "Point"
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Квебек",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.20588715688271,
+          46.80670575031684
+        ],
+        "type": "Point"
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Валенсия",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -76.48898466321131,
+          44.23404026319483
+        ],
+        "type": "Point"
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Детроит",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -81.24086354777616,
+          42.9793649248071
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Лестер",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.61199940380484,
+          43.15805511301505
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Бротфорт",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -76.14904934246316,
+          43.0447764155914
+        ],
+        "type": "Point"
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Бостон",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.9119031344169,
+          42.09837015467903
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Линкольн",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.76287842937008,
+          42.644995409850736
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Плацбург",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.45676257575867,
+          44.6923110210534
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Касл",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.0020167639012,
+          40.71215133191981
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Шербур",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.88729472001056,
+          45.40473154454813
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Викториовилле",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.95973603320736,
+          46.05504342086016
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Форто-Риверо",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -72.55452894756101,
+          46.33620397454786
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Норфолк",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.73392034586635,
+          51.47627822860372
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Санкара",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          166.45799106936943,
+          -22.258098214751115
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Сан-Кусто",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -52.71240234375,
+          47.55428670127958
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Фий",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          165.849609375,
+          -21.71867980570314
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Фэдфорт",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.4166259765625,
+          41.80407814427234
+        ],
+        "type": "Point"
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Буфало",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.760986328125,
+          42.85985981506279
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Фэстфорт",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -72.66632080078125,
+          41.748775021355044
+        ],
+        "type": "Point"
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Монте-Реаль",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5589599609375,
+          45.4947963896697
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Тронто",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.354248046875,
+          43.620170616189895
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Крабсхаффен",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -56.79931640625,
+          49.61070993807422
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Шталенберг",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -62.22656249999999,
+          51.42661449707482
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Блаубург",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -60.6610107421875,
+          50.21206446065373
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Вайсбург",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -56.40380859375,
+          51.70660846336452
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Фольксштадт",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -56.1181640625,
+          52.44261787120725
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Фишхаффен",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -60.27099609375,
+          53.30462107510271
         ],
         "type": "Point"
       }

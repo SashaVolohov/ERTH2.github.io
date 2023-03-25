@@ -916,65 +916,6 @@
     },
     {
       "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -58.62304687499999,
-              -34.12544756511612
-            ],
-            [
-              -57.45849609375,
-              -34.74161249883172
-            ],
-            [
-              -55.986328125,
-              -35.02999636902566
-            ],
-            [
-              -54.4921875,
-              -35.13787911963418
-            ],
-            [
-              -53.50341796875,
-              -34.52466147177172
-            ],
-            [
-              -52.9541015625,
-              -33.65120829920497
-            ],
-            [
-              -52.71240234375,
-              -32.54681317351514
-            ],
-            [
-              -53.96484375,
-              -30.939924331023455
-            ],
-            [
-              -56.03027343749999,
-              -29.554345125748267
-            ],
-            [
-              -57.54638671874999,
-              -29.535229562948444
-            ],
-            [
-              -58.38134765624999,
-              -31.22219703210317
-            ],
-            [
-              -58.62304687499999,
-              -34.12544756511612
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      }
-    },
-    {
-      "type": "Feature",
       "properties": {
         "stroke": "#555555",
         "stroke-width": 2,
@@ -2421,6 +2362,605 @@
         ],
         "type": "Polygon"
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Фишхаффен"
+      },
+      "geometry": {
+        "coordinates": [
+          -60.27099609375,
+          53.30462107510271
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Фольксштадт"
+      },
+      "geometry": {
+        "coordinates": [
+          -56.1181640625,
+          52.44261787120725
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Вайсбург"
+      },
+      "geometry": {
+        "coordinates": [
+          -56.40380859375,
+          51.70660846336452
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Блаубург"
+      },
+      "geometry": {
+        "coordinates": [
+          -60.6610107421875,
+          50.21206446065373
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Шталенберг"
+      },
+      "geometry": {
+        "coordinates": [
+          -62.22656249999999,
+          51.42661449707482
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Крабсхаффен"
+      },
+      "geometry": {
+        "coordinates": [
+          -56.79931640625,
+          49.61070993807422
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Тронто"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.354248046875,
+          43.620170616189895
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Монте-Реаль"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.5589599609375,
+          45.4947963896697
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Фэстфорт"
+      },
+      "geometry": {
+        "coordinates": [
+          -72.66632080078125,
+          41.748775021355044
+        ],
+        "type": "Point"
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Буфало"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.760986328125,
+          42.85985981506279
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Фэдфорт"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.4166259765625,
+          41.80407814427234
+        ],
+        "type": "Point"
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Фий"
+      },
+      "geometry": {
+        "coordinates": [
+          165.849609375,
+          -21.71867980570314
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Сан-Кусто"
+      },
+      "geometry": {
+        "coordinates": [
+          -52.71240234375,
+          47.55428670127958
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Санкара",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          166.45799106936943,
+          -22.258098214751115
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Норфолк",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.73392034586635,
+          51.47627822860372
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Форто-Риверо",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -72.55452894756101,
+          46.33620397454786
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Викториовилле",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.95973603320736,
+          46.05504342086016
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Шербур",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.88729472001056,
+          45.40473154454813
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Касл",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.0020167639012,
+          40.71215133191981
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Плацбург",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.45676257575867,
+          44.6923110210534
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Линкольн",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.76287842937008,
+          42.644995409850736
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Бостон",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.9119031344169,
+          42.09837015467903
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Бротфорт",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -76.14904934246316,
+          43.0447764155914
+        ],
+        "type": "Point"
+      },
+      "id": 25
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Лестер",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.61199940380484,
+          43.15805511301505
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Детроит",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -81.24086354777616,
+          42.9793649248071
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Валенсия",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -76.48898466321131,
+          44.23404026319483
+        ],
+        "type": "Point"
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Квебек",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.20588715688271,
+          46.80670575031684
+        ],
+        "type": "Point"
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Лион",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.06539041276557,
+          48.40489343002761
+        ],
+        "type": "Point"
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Метсалинн",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -66.92091499950834,
+          52.93079883160459
+        ],
+        "type": "Point"
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Шарльтон",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -64.48081508054482,
+          48.82182590563232
+        ],
+        "type": "Point"
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Белфаст",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -63.57565572176911,
+          44.648085225846955
+        ],
+        "type": "Point"
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Спрингфилд",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -64.21826937654025,
+          45.834341641505375
+        ],
+        "type": "Point"
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Корк",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -64.39454887267941,
+          44.44993080023582
+        ],
+        "type": "Point"
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Трали",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -66.10375287004503,
+          43.84153128292678
+        ],
+        "type": "Point"
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Йорк",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -62.6460654989706,
+          45.58482416675892
+        ],
+        "type": "Point"
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Честер",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -61.50557008595378,
+          45.37988375220428
+        ],
+        "type": "Point"
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Кент",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -60.19059631956998,
+          46.134786565027554
+        ],
+        "type": "Point"
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Оттава",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.68701761842948,
+          45.420652347377654
+        ],
+        "type": "Point"
+      },
+      "id": 44
     }
   ]
 }
