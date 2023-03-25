@@ -17,7 +17,7 @@ zerzija:
   tags:
     - ТУС
     - ООВГ
-Imperium-Dusiburgo:
+dusiburg:
   fill: "#00c4c7"
   stroke: "#555555"
   tags:
@@ -74,7 +74,7 @@ New-SNR:
   stroke: "#174304"
   tags:
     - ООВГ
-republic-of-olegostan:
+olegostan:
   fill: "#1932ae"
   stroke: "#8f25ad"
   tags:
@@ -99,7 +99,7 @@ Myrlandia:
   stroke: "#fe58c1"
   tags:
     - ООВГ
-RES-VCT:
+victorio:
   fill: "#85a2e5"
   stroke: "#fbff00"
   tags:
