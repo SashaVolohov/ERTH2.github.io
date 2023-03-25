@@ -65,3 +65,9 @@ sqr-united:
   stroke: "#ff0000"
   tags:
     - ОВН
+TF:
+  fill: "#876308"
+  stroke: "#876308"
+  tags:
+    - ОВН
+    - ЛВГ

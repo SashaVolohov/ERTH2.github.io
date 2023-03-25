@@ -23,7 +23,14 @@ for (country of layers) {
       `./movc/geo/countries/countries/${country}.geojson`,
       "utf-8"
     )
-  ).features;
+  );
+
+  fs.writeFileSync(
+    `./movc/geo/countries/countries/${country}.geojson`,
+    JSON.stringify(co_features, null, "  ")
+  );
+
+  co_features = co_features.features;
 
   features = [
     ...features,
