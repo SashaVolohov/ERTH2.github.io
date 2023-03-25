@@ -103,6 +103,17 @@ window.onload = async () => {
     });
 
     movc.addLayer({
+      id: "map-data-fill-outline",
+      type: "line",
+      source: "map-data",
+      paint: {
+        "line-color": ["coalesce", ["get", "stroke"], "#0c7700"],
+        "line-width": 2,
+        "line-opacity": 0.8,
+      },
+    });
+
+    movc.addLayer({
       id: "map-data-symbol",
       type: "symbol",
       source: "map-data",
