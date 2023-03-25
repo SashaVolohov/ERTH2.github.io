@@ -52801,6 +52801,351 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Айдикейдий",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          153.00939323295563,
+          -27.459121825230476
+        ],
+        "type": "Point"
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Страннолид",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          147.32882759874514,
+          -42.88317810112925
+        ],
+        "type": "Point"
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Старозамдий",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          151.77037431359463,
+          -32.92674024679601
+        ],
+        "type": "Point"
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Театридий",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          151.2167294144242,
+          -33.87096025512
+        ],
+        "type": "Point"
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Безпляждий",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          149.09396574029228,
+          -35.29997039164956
+        ],
+        "type": "Point"
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Элексирдий",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          27.878235041567336,
+          39.646103720838255
+        ],
+        "type": "Point"
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Даяндий",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          29.89597672603253,
+          31.19843337893238
+        ],
+        "type": "Point"
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Пирамидий",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          31.221460938378016,
+          30.04835818106993
+        ],
+        "type": "Point"
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Деньгодилий",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          32.30470961297118,
+          31.264740315473702
+        ],
+        "type": "Point"
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Талонскидий",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          22.930780747068127,
+          40.641845881613165
+        ],
+        "type": "Point"
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Сновидей",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          22.416600270474703,
+          39.6338545101448
+        ],
+        "type": "Point"
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Муфтидий",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          23.717749542351413,
+          37.988537646869545
+        ],
+        "type": "Point"
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Карпадил",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          27.2142656028644,
+          35.503813954594676
+        ],
+        "type": "Point"
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Термодиниум",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          25.126720773836126,
+          35.34147938355544
+        ],
+        "type": "Point"
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Царьдонски",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          28.963940218104057,
+          41.022351663512296
+        ],
+        "type": "Point"
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Бебридинол",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          47.81747468714721,
+          52.01626646455031
+        ],
+        "type": "Point"
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Оредий",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          51.383094180154416,
+          51.181292441238014
+        ],
+        "type": "Point"
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Речидиум",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          44.5378743933349,
+          48.72843906889861
+        ],
+        "type": "Point"
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Грибдий",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          48.385840040628494,
+          54.32093487147989
+        ],
+        "type": "Point"
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Сраньдел",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          45.17296837219476,
+          54.198421834257175
+        ],
+        "type": "Point"
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Пизандиум",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          44.99182723955309,
+          53.19945008180002
+        ],
+        "type": "Point"
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Арасамойдий",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          50.12098141645896,
+          53.19945008180002
+        ],
+        "type": "Point"
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Невыйдиум",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          46.03395241769911,
+          51.540822098237385
+        ],
+        "type": "Point"
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
@@ -52923,9 +53268,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "type": "city",
         "name": "Олидолиум"
       },
@@ -52935,14 +53277,12 @@
           56.63206372054474
         ],
         "type": "Point"
-      }
+      },
+      "id": 3
     },
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "type": "capital-city",
         "name": "Воидолиум",
         "amount": 2
@@ -52953,14 +53293,12 @@
           56.147079550100564
         ],
         "type": "Point"
-      }
+      },
+      "id": 2
     },
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "type": "city",
         "name": "Валлориум",
         "amount": 3
@@ -52971,75 +53309,8 @@
           55.795491450863395
         ],
         "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "type": "city",
-        "name": "Градлион"
       },
-      "geometry": {
-        "coordinates": [
-          56.24725341796875,
-          58.01173545198743
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "type": "city",
-        "name": "Скалодилум"
-      },
-      "geometry": {
-        "coordinates": [
-          60.6060791015625,
-          56.835451877125536
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "type": "city",
-        "name": "Метеоридиум"
-      },
-      "geometry": {
-        "coordinates": [
-          61.41357421874999,
-          55.175730853115766
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "type": "city",
-        "name": "Бераклидолион"
-      },
-      "geometry": {
-        "coordinates": [
-          55.92315673828125,
-          54.7277924107821
-        ],
-        "type": "Point"
-      }
+      "id": 1
     },
     {
       "type": "Feature",
