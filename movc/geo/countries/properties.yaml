@@ -71,3 +71,9 @@ TF:
   tags:
     - ОВН
     - ЛВГ
+flucland:
+  fill: "#084480"
+  stroke: "#084480"
+  tags:
+    - ОВН
+    - ЛВГ
