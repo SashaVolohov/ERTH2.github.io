@@ -3,19 +3,553 @@
   "features": [
     {
       "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -14.404106140136717,
+              -7.886507587818575
+            ],
+            [
+              -14.437408447265623,
+              -7.9283347604455034
+            ],
+            [
+              -14.430885314941406,
+              -7.982397728356919
+            ],
+            [
+              -14.3975830078125,
+              -8.008916572242052
+            ],
+            [
+              -14.327545166015625,
+              -7.986477662667626
+            ],
+            [
+              -14.284629821777344,
+              -7.953497028508545
+            ],
+            [
+              -14.288063049316406,
+              -7.919153549446241
+            ],
+            [
+              -14.33784484863281,
+              -7.893989181999713
+            ],
+            [
+              -14.383163452148436,
+              -7.874264687307991
+            ],
+            [
+              -14.404106140136717,
+              -7.886507587818575
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.781383514404297,
+              -16.0141360020859
+            ],
+            [
+              -5.7655906677246085,
+              -16.033605031916128
+            ],
+            [
+              -5.737266540527344,
+              -16.03195518782921
+            ],
+            [
+              -5.700359344482421,
+              -16.013806002158255
+            ],
+            [
+              -5.656757354736328,
+              -16.000935579586685
+            ],
+            [
+              -5.624313354492187,
+              -15.984103776055623
+            ],
+            [
+              -5.627574920654297,
+              -15.949775710235672
+            ],
+            [
+              -5.639076232910156,
+              -15.919073517982413
+            ],
+            [
+              -5.6634521484375,
+              -15.894970659601228
+            ],
+            [
+              -5.699501037597656,
+              -15.894970659601228
+            ],
+            [
+              -5.757007598876953,
+              -15.923530579198845
+            ],
+            [
+              -5.779838562011719,
+              -15.95538743094407
+            ],
+            [
+              -5.7958030700683585,
+              -15.985754015522788
+            ],
+            [
+              -5.792198181152344,
+              -16.007370894548945
+            ],
+            [
+              -5.781383514404297,
+              -16.0141360020859
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.872833251953125,
+              3.805335318820754
+            ],
+            [
+              8.663406372070312,
+              3.835480582788039
+            ],
+            [
+              8.550796508789062,
+              3.651167088201703
+            ],
+            [
+              8.501358032226562,
+              3.5435761742762812
+            ],
+            [
+              8.39424133300781,
+              3.457220257505901
+            ],
+            [
+              8.376388549804688,
+              3.31670383377035
+            ],
+            [
+              8.428573608398438,
+              3.217987621216165
+            ],
+            [
+              8.586502075195312,
+              3.1816521475691357
+            ],
+            [
+              8.730010986328125,
+              3.1734250695079433
+            ],
+            [
+              8.7945556640625,
+              3.317389328903886
+            ],
+            [
+              8.831634521484375,
+              3.423635266515839
+            ],
+            [
+              8.898239135742188,
+              3.5476881613120987
+            ],
+            [
+              8.973770141601562,
+              3.6566490858062335
+            ],
+            [
+              8.996429443359373,
+              3.7820405282110454
+            ],
+            [
+              8.930511474609375,
+              3.7984839750369748
+            ],
+            [
+              8.872833251953125,
+              3.805335318820754
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {
-        "marker-color": "#787878",
+        "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "name": "Колушенск",
+        "name": "Новый Орлеан",
         "type": "city"
       },
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.087890625,
+          29.973970240516614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Малый Комиград",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.03590393066406,
+          30.210421455819937
+        ]
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Гаршава",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.29412841796875,
+          31.325486676506983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Атланкс",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.802978515625,
+          33.51391942394942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Шепорт",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.74633789062499,
+          32.48196313217176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Заколушенск",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.4011001586914,
+          33.63091475412966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Арстокельск",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.40277099609375,
+          35.37841344859757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Окла",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5091552734375,
+          35.47409160773029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Фёдоровград",
+        "type": "city",
+        "img": "https://i.imgur.com/Jy5xmIW.jpg",
+        "description": "Город названный в честь Президента Индизийской Конфедерации, который сплотил Техас и Индизию. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33680725097656,
+          37.6892542140253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Анроми",
+        "type": "city",
+        "img": "https://i.imgur.com/V7gSAy0.jpg",
+        "description": "Нечем не примечательный город, здесь основана The Coca-Cola Company и находиться их главный офис."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5867919921875,
+          39.10875135935859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Мемфис",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.00274658203125,
+          35.11766197360177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Питсбург",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0244140625,
+          40.39676430557203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Колушенск",
+        "type": "city",
+        "img": "https://i.imgur.com/87iOVTD.png",
+        "description": "Город был основан в ТНР 3 декабря 2021, как колония, для упрощения торговли с Индизийской Конфедерацией. "
+      },
+      "geometry": {
+        "type": "Point",
         "coordinates": [
           -104.82604980468749,
           38.826870521380634
-        ],
-        "type": "Point"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Комиград",
+        "type": "city",
+        "img": "https://i.imgur.com/7vfozfX.jpg",
+        "description": "Первый основанный город в истории Техаса и CAD. Является одним из городов Федерального значения. Один из крупнейших городов Техаса. "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.36956787109375,
+          29.74768632486994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Памятник в честь независимости Техаса",
+        "type": "landmark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.3838882446289,
+          29.82039127614494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Ранден",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.30958557128906,
+          30.594183452544694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Грецев",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.31414794921875,
+          32.75494243654723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Норск",
+        "type": "city",
+        "img": "https://i.imgur.com/5LXAnjE.jpg",
+        "description": "Столица медицины Техаса, лучшие врачи Техаса находятся здесь. Так же здесь производят большинство медикаментов Техаса."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.4315185546875,
+          31.454439514853256
+        ]
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Регонда",
+        "type": "city",
+        "img": "https://i.imgur.com/k3KXq60.jpg",
+        "description": "Регонда, главный туристический город Техаса, бары, яхты, туры. Всё это здесь"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4102783203125,
+          27.751607687549384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Розен",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.5184326171875,
+          33.390172864722466
+        ]
       }
     },
     {
@@ -28,11 +562,720 @@
         "type": "city"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           -106.44653320312499,
           31.728167146023935
-        ],
-        "type": "Point"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Новый Снегоград",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.787109375,
+          32.319633552035214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Памятник Президенту ДРК в честь независимости Южного Снегограда",
+        "type": "landmark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.80118560791016,
+          32.367203146174205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Снегоград",
+        "type": "city",
+        "img": "https://i.imgur.com/zZ8G0tG.jpg",
+        "description": "Столица Республики Снегоград, была построена по приказу Кузнецкого, в честь их же нации."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.63330078125,
+          35.10193405724606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Под-снегоградье",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0770263671875,
+          33.44060944370356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Главный офис газеты \"Мир Сегодня\"",
+        "type": "landmark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0440673828125,
+          33.052414410040605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Макаровск",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.083984375,
+          28.66167121641951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Ново-Испанск",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.66856384277344,
+          26.931252978829995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Техаск",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.644775390625,
+          24.00632619875113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Чапала",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.326416015625,
+          20.65848618804128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Колима",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.7054443359375,
+          19.233363381183896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Горнинск",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.2113037109375,
+          17.95783210227242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Манзалирто",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.3096923828125,
+          19.08288436934017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Моренск",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.86572265625,
+          16.867633616803836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Мехико",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.15710449218749,
+          19.4303341116379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Малый Мехико",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2781982421875,
+          19.114029215761995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Сан-Луис",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.97259521484375,
+          22.141619800738773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Хонгото",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.933349609375,
+          17.994407217139745
+        ]
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Деркунзас",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.31784057617188,
+          24.11792837933617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Зюрз",
+        "type": "capital-city",
+        "img": "https://i.imgur.com/I1TpmGn.jpg",
+        "description": "Зюрз, Столица и красивейший город Техаса, до 8 сентября 2021 года именовался Эстанск. Зюзр стал вторым освобождённым городом во время освободительной революции.  "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.50616455078125,
+          29.420460341013133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Синоз",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7181396484375,
+          17.05153299148685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Пама",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3570556640625,
+          -0.6426867176331666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Ла Сеиба",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.78976058959961,
+          15.781020884159558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Чикаго",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.43110656738281,
+          8.426356976806003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Памятник Джорджу I",
+        "type": "landmark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.00915527343749,
+          43.2151850073567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Нетейл",
+        "type": "city",
+        "img": "https://i.imgur.com/h9Lb0P4.jpg",
+        "description": "Столица Республики Парадония, небольшой, но красивый город."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39044189453124,
+          40.57745558120849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Ынкун",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.8486328125,
+          6.932561515388951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Лос-Антос",
+        "type": "city",
+        "img": "https://i.imgur.com/4fzoEee.jpg",
+        "description": "Очень красивый горный город Техаса."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.24859619140626,
+          34.03900467904445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Флореста",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.89391326904297,
+          16.91986618948069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Многоград",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.52322387695312,
+          14.614149377380892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Манагуа",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.27838134765624,
+          12.133320019854683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Листопад",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.98388671874999,
+          29.07297469064491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Анроми",
+        "type": "city",
+        "img": "https://i.imgur.com/V7gSAy0.jpg",
+        "description": "Нечем не примечательный город, здесь основана The Coca-Cola Company и находиться их главный офис."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5867919921875,
+          39.10875135935859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Ранден",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.30958557128906,
+          30.594183452544694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Груинск",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.23150634765625,
+          26.194876675795218
+        ]
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Арстоцка",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.40101623535156,
+          32.8415198362813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Ново-Техас",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.44653320312499,
+          31.728167146023935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Громаил",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.92453002929688,
+          29.310351371763023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Национальный Парк ",
+        "type": "landmark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.22753906249999,
+          29.23847708592805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Дедовск",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.32440185546875,
+          25.68856292610355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Южно-Индизийск",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.4093017578125,
+          26.902476886279832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Белград",
+        "type": "city"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.85694122314453,
+          22.231586270022696
+        ]
       }
     },
     {
@@ -118,35 +1361,6 @@
           ]
         ],
         "type": "Polygon"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ынкун"
-      },
-      "geometry": {
-        "coordinates": [
-          79.86822499613749,
-          6.922072536207011
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "landmark",
-        "name": "Памятник Сгоревшей Жопе Артемия",
-        "description": "Памятник посвящен сгоревшей жопе Артемия.   После множественных территориальных претензий одной страны к другой стране из-за несоответствия территорий на длину планка, жопа **Артемия воспламенилась синим пламенем**.   Марк Дедков, Слава Потомучто, Роман Фуфел, Федор Федоров, стоят под пламенем.   Взрыв ударной волны услышали в **Красном Луче**, а Артемий пошел играть в **шахматы.**",
-        "img": "https://i.imgur.com/ZvxPIX1.png"
-      },
-      "geometry": {
-        "coordinates": [
-          47.38841595116875,
-          56.12811305229852
-        ],
-        "type": "Point"
       }
     },
     {
@@ -1433,58 +2647,8 @@
           ]
         ],
         "type": "Polygon"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#575757",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Фёдоровград",
-        "type": "city"
       },
-      "geometry": {
-        "coordinates": [
-          -97.33680725097656,
-          37.6892542140253
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#8a8a8a",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Анроми",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -94.5867919921875,
-          39.10875135935859
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#787878",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Норск",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -100.4315185546875,
-          31.454439514853256
-        ],
-        "type": "Point"
-      }
+      "id": 80
     },
     {
       "type": "Feature",
@@ -1501,7 +2665,8 @@
           40.81225017494346
         ],
         "type": "Point"
-      }
+      },
+      "id": 68
     },
     {
       "type": "Feature",
@@ -1957,329 +3122,6 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "name": "Новый Орлеан",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -90.087890625,
-          29.973970240516614
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Малый Комиград",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -92.03590393066406,
-          30.210421455819937
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Гаршава",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -89.29412841796875,
-          31.325486676506983
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Атланкс",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -86.802978515625,
-          33.51391942394942
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Шепорт",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -93.74633789062499,
-          32.48196313217176
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Заколушенск",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -91.4011001586914,
-          33.63091475412966
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Арстокельск",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -94.40277099609375,
-          35.37841344859757
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Окла",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -97.5091552734375,
-          35.47409160773029
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Мемфис",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -90.00274658203125,
-          35.11766197360177
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Питсбург",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -80.0244140625,
-          40.39676430557203
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#8f8f8f",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Комиград",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -95.36956787109375,
-          29.74768632486994
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Памятник в честь независимости Техаса",
-        "type": "landmark"
-      },
-      "geometry": {
-        "coordinates": [
-          -94.3838882446289,
-          29.82039127614494
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Ранден",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -96.30958557128906,
-          30.594183452544694
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Грецев",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -97.31414794921875,
-          32.75494243654723
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#808080",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Регонда",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -97.4102783203125,
-          27.751607687549384
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Розен",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -104.5184326171875,
-          33.390172864722466
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Новый Снегоград",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -106.787109375,
-          32.319633552035214
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Памятник Президенту ДРК в честь независимости Южного Снегограда",
-        "type": "landmark"
-      },
-      "geometry": {
-        "coordinates": [
-          -106.80118560791016,
-          32.367203146174205
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#707070",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Снегоград",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -106.63330078125,
-          35.10193405724606
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
         "name": "Под-снегоградье",
         "type": "city"
       },
@@ -2311,346 +3153,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Макаровск",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -106.083984375,
-          28.66167121641951
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Ново-Испанск",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -105.66856384277344,
-          26.931252978829995
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Техаск",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -104.644775390625,
-          24.00632619875113
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Чапала",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -103.326416015625,
-          20.65848618804128
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Колима",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -103.7054443359375,
-          19.233363381183896
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Горнинск",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -102.2113037109375,
-          17.95783210227242
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Манзалирто",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -104.3096923828125,
-          19.08288436934017
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Моренск",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -99.86572265625,
-          16.867633616803836
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Мехико",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -99.15710449218749,
-          19.4303341116379
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Малый Мехико",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -98.2781982421875,
-          19.114029215761995
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Сан-Луис",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -100.97259521484375,
-          22.141619800738773
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Хонгото",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -92.933349609375,
-          17.994407217139745
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Деркунзас",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -110.31784057617188,
-          24.11792837933617
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#616161",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Зюрз",
-        "type": "capital"
-      },
-      "geometry": {
-        "coordinates": [
-          -98.50616455078125,
-          29.420460341013133
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Синоз",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -96.7181396484375,
-          17.05153299148685
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Пама",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -90.3570556640625,
-          -0.6426867176331666
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Ла Сеиба",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -86.78976058959961,
-          15.781020884159558
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Чикаго",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -82.43110656738281,
-          8.426356976806003
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Памятник Джорджу I",
-        "type": "landmark"
-      },
-      "geometry": {
-        "coordinates": [
-          -120.00915527343749,
-          43.2151850073567
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#787878",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Нетейл",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -122.39044189453124,
-          40.57745558120849
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "marker-color": "#808080",
         "marker-size": "medium",
         "marker-symbol": "",
@@ -2661,193 +3163,6 @@
         "coordinates": [
           -118.24859619140626,
           34.03900467904445
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Флореста",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -89.89391326904297,
-          16.91986618948069
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Многоград",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -90.52322387695312,
-          14.614149377380892
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Манагуа",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -86.27838134765624,
-          12.133320019854683
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Листопад",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -110.98388671874999,
-          29.07297469064491
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Ранден",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -96.30958557128906,
-          30.594183452544694
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Груинск",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -98.23150634765625,
-          26.194876675795218
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Арстоцка",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -104.40101623535156,
-          32.8415198362813
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Громаил",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -100.92453002929688,
-          29.310351371763023
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Национальный Парк ",
-        "type": "landmark"
-      },
-      "geometry": {
-        "coordinates": [
-          -103.22753906249999,
-          29.23847708592805
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Дедовск",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -100.32440185546875,
-          25.68856292610355
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Южно-Индизийск",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          -101.4093017578125,
-          26.902476886279832
         ],
         "type": "Point"
       }
