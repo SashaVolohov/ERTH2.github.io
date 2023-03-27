@@ -37,7 +37,7 @@ function onMapClick(e) {
 
 window.onload = async () => {
   mapboxgl.accessToken =
-    "pk.eyJ1IjoiYXJ0ZWdvc2VyIiwiYSI6ImNrcDVhaHF2ejA2OTcyd3MxOG84bWRhOXgifQ.N3knNrPFIceTHVcIoPPcEQ";
+    "pk.eyJ1IjoiYXJ0ZWdvc2VyIiwiYSI6ImNrcDViN3BhcDAwbW0ydnBnOXZ0ZzFreXUifQ.FIVtaBNr9dr_TIw672Zqdw";
   let movc = new mapboxgl.Map({
     container: "map",
     style: "mapbox://styles/artegoser/clfm612fg002601nlcika2018",
