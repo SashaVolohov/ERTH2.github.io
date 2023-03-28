@@ -33,7 +33,8 @@
       "type": "Feature",
       "properties": {
         "name": "Соловки",
-        "type": "city"
+        "type": "landmark",
+        "img": "https://imgur.com/ic7J93z"
       },
       "geometry": {
         "coordinates": [
@@ -41,7 +42,8 @@
           65.02451336897425
         ],
         "type": "Point"
-      }
+      },
+      "id": 2
     },
     {
       "type": "Feature",
@@ -8967,7 +8969,8 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "id": 4
     },
     {
       "type": "Feature",
@@ -9064,22 +9067,10 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Чебурекоград",
-        "type": "capital city"
-      },
-      "geometry": {
-        "coordinates": [
-          37.81563581578814,
-          55.92406442298068
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Панк-Сектербург",
-        "type": "city"
+        "type": "city",
+        "amount": 2,
+        "description": "Самый красивый город Цайтланда, его культурная столица"
       },
       "geometry": {
         "coordinates": [
@@ -9087,7 +9078,8 @@
           59.93880721641676
         ],
         "type": "Point"
-      }
+      },
+      "id": 6
     },
     {
       "type": "Feature",
@@ -9115,13 +9107,16 @@
           58.52030268485066
         ],
         "type": "Point"
-      }
+      },
+      "id": 8
     },
     {
       "type": "Feature",
       "properties": {
         "name": "Загорск",
-        "type": "city"
+        "type": "city",
+        "description": "Город недалеко от Загорской ГАЭС. ",
+        "amount": 3
       },
       "geometry": {
         "coordinates": [
@@ -9129,7 +9124,8 @@
           56.31004048861982
         ],
         "type": "Point"
-      }
+      },
+      "id": 9
     },
     {
       "type": "Feature",
@@ -9143,7 +9139,8 @@
           56.85747115973089
         ],
         "type": "Point"
-      }
+      },
+      "id": 10
     },
     {
       "type": "Feature",
@@ -9157,7 +9154,8 @@
           59.21894393474162
         ],
         "type": "Point"
-      }
+      },
+      "id": 11
     },
     {
       "type": "Feature",
@@ -9191,7 +9189,8 @@
       "type": "Feature",
       "properties": {
         "name": "Балтобург",
-        "type": "city"
+        "type": "city",
+        "amount": 1
       },
       "geometry": {
         "coordinates": [
@@ -9199,7 +9198,8 @@
           56.94668247385215
         ],
         "type": "Point"
-      }
+      },
+      "id": 14
     },
     {
       "type": "Feature",
@@ -9353,7 +9353,8 @@
           50.08794263772893
         ],
         "type": "Point"
-      }
+      },
+      "id": 25
     },
     {
       "type": "Feature",
@@ -9410,6 +9411,57 @@
         ],
         "type": "Point"
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": " Чебурекоград",
+        "type": "capital city",
+        "amount": 4,
+        "description": "Столица Цайтланда"
+      },
+      "geometry": {
+        "coordinates": [
+          37.81704145349204,
+          55.923676604003674
+        ],
+        "type": "Point"
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Загорская ГАЭС",
+        "type": "landmark",
+        "description": "Самая большая ГАЭС во всём Цайтланде и Европе. Была построена в 2021 году. ",
+        "img": "https://imgur.com/NQjlfMc"
+      },
+      "geometry": {
+        "coordinates": [
+          38.17917453288729,
+          56.48282220723138
+        ],
+        "type": "Point"
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Шалаш Богдана",
+        "type": "landmark",
+        "description": "Место заточения бывшего главы Восточно-Германской Конфедерации",
+        "img": "https://imgur.com/5SU3Zwj"
+      },
+      "geometry": {
+        "coordinates": [
+          40.943732548963,
+          62.606393353972976
+        ],
+        "type": "Point"
+      },
+      "id": 32
     }
   ]
 }
