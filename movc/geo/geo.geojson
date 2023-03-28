@@ -70071,6 +70071,873 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Пристаргород",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          85.986400363663,
+          69.46631308291026
+        ],
+        "type": "Point"
+      },
+      "id": 79
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Бубс",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -57.64985750357144,
+          75.08976556150455
+        ],
+        "type": "Point"
+      },
+      "id": 77
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Бигмак",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -36.503494307342095,
+          -54.29203554834286
+        ],
+        "type": "Point"
+      },
+      "id": 76
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Редан",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          121.47021828906287,
+          -30.765218680247088
+        ],
+        "type": "Point"
+      },
+      "id": 75
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Линкольн",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          135.81929302314074,
+          -34.719565051759375
+        ],
+        "type": "Point"
+      },
+      "id": 74
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Нивеамен",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          113.66648257258453,
+          -24.881524935272083
+        ],
+        "type": "Point"
+      },
+      "id": 73
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Старбакс",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          117.85044388431407,
+          -34.96023292726604
+        ],
+        "type": "Point"
+      },
+      "id": 72
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Рокингем",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          115.79006253931124,
+          -32.267424901055946
+        ],
+        "type": "Point"
+      },
+      "id": 71
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Барбер",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          115.65178139447983,
+          -33.34607235568746
+        ],
+        "type": "Point"
+      },
+      "id": 70
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Пертх",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          115.86432494171697,
+          -32.023123750917485
+        ],
+        "type": "Point"
+      },
+      "id": 69
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Мурзик",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          13.922494385769312,
+          25.944308589722596
+        ],
+        "type": "Point"
+      },
+      "id": 68
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Бенгази",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          20.09761988083676,
+          32.10797611146356
+        ],
+        "type": "Point"
+      },
+      "id": 67
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Новый Федоград",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          13.188643160130425,
+          32.874639567126124
+        ],
+        "type": "Point"
+      },
+      "id": 66
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Сирт",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          16.580793219418922,
+          31.199553013325414
+        ],
+        "type": "Point"
+      },
+      "id": 65
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Мюлуз",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          7.3306250587303055,
+          47.755234522518066
+        ],
+        "type": "Point"
+      },
+      "id": 64
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Страсбург",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          7.7620776421638595,
+          48.59137165223669
+        ],
+        "type": "Point"
+      },
+      "id": 63
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Метц",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          6.196301543287376,
+          49.111496935242116
+        ],
+        "type": "Point"
+      },
+      "id": 62
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Артемьевск",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          89.02640101644016,
+          69.25498932013798
+        ],
+        "type": "Point"
+      },
+      "id": 61
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Город",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -119.06665506563334,
+          74.00038516682775
+        ],
+        "type": "Point"
+      },
+      "id": 60
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Ледовитый",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -124.96315935275858,
+          72.54360670821507
+        ],
+        "type": "Point"
+      },
+      "id": 59
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Североканадск",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -94.92669494448056,
+          80.02276497413067
+        ],
+        "type": "Point"
+      },
+      "id": 58
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Резолют",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -94.83662269319345,
+          74.69534621214325
+        ],
+        "type": "Point"
+      },
+      "id": 57
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Северск",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -179.12027290434673,
+          71.55786594842951
+        ],
+        "type": "Point"
+      },
+      "id": 56
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Лонгсбоуэн",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          15.629180015710318,
+          78.20747936397663
+        ],
+        "type": "Point"
+      },
+      "id": 55
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Старый Старгород",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -29.508330184502825,
+          81.84073394825677
+        ],
+        "type": "Point"
+      },
+      "id": 54
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Северогренландск",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -39.27161346257432,
+          83.23848218715892
+        ],
+        "type": "Point"
+      },
+      "id": 53
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Федоград",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          -18.08028333743718,
+          80.59919844784099
+        ],
+        "type": "Point"
+      },
+      "id": 52
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Клинко",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          72.13276325245852,
+          71.22665789443681
+        ],
+        "type": "Point"
+      },
+      "id": 51
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Нигерск",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          111.59021267010104,
+          65.93321140015456
+        ],
+        "type": "Point"
+      },
+      "id": 50
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Новейший Старгород",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          113.98301674818822,
+          62.522160899478365
+        ],
+        "type": "Point"
+      },
+      "id": 49
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Новый Старгород",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          75.44921340393665,
+          63.20901727312764
+        ],
+        "type": "Point"
+      },
+      "id": 48
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Артемий",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          68.26997795484218,
+          58.2112456114088
+        ],
+        "type": "Point"
+      },
+      "id": 47
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Сургут",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          73.41793220761639,
+          61.25740449750862
+        ],
+        "type": "Point"
+      },
+      "id": 46
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Гризманн",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          66.62489969311116,
+          66.5345591654227
+        ],
+        "type": "Point"
+      },
+      "id": 45
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Мортен",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          89.03850775993772,
+          62.31864675921719
+        ],
+        "type": "Point"
+      },
+      "id": 44
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Нью-Уренгой",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          76.82058201171321,
+          66.10068268091601
+        ],
+        "type": "Point"
+      },
+      "id": 43
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Хант",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          69.01613556705436,
+          61.060365628381476
+        ],
+        "type": "Point"
+      },
+      "id": 42
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Южный Волоховск",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          102.47613879529251,
+          71.98365654575008
+        ],
+        "type": "Point"
+      },
+      "id": 41
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Егорилий",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          94.3165206619625,
+          79.74233920999757
+        ],
+        "type": "Point"
+      },
+      "id": 40
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Дорожкиновск",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          103.7649599936957,
+          78.28224337650394
+        ],
+        "type": "Point"
+      },
+      "id": 39
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Щербининск",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          142.32899077326442,
+          75.16888731486497
+        ],
+        "type": "Point"
+      },
+      "id": 38
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Волоховск",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          110.26101428329065,
+          73.70793170068063
+        ],
+        "type": "Point"
+      },
+      "id": 37
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Старонов",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          99.69511358752493,
+          76.03266272567905
+        ],
+        "type": "Point"
+      },
+      "id": 36
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Якутск",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          129.74672427926873,
+          62.086341544387125
+        ],
+        "type": "Point"
+      },
+      "id": 35
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Фуфловск",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          73.416135136212,
+          54.968179449384024
+        ],
+        "type": "Point"
+      },
+      "id": 34
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Новосибирск",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          82.8947169847699,
+          54.98616249703167
+        ],
+        "type": "Point"
+      },
+      "id": 33
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Таймырон",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          100.73459378504953,
+          74.24579501415545
+        ],
+        "type": "Point"
+      },
+      "id": 32
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Норфес",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          84.1923368349589,
+          72.88951773684047
+        ],
+        "type": "Point"
+      },
+      "id": 31
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7a7a7a",
+        "marker-size": "medium",
+        "name": "Великий Старгород",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          86.29668423824398,
+          68.70024408607719
+        ],
+        "type": "Point"
+      },
+      "id": 30
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Старгород",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          86.18195833678368,
+          69.40707257886308
+        ],
+        "type": "Point"
+      },
+      "id": 29
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7a7a7a",
+        "marker-size": "medium",
+        "name": "Норильск",
+        "type": "capital"
+      },
+      "geometry": {
+        "coordinates": [
+          88.26127534156615,
+          69.3986424068977
+        ],
+        "type": "Point"
+      },
+      "id": 28
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Шалаш Богдана",
         "type": "landmark-0",
         "description": "Место заточения бывшего главы Восточно-Германской Конфедерации",
