@@ -31,6 +31,11 @@ Anigara:
   stroke: "#000000"
   tags:
     - ЛВГ
+Sordland:
+  fill: "#004d02"
+  stroke: "#004d02"
+  tags:
+    - ЛВГ
 russania:
   fill: "#004c02"
   stroke: "#004c02"
