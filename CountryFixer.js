@@ -41,7 +41,7 @@ for (let feature of polygons) {
 }
 
 polygons = turf.dissolve(turf.featureCollection(polygons), {
-  propertyName: "name",
+  propertyName: "some-undefined-value",
 });
 
 if (simplify !== false) {
@@ -64,6 +64,7 @@ polygons.features = polygons.features.map((v) => {
 
 polygons.features = polygons.features.concat(nonPoly);
 
+console.log("done");
 fs.writeFileSync(
   `./movc/geo/countries/countries/${country}.geojson`,
   JSON.stringify(polygons, null, "  ")
