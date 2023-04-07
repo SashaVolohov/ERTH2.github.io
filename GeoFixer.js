@@ -101,6 +101,44 @@ geo.features = dissolved.features.concat(nonPoly);
 console.timeEnd("Dissolve");
 console.log();
 
+console.log("Polygons to MultiPolygons");
+console.time("Polygons to MultiPolygons");
+
+polygons = geo.features.filter((v) => v.geometry.type.endsWith("Polygon"));
+nonPoly = geo.features.filter((v) => !v.geometry.type.endsWith("Polygon"));
+
+let countries = {};
+
+for (let somePolygon of polygons) {
+  if (!countries[somePolygon.properties.name]) {
+    countries[somePolygon.properties.name] = {
+      type: "Feature",
+      properties: somePolygon.properties,
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [],
+      },
+    };
+  }
+
+  if (somePolygon.geometry.type === "MultiPolygon") {
+    countries[somePolygon.properties.name].geometry.coordinates = countries[
+      somePolygon.properties.name
+    ].concat(somePolygon.geometry.coordinates);
+  } else if (somePolygon.geometry.type === "Polygon") {
+    countries[somePolygon.properties.name].geometry.coordinates.push(
+      somePolygon.geometry.coordinates
+    );
+  }
+}
+
+let multiPolygons = Object.values(countries);
+
+geo.features = multiPolygons.concat(nonPoly);
+
+console.timeEnd("Polygons to MultiPolygons");
+console.log();
+
 console.log("Difference");
 console.time("Difference");
 for (let g = 0; g < geo.features.length; g++) {
