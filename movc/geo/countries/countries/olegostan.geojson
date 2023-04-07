@@ -15,8 +15,58 @@
           -10.846218082236334
         ],
         "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Ежеслав",
+        "type": "city"
       },
-      "id": 1
+      "geometry": {
+        "coordinates": [
+          147.0018768310547,
+          -6.732803355522151
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Бобрянск",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          144.1028594970703,
+          -7.7416101887005855
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Сусогорск",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          144.97283935546872,
+          -6.0190193639146985
+        ],
+        "type": "Point"
+      }
     },
     {
       "type": "Feature",
@@ -38,12 +88,57 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "fill": "#511c7d",
-        "fill-opacity": 0.5
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Нью-Абобабуй",
+        "type": "city"
       },
+      "geometry": {
+        "coordinates": [
+          140.70362091064453,
+          -2.5435290805471067
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Ивано-хохловск",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          138.80470275878906,
+          -3.188850787011653
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Бобнинск",
+        "type": "city"
+      },
+      "geometry": {
+        "coordinates": [
+          137.4451446533203,
+          -3.0945789411500826
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
       "geometry": {
         "coordinates": [
           [
@@ -496,28 +591,76 @@
               54.95449635310874
             ],
             [
-              -133.05786517970688,
-              54.31370111056674
+              -133.0580328431053,
+              54.6658743787455
             ],
             [
-              -131.5942812952519,
-              54.2609580090994
+              -133.34499803112973,
+              53.870510822576705
             ],
             [
-              -131.4657194822404,
-              54.1034336758062
+              -133.1113852125472,
+              53.67412704022584
             ],
             [
-              -130.84051953282523,
-              53.567515979857745
+              -132.96445545182817,
+              53.30645135409037
+            ],
+            [
+              -132.21339621952487,
+              52.72453990087246
+            ],
+            [
+              -131.72674075271806,
+              52.42860004288187
+            ],
+            [
+              -131.28437924731043,
+              52.07262238508747
+            ],
+            [
+              -130.99680483872953,
+              51.898799737773956
+            ],
+            [
+              -130.84310967991854,
+              51.9961491714948
+            ],
+            [
+              -130.9002269719841,
+              52.224837027135635
+            ],
+            [
+              -131.24038037765524,
+              52.518430750632014
+            ],
+            [
+              -131.35194030530621,
+              52.6994636813905
+            ],
+            [
+              -131.3908388186291,
+              52.87272643613322
+            ],
+            [
+              -131.74878265370864,
+              53.31179859847585
+            ],
+            [
+              -131.59029996465884,
+              54.0935236155844
+            ],
+            [
+              -130.97460778329963,
+              53.77700080896717
             ],
             [
               -130.5509173820017,
               53.261753828720146
             ],
             [
-              -130.11237698218383,
-              52.81898657116474
+              -130.06845772158448,
+              52.849058353043205
             ],
             [
               -129.47525225037228,
@@ -698,17 +841,28 @@
           ]
         ],
         "type": "Polygon"
-      }
+      },
+      "id": 8
     },
     {
       "type": "Feature",
       "properties": {
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "fill-opacity": 0.5,
-        "stroke": "#555555",
-        "fill": "#511c7d"
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "type": "city",
+        "name": "Гороморск"
       },
+      "geometry": {
+        "coordinates": [
+          -131.64314251199602,
+          55.34373030059723
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
       "geometry": {
         "coordinates": [
           [
@@ -1215,143 +1369,8 @@
           ]
         ],
         "type": "Polygon"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "name": "Староталонск",
-        "type": "city"
       },
-      "geometry": {
-        "coordinates": [
-          -122.49387743832287,
-          52.97876054257526
-        ],
-        "type": "Point"
-      },
-      "id": 27
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Нью-Абобабуй",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          140.70362091064453,
-          -2.5435290805471067
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Сугомаслав",
-        "type": "capital-city"
-      },
-      "geometry": {
-        "coordinates": [
-          141.6302490234375,
-          -7.237148142566737
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Димонолохск",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          140.39772033691406,
-          -8.49410453755187
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Сусогорск",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          144.97283935546872,
-          -6.0190193639146985
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Бобрянск",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          144.1028594970703,
-          -7.7416101887005855
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Ежеслав",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          147.0018768310547,
-          -6.732803355522151
-        ],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Ванебург",
-        "type": "city"
-      },
-      "geometry": {
-        "coordinates": [
-          145.77655792236328,
-          -7.963017484371173
-        ],
-        "type": "Point"
-      }
+      "id": 10
     },
     {
       "type": "Feature",
@@ -1372,15 +1391,15 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
         "type": "city",
-        "name": "Гороморск"
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "name": "Ванебург"
       },
       "geometry": {
         "coordinates": [
-          -131.64314251199602,
-          55.34373030059723
+          145.774334995681,
+          -7.961278967362361
         ],
         "type": "Point"
       }
@@ -1388,19 +1407,19 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Спермь",
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
-        "marker-symbol": "",
-        "name": "Сусдаль",
         "type": "city"
       },
       "geometry": {
         "coordinates": [
-          139.10614013671875,
-          -6.915520573049643
+          141.86924204736022,
+          -12.637472078003015
         ],
         "type": "Point"
-      }
+      },
+      "id": 13
     },
     {
       "type": "Feature",
@@ -1408,13 +1427,13 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "name": "Ивано-хохловск",
-        "type": "city"
+        "name": "Сугомаслав",
+        "type": "capital-city"
       },
       "geometry": {
         "coordinates": [
-          138.80470275878906,
-          -3.188850787011653
+          141.6302490234375,
+          -7.237148142566737
         ],
         "type": "Point"
       }
@@ -1442,13 +1461,13 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "name": "Бобнинск",
+        "name": "Сусдаль",
         "type": "city"
       },
       "geometry": {
         "coordinates": [
-          137.4451446533203,
-          -3.0945789411500826
+          139.10614013671875,
+          -6.915520573049643
         ],
         "type": "Point"
       }
@@ -1456,19 +1475,18 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Спермь",
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
+        "name": "Староталонск",
         "type": "city"
       },
       "geometry": {
         "coordinates": [
-          141.86924204736022,
-          -12.637472078003015
+          -122.49387743832287,
+          52.97876054257526
         ],
         "type": "Point"
-      },
-      "id": 287
+      }
     }
   ]
 }
