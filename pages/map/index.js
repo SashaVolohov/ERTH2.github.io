@@ -182,7 +182,10 @@ window.onload = async () => {
                 `
           )
           .addTo(movc);
-      } else if (feature.geometry.type === "Polygon") {
+      } else if (
+        feature.geometry.type === "Polygon" ||
+        feature.geometry.type === "MultiPolygon"
+      ) {
         let country = countries[feature.properties.name] || {
           name: "gl js mapbox is awesome",
         };
