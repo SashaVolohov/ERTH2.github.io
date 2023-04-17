@@ -36,6 +36,12 @@ scandinavia:
   stroke: "#004d02"
   tags:
     - ЛВГ
+zlatoland:
+  fill: "#9700be"
+  stroke: "#470059"
+  tags:
+    - ЛВГ
+    - ОВН
 Sordland:
   fill: "#004d02"
   stroke: "#004d02"
