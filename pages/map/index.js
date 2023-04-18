@@ -36,6 +36,9 @@ function onMapClick(e) {
 }
 
 window.onload = async () => {
+  const params = new Proxy(new URLSearchParams(window.location.search), {
+    get: (searchParams, prop) => searchParams.get(prop),
+  });
   mapboxgl.accessToken =
     "pk.eyJ1IjoiYXJ0ZWdvc2VyIiwiYSI6ImNrcDViN3BhcDAwbW0ydnBnOXZ0ZzFreXUifQ.FIVtaBNr9dr_TIw672Zqdw";
   let movc = new mapboxgl.Map({
@@ -43,7 +46,7 @@ window.onload = async () => {
     style: "mapbox://styles/artegoser/clfm612fg002601nlcika2018",
     center: [53.19, 41.28],
     zoom: 3,
-    projection: "globe",
+    projection: params.projection || "globe",
   });
 
   let converter = new showdown.Converter();
