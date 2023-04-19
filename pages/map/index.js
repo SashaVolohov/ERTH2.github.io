@@ -83,7 +83,7 @@ window.onload = async () => {
     let geo = await fetch("https://erth2.github.io/movc/geo/geo.geojson");
     loginfo("Получаю страны MOVC");
     let coarray = await fetch(
-      "https://erth2.github.io/movc/geo/countries.json"
+      "https://erth2.github.io/movc/geo/countries/countries.json"
     );
     coarray = await coarray.json();
     let countries = {};

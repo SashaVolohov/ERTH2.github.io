@@ -101,3 +101,8 @@ flutzland:
   tags:
     - ОВН
     - ЛВГ
+kilciania:
+  fill: "#066400"
+  stroke: "#066400"
+  tags:
+    - ЛВГ
