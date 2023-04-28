@@ -703,6 +703,216 @@
         ],
         "type": "Polygon"
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Анадырь"
+      },
+      "geometry": {
+        "coordinates": [
+          177.51027048420605,
+          64.73080060383728
+        ],
+        "type": "Point"
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Руссанск"
+      },
+      "geometry": {
+        "coordinates": [
+          165.08840102182256,
+          62.39974178485545
+        ],
+        "type": "Point"
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ключи"
+      },
+      "geometry": {
+        "coordinates": [
+          158.64996746426976,
+          53.04227559756646
+        ],
+        "type": "Point"
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Карп"
+      },
+      "geometry": {
+        "coordinates": [
+          162.52128331585772,
+          56.23907201606525
+        ],
+        "type": "Point"
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Билибино"
+      },
+      "geometry": {
+        "coordinates": [
+          166.44568222409612,
+          68.05496784496029
+        ],
+        "type": "Point"
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Славград"
+      },
+      "geometry": {
+        "coordinates": [
+          -174.03340465175592,
+          66.45912555010173
+        ],
+        "type": "Point"
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Берёзинск"
+      },
+      "geometry": {
+        "coordinates": [
+          161.33080185273724,
+          68.75219927311039
+        ],
+        "type": "Point"
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Солнечногорск"
+      },
+      "geometry": {
+        "coordinates": [
+          146.36261763981872,
+          71.88885006017964
+        ],
+        "type": "Point"
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Соловки"
+      },
+      "geometry": {
+        "coordinates": [
+          150.80363561854386,
+          59.559864931213866
+        ],
+        "type": "Point"
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Железнодороженск"
+      },
+      "geometry": {
+        "coordinates": [
+          138.1719780530741,
+          56.4614145475596
+        ],
+        "type": "Point"
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Олегоград"
+      },
+      "geometry": {
+        "coordinates": [
+          143.2212689188999,
+          59.36147117881825
+        ],
+        "type": "Point"
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Кусаепинск"
+      },
+      "geometry": {
+        "coordinates": [
+          148.15492395340823,
+          62.78099344584098
+        ],
+        "type": "Point"
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ангудай"
+      },
+      "geometry": {
+        "coordinates": [
+          119.77033130860792,
+          72.965097246016
+        ],
+        "type": "Point"
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Новониколаевск"
+      },
+      "geometry": {
+        "coordinates": [
+          128.8678948068744,
+          71.63680495819793
+        ],
+        "type": "Point"
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Семинск"
+      },
+      "geometry": {
+        "coordinates": [
+          125.08049211847424,
+          64.58458540475971
+        ],
+        "type": "Point"
+      },
+      "id": 14
     }
   ]
 }
