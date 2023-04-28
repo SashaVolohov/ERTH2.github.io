@@ -345,6 +345,16 @@ if (config?.reProperty) {
   console.log();
 }
 
-fs.writeFileSync("./movc/geo/geo.geojson", JSON.stringify(geo, null, "  "));
+console.log("Set new ids");
+console.time("Set new ids");
 
+let id = 0;
+geo.features = geo.features.map((val) => {
+  val.id = id++;
+  return val;
+});
+
+console.timeEnd("Set new ids");
+
+fs.writeFileSync("./movc/geo/geo.geojson", JSON.stringify(geo, null, "  "));
 console.timeEnd("Total");
