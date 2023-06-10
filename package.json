@@ -5,8 +5,7 @@
   "main": "GeoFixer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "geofix": "node GeoFixer",
-    "nodemon-geofix": "nodemon --watch GeoFixer.js -e js,json,yaml,geojson --watch movc/geo/countries"
+    "geofix": "cimengine-build --projectFolder ./movc/geo"
   },
   "repository": {
     "type": "git",
@@ -21,6 +20,7 @@
   "homepage": "https://github.com/OOVC/MOVC-static#readme",
   "dependencies": {
     "@turf/turf": "^6.5.0",
+    "cimengine-build-tools": "^1.0.0",
     "lodash": "^4.17.21",
     "yaml": "^2.1.1"
   }
