@@ -1,11 +1,4 @@
 ---
-slingonia:
-  fill: "#09aa1c"
-  stroke: "#09aa1c"
-  tags:
-    - ТУС
-    - ЛВГ
-    - ОВН
 strana-realnosti:
   fill: "#6f99fb"
   stroke: "#00298a"
