@@ -1,4 +1,9 @@
 ---
+sling-techno:
+  fill: "#bfe700"
+  stroke: "#bfe700"
+  tags:
+    - Союз технократов
 strana-realnosti:
   fill: "#6f99fb"
   stroke: "#00298a"
