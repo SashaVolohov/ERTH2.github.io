@@ -30,10 +30,11 @@ Anigara:
   tags:
     - ЛВГ
 scandinavia:
-  fill: "#00beac"
-  stroke: "#004d02"
+  fill: "#00008B"
+  stroke: "#191970"
   tags:
     - ЛВГ
+    - ОВН
 zlatoland:
   fill: "#9700be"
   stroke: "#470059"
