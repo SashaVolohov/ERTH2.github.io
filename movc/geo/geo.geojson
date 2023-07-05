@@ -10307,7 +10307,8 @@
         "stroke": "#066400",
         "tags": [
           "ЛВГ"
-        ]
+        ],
+        "area": "2 723 599.54"
       },
       "geometry": {
         "type": "Polygon",
@@ -12366,7 +12367,8 @@
         "tags": [
           "ЛВГ",
           "ОВН"
-        ]
+        ],
+        "area": "1 103 840.21"
       },
       "geometry": {
         "type": "Polygon",
@@ -15647,7 +15649,8 @@
         "tags": [
           "ЛВГ",
           "ОВН"
-        ]
+        ],
+        "area": "4 231 178.79"
       },
       "geometry": {
         "type": "Polygon",
@@ -17227,7 +17230,8 @@
         "tags": [
           "ОВН",
           "ЛВГ"
-        ]
+        ],
+        "area": "140 105.93"
       },
       "geometry": {
         "type": "Polygon",
@@ -26791,7 +26795,8 @@
         "stroke": "#fe58c1",
         "tags": [
           "ОВН"
-        ]
+        ],
+        "area": "338 747.73"
       },
       "geometry": {
         "type": "Polygon",
@@ -35648,7 +35653,8 @@
         "stroke": "#000000",
         "tags": [
           "ЛВГ"
-        ]
+        ],
+        "area": "57 689.88"
       },
       "geometry": {
         "type": "Polygon",
@@ -37103,7 +37109,8 @@
         "stroke": "#000000",
         "tags": [
           "ОВН"
-        ]
+        ],
+        "area": "233 190.68"
       },
       "geometry": {
         "type": "Polygon",
