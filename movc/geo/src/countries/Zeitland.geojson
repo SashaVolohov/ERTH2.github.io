@@ -61,7 +61,16 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "shape": "Polygon",
+        "name": "Цайтланд",
+        "category": "country",
+        "stroke": "#6654c0",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#94a1e6",
+        "fill-opacity": 0.5
+      },
       "geometry": {
         "coordinates": [
           [
@@ -8965,7 +8974,16 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "shape": "Polygon",
+        "name": "Цайтланд",
+        "category": "country",
+        "stroke": "#6654c0",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#94a1e6",
+        "fill-opacity": 0.5
+      },
       "geometry": {
         "coordinates": [
           [

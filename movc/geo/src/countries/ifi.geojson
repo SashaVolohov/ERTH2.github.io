@@ -206,7 +206,13 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "stroke": "#606060",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#444444",
+        "fill-opacity": 0.5
+      },
       "geometry": {
         "coordinates": [
           [
@@ -2081,7 +2087,13 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "stroke": "#606060",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#444444",
+        "fill-opacity": 0.5
+      },
       "geometry": {
         "coordinates": [
           [
@@ -2891,7 +2903,13 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5
+      },
       "geometry": {
         "coordinates": [
           [
@@ -3530,7 +3548,13 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "stroke": "#606060",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#606060",
+        "fill-opacity": 0.5
+      },
       "geometry": {
         "coordinates": [
           [
@@ -3853,7 +3877,13 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "stroke": "#606060",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#606060",
+        "fill-opacity": 0.5
+      },
       "geometry": {
         "coordinates": [
           [
