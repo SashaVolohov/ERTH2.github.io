@@ -3,13 +3,7 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {
-        "stroke": "#001eff",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "fill": "#2b00ff",
-        "fill-opacity": 0.5
-      },
+      "properties": {},
       "geometry": {
         "coordinates": [
           [
@@ -60,13 +54,7 @@
     },
     {
       "type": "Feature",
-      "properties": {
-        "stroke": "#001eff",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "fill": "#2b00ff",
-        "fill-opacity": 0.5
-      },
+      "properties": {},
       "geometry": {
         "coordinates": [
           [

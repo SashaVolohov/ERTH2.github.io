@@ -3,17 +3,7 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {
-        "country": "dusiburg",
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "fill": "#58a1ee",
-        "fill-opacity": 0.5,
-        "shape": "Polygon",
-        "name": "Unnamed Layer",
-        "category": "default"
-      },
+      "properties": {},
       "geometry": {
         "coordinates": [
           [
@@ -5332,17 +5322,7 @@
     },
     {
       "type": "Feature",
-      "properties": {
-        "country": "dusiburg",
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "fill": "#58a1ee",
-        "fill-opacity": 0.5,
-        "shape": "Polygon",
-        "name": "Unnamed Layer",
-        "category": "default"
-      },
+      "properties": {},
       "geometry": {
         "coordinates": [
           [
@@ -5553,17 +5533,7 @@
     },
     {
       "type": "Feature",
-      "properties": {
-        "country": "dusiburg",
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "fill": "#58a1ee",
-        "fill-opacity": 0.5,
-        "shape": "Polygon",
-        "name": "Unnamed Layer",
-        "category": "default"
-      },
+      "properties": {},
       "geometry": {
         "coordinates": [
           [

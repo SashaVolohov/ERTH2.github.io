@@ -3,15 +3,7 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "fill-opacity": 0.5,
-        "name": "drk",
-        "fill": "#637a0f",
-        "stroke": "#000000",
-        "type": "#637a0f"
-      },
+      "properties": {},
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -286,13 +278,7 @@
     },
     {
       "type": "Feature",
-      "properties": {
-        "stroke": "#000000",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
-        "fill": "#637a0f",
-        "fill-opacity": 0.5
-      },
+      "properties": {},
       "geometry": {
         "type": "Polygon",
         "coordinates": [
