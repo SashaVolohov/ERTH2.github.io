@@ -126,5 +126,12 @@
     "date": "18.01.2016",
     "img": "https://i.imgur.com/ZYEMX46.png",
     "name": "Sqr United"
+  },
+  {
+    "idc": "voleria",
+    "date": "22.10.2022",
+    "description": "Королевство Волерия — государство на юге Финляндии",
+    "img": "https://eugeny2010.github.io/lvn_map/flags/vol.jpg",
+    "name": "Королевство Волерия"
   }
 ]
