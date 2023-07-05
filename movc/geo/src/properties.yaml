@@ -110,3 +110,10 @@ vgk:
   stroke: "#000000"
   tags:
     - ОВН
+
+voleria:
+  fill: "#808000"
+  stroke: "#808000"
+  tags:
+    - ОВН
+    - ЛВГ
