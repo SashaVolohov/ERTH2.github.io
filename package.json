@@ -5,7 +5,8 @@
   "main": "GeoFixer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "geofix": "cimengine-build --projectFolder ./movc/geo"
+    "geofix": "cimengine-build --projectFolder ./movc/geo",
+    "country-fix": "cimengine-country-fix --countryPath"
   },
   "repository": {
     "type": "git",
