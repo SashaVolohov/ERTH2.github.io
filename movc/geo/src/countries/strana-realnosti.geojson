@@ -3,10 +3,7 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {
-        "type": "",
-        "name": ""
-      },
+      "properties": {},
       "geometry": {
         "coordinates": [
           [
