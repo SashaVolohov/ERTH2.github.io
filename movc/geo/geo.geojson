@@ -11363,7 +11363,8 @@
         "tags": [
           "ЛВГ",
           "ОВН"
-        ]
+        ],
+        "area": "3 024 986.77"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14481,7 +14482,8 @@
         "tags": [
           "ОВН",
           "ЛВГ"
-        ]
+        ],
+        "area": "6 512.33"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14942,7 +14944,8 @@
         "stroke": "#004d02",
         "tags": [
           "ЛВГ"
-        ]
+        ],
+        "area": "132 624.07"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17440,7 +17443,8 @@
         "tags": [
           "ОВН",
           "ЛВГ"
-        ]
+        ],
+        "area": "8 998 347.53"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -23433,7 +23437,8 @@
         "stroke": "#ff0000",
         "tags": [
           "ОВН"
-        ]
+        ],
+        "area": "1 092 069.32"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -25024,7 +25029,8 @@
           "ТУС",
           "ЛВГ",
           "ОВН"
-        ]
+        ],
+        "area": "2 973 719.69"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -27381,7 +27387,8 @@
         "tags": [
           "ЛВГ",
           "ОВН"
-        ]
+        ],
+        "area": "2 278 923.56"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -28603,7 +28610,8 @@
         "tags": [
           "ЛВГ",
           "ОВН"
-        ]
+        ],
+        "area": "366 254.20"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -30162,7 +30170,8 @@
           "ТУС",
           "ОВН",
           "ЛВГ"
-        ]
+        ],
+        "area": "1 220 410.33"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -41623,7 +41632,8 @@
           "ТУС",
           "ЛВГ",
           "ОВН"
-        ]
+        ],
+        "area": "2 649 495.23"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -48489,7 +48499,8 @@
         "tags": [
           "ЛВГ",
           "ОВН"
-        ]
+        ],
+        "area": "12 466 099.20"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -54644,7 +54655,8 @@
           "ТУС",
           "ЛВГ",
           "ОВН"
-        ]
+        ],
+        "area": "2 385 543.64"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -63657,7 +63669,8 @@
         "stroke": "#bfe700",
         "tags": [
           "Союз технократов"
-        ]
+        ],
+        "area": "237 723.83"
       },
       "geometry": {
         "type": "MultiPolygon",
